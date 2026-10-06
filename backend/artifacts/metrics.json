@@ -1,0 +1,3471 @@
+{
+  "model_version": "pulseiq-nlp-v1",
+  "trained_at": "2026-10-06T16:05:32+00:00",
+  "data": {
+    "source": "synthetic_labeled_reviews.csv (seeded generator, pack taxonomy)",
+    "unique_reviews": 15977,
+    "train": 11183,
+    "validation": 2397,
+    "test": 2397,
+    "sentiment_distribution": {
+      "negative": 5678,
+      "positive": 5237,
+      "neutral": 5062
+    }
+  },
+  "sentiment": {
+    "labels": [
+      "negative",
+      "neutral",
+      "positive"
+    ],
+    "selected_model": "final_tfidf_word_char_lr",
+    "selected_C": 1.0,
+    "validation_macro_f1": {
+      "baseline_tfidf_unigram_lr": 0.9243,
+      "final_tfidf_word_char_lr": 0.9324
+    },
+    "validation_macro_f1_by_C": {
+      "1.0": 0.9324,
+      "2.0": 0.9316,
+      "4.0": 0.9303,
+      "8.0": 0.929,
+      "16.0": 0.9256,
+      "32.0": 0.9214
+    },
+    "test": {
+      "majority_class": {
+        "accuracy": 0.3554,
+        "macro_precision": 0.1185,
+        "macro_recall": 0.3333,
+        "macro_f1": 0.1748,
+        "weighted_f1": 0.1864,
+        "support": 2397,
+        "per_class": {
+          "negative": {
+            "precision": 0.3554,
+            "recall": 1.0,
+            "f1": 0.5245,
+            "support": 852
+          },
+          "neutral": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 760
+          },
+          "positive": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 785
+          }
+        },
+        "confusion_matrix": {
+          "labels": [
+            "negative",
+            "neutral",
+            "positive"
+          ],
+          "matrix": [
+            [
+              852,
+              0,
+              0
+            ],
+            [
+              760,
+              0,
+              0
+            ],
+            [
+              785,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "rule_based_lexicon": {
+        "accuracy": 0.6975,
+        "macro_precision": 0.7102,
+        "macro_recall": 0.7004,
+        "macro_f1": 0.6953,
+        "weighted_f1": 0.6958,
+        "support": 2397,
+        "per_class": {
+          "negative": {
+            "precision": 0.8261,
+            "recall": 0.5798,
+            "f1": 0.6814,
+            "support": 852
+          },
+          "neutral": {
+            "precision": 0.57,
+            "recall": 0.6539,
+            "f1": 0.6091,
+            "support": 760
+          },
+          "positive": {
+            "precision": 0.7346,
+            "recall": 0.8675,
+            "f1": 0.7956,
+            "support": 785
+          }
+        },
+        "confusion_matrix": {
+          "labels": [
+            "negative",
+            "neutral",
+            "positive"
+          ],
+          "matrix": [
+            [
+              494,
+              285,
+              73
+            ],
+            [
+              90,
+              497,
+              173
+            ],
+            [
+              14,
+              90,
+              681
+            ]
+          ]
+        }
+      },
+      "baseline_tfidf_unigram_lr": {
+        "accuracy": 0.9182,
+        "macro_precision": 0.9181,
+        "macro_recall": 0.9177,
+        "macro_f1": 0.9178,
+        "weighted_f1": 0.918,
+        "support": 2397,
+        "per_class": {
+          "negative": {
+            "precision": 0.904,
+            "recall": 0.9178,
+            "f1": 0.9109,
+            "support": 852
+          },
+          "neutral": {
+            "precision": 0.8945,
+            "recall": 0.8697,
+            "f1": 0.8819,
+            "support": 760
+          },
+          "positive": {
+            "precision": 0.9559,
+            "recall": 0.9656,
+            "f1": 0.9607,
+            "support": 785
+          }
+        },
+        "confusion_matrix": {
+          "labels": [
+            "negative",
+            "neutral",
+            "positive"
+          ],
+          "matrix": [
+            [
+              782,
+              61,
+              9
+            ],
+            [
+              73,
+              661,
+              26
+            ],
+            [
+              10,
+              17,
+              758
+            ]
+          ]
+        }
+      },
+      "final_tfidf_word_char_lr": {
+        "accuracy": 0.9266,
+        "macro_precision": 0.9264,
+        "macro_recall": 0.9268,
+        "macro_f1": 0.9265,
+        "weighted_f1": 0.9266,
+        "support": 2397,
+        "per_class": {
+          "negative": {
+            "precision": 0.9226,
+            "recall": 0.9096,
+            "f1": 0.9161,
+            "support": 852
+          },
+          "neutral": {
+            "precision": 0.8895,
+            "recall": 0.9,
+            "f1": 0.8947,
+            "support": 760
+          },
+          "positive": {
+            "precision": 0.967,
+            "recall": 0.9707,
+            "f1": 0.9688,
+            "support": 785
+          }
+        },
+        "confusion_matrix": {
+          "labels": [
+            "negative",
+            "neutral",
+            "positive"
+          ],
+          "matrix": [
+            [
+              775,
+              71,
+              6
+            ],
+            [
+              56,
+              684,
+              20
+            ],
+            [
+              9,
+              14,
+              762
+            ]
+          ]
+        }
+      }
+    },
+    "challenge_set": {
+      "baseline_tfidf_unigram_lr": {
+        "accuracy": 0.7333,
+        "by_category": {
+          "clear": 0.8824,
+          "domain": 0.8,
+          "implicit": 1.0,
+          "mixed": 0.6667,
+          "negation": 0.2,
+          "neutral": 0.3333,
+          "question": 0.6667,
+          "sarcasm": 0.6,
+          "short": 0.8333,
+          "typo": 0.75
+        }
+      },
+      "final_tfidf_word_char_lr": {
+        "accuracy": 0.75,
+        "by_category": {
+          "clear": 0.8824,
+          "domain": 0.6,
+          "implicit": 1.0,
+          "mixed": 0.5,
+          "negation": 0.4,
+          "neutral": 0.6667,
+          "question": 0.6667,
+          "sarcasm": 0.8,
+          "short": 0.8333,
+          "typo": 0.75
+        }
+      }
+    },
+    "error_analysis": {
+      "by_tag": {
+        "factual": {
+          "reviews": 249,
+          "error_rate": 0.0
+        },
+        "general": {
+          "reviews": 97,
+          "error_rate": 0.0103
+        },
+        "mixed": {
+          "reviews": 675,
+          "error_rate": 0.197
+        },
+        "plain": {
+          "reviews": 1234,
+          "error_rate": 0.0178
+        },
+        "rating_mismatch": {
+          "reviews": 32,
+          "error_rate": 0.5625
+        },
+        "sarcasm": {
+          "reviews": 97,
+          "error_rate": 0.134
+        },
+        "short": {
+          "reviews": 1,
+          "error_rate": 0.0
+        },
+        "typo": {
+          "reviews": 121,
+          "error_rate": 0.0909
+        }
+      },
+      "sample_errors": [
+        {
+          "text": "The bank transfer optoin works perfectly. Also, finding products is easy, although it just doesn't work for me. Relly sad about this.",
+          "rating": 3,
+          "expected": "neutral",
+          "predicted": "negative",
+          "tags": [
+            "mixed",
+            "typo"
+          ]
+        },
+        {
+          "text": "Feeling let down. My order is two weeks late. On the other hand, they flagged a suspicious login quickly but nothing loads, just a spinning wheel.",
+          "rating": 1,
+          "expected": "negative",
+          "predicted": "neutral",
+          "tags": [
+            "mixed"
+          ]
+        },
+        {
+          "text": "This breaks my heart. The interface is so confusing I gave up. However, no hidden fees.",
+          "rating": 3,
+          "expected": "neutral",
+          "predicted": "negative",
+          "tags": [
+            "mixed"
+          ]
+        },
+        {
+          "text": "Sad, becuse I used to love this store. They increased prices wihtout any notice. On the other hand, live chat responded quickly.",
+          "rating": 2,
+          "expected": "negative",
+          "predicted": "neutral",
+          "tags": [
+            "mixed",
+            "typo"
+          ]
+        },
+        {
+          "text": "I can't believe this happened. I use CloudDesk a lot. I feel my account is safe here. The design is clean and modern.",
+          "rating": 2,
+          "expected": "negative",
+          "predicted": "neutral",
+          "tags": [
+            "rating_mismatch"
+          ]
+        },
+        {
+          "text": "I use StreamBox a lot. The package never arrived. Support keeps sending copy-paste replies and it just doesn't work for me.",
+          "rating": 5,
+          "expected": "positive",
+          "predicted": "negative",
+          "tags": [
+            "rating_mismatch"
+          ]
+        },
+        {
+          "text": "Really sad about this. They reimbursed me without any questions, but the agent didn't fully understand my problem. (via StreamBox)",
+          "rating": 3,
+          "expected": "neutral",
+          "predicted": "negative",
+          "tags": [
+            "mixed"
+          ]
+        },
+        {
+          "text": "Wow, I did not see this coming. LearnHub review: Nothing works the way it should. Also, the return prcoess has too many steps, although topping up my wallet takes seconds.",
+          "rating": 3,
+          "expected": "neutral",
+          "predicted": "negative",
+          "tags": [
+            "mixed",
+            "typo"
+          ]
+        },
+        {
+          "text": "Sad, because I used to love this store. I use CloudDesk a lot. No crashes since the last update. Highly recommend.",
+          "rating": 1,
+          "expected": "negative",
+          "predicted": "positive",
+          "tags": [
+            "rating_mismatch"
+          ]
+        },
+        {
+          "text": "Simple and hassle-free. However, support takes a while to reply. Great update, now the app crashes twice as often.",
+          "rating": 3,
+          "expected": "neutral",
+          "predicted": "negative",
+          "tags": [
+            "sarcasm",
+            "mixed"
+          ]
+        },
+        {
+          "text": "I only got a partial refund.",
+          "rating": 4,
+          "expected": "positive",
+          "predicted": "negative",
+          "tags": [
+            "rating_mismatch"
+          ]
+        },
+        {
+          "text": "It has made my life easier, but the refund took longer than expected. Also, they cancelled my order because it was unavailable.",
+          "rating": 3,
+          "expected": "neutral",
+          "predicted": "negative",
+          "tags": [
+            "mixed"
+          ]
+        },
+        {
+          "text": "Great, out of stock for the third month running. On the other hand, simple and hassle-free. I can't believe this happened.",
+          "rating": 3,
+          "expected": "neutral",
+          "predicted": "negative",
+          "tags": [
+            "sarcasm",
+            "mixed"
+          ]
+        },
+        {
+          "text": "Sad, because I used to love this store. Customer support never responds, but the rider was polite and on time. Also, the new layout is beautiful.",
+          "rating": 3,
+          "expected": "neutral",
+          "predicted": "negative",
+          "tags": [
+            "mixed"
+          ]
+        },
+        {
+          "text": "I checked if the item was in stock. (via HealthPlus) How long does a refund usually take?",
+          "rating": 3,
+          "expected": "neutral",
+          "predicted": "positive",
+          "tags": []
+        },
+        {
+          "text": "Feeling let down. The design is clean and modern, but lovely, a brand new phone with scratches all over it. Payment was by bank transfer.",
+          "rating": 2,
+          "expected": "negative",
+          "predicted": "neutral",
+          "tags": [
+            "sarcasm",
+            "mixed"
+          ]
+        },
+        {
+          "text": "It works exactly as described. Loyalty points saved me a lot.",
+          "rating": 3,
+          "expected": "neutral",
+          "predicted": "positive",
+          "tags": []
+        },
+        {
+          "text": "The order was delivered to my office. The item was available in my size. Feeling let down.",
+          "rating": 2,
+          "expected": "negative",
+          "predicted": "neutral",
+          "tags": []
+        },
+        {
+          "text": "I use CloudDesk a lot. No issues at all so far but my size is often out of stock. However, the promo codes actually work. Love it! How long does a refund usually take?",
+          "rating": 4,
+          "expected": "positive",
+          "predicted": "neutral",
+          "tags": [
+            "mixed"
+          ]
+        },
+        {
+          "text": "My ticket was resolved the same day. On the other hand, it's really frustrating to use.",
+          "rating": 3,
+          "expected": "neutral",
+          "predicted": "negative",
+          "tags": [
+            "mixed"
+          ]
+        },
+        {
+          "text": "They increased prices without any notice. On the other hand, items are original and well made. I asked when it would be restocked.",
+          "rating": 2,
+          "expected": "negative",
+          "predicted": "neutral",
+          "tags": [
+            "mixed"
+          ]
+        },
+        {
+          "text": "Feeling let down. My package came well packed and on schedule. However, the item sold out right after I added it to cart, although everything was fresh. On the other hand, it needs a lot of work.",
+          "rating": 2,
+          "expected": "negative",
+          "predicted": "neutral",
+          "tags": [
+            "mixed"
+          ]
+        },
+        {
+          "text": "Everything is overpriced now, although it does exactly what I need.",
+          "rating": 2,
+          "expected": "negative",
+          "predicted": "neutral",
+          "tags": [
+            "mixed"
+          ]
+        },
+        {
+          "text": "My refund landed within a day, and the shoes fit perfectly and no crashes since the last update. However, it keeps letting me down. Disgusting.",
+          "rating": 2,
+          "expected": "negative",
+          "predicted": "neutral",
+          "tags": [
+            "mixed"
+          ]
+        },
+        {
+          "text": "NOTHING LOADS, JUST A SPINNING WHEEL BUT THEY FLAGGED A SUSPICIOUS LOGIN QUICKLY. (VIA QUICKCASH WALLET) HOW LONG DOES A REFUND USUALLY TAKE?",
+          "rating": 1,
+          "expected": "negative",
+          "predicted": "neutral",
+          "tags": [
+            "mixed"
+          ]
+        },
+        {
+          "text": "It has made my life easier. Also, I updated the app yesterday and support followed up to make sure everything was fine. Will order again.",
+          "rating": 2,
+          "expected": "negative",
+          "predicted": "positive",
+          "tags": [
+            "rating_mismatch"
+          ]
+        },
+        {
+          "text": "Feeling let down. I use CloudDesk a lot. The fonts are too small, and I was debited but the order never went through, but the app loads quickly. How do I change my delivery address?",
+          "rating": 3,
+          "expected": "neutral",
+          "predicted": "negative",
+          "tags": [
+            "mixed"
+          ]
+        },
+        {
+          "text": "I asked when it would be restocked. Also, the blender stopped working after two days, although the return process was painless.",
+          "rating": 2,
+          "expected": "negative",
+          "predicted": "neutral",
+          "tags": [
+            "mixed"
+          ]
+        },
+        {
+          "text": "I chose standard delivery. Discounts are not as good as before. Also, the blender stopped working after two days.",
+          "rating": 3,
+          "expected": "neutral",
+          "predicted": "negative",
+          "tags": [
+            "rating_mismatch"
+          ]
+        },
+        {
+          "text": "The quality is not what I expected, and my account got locked for no reason. On the other hand, the design is clean and modern.",
+          "rating": 3,
+          "expected": "neutral",
+          "predicted": "negative",
+          "tags": [
+            "mixed"
+          ]
+        }
+      ]
+    }
+  },
+  "emotion": {
+    "labels": [
+      "anger",
+      "disgust",
+      "fear",
+      "sadness",
+      "surprise",
+      "neutral",
+      "joy"
+    ],
+    "selected_model": "baseline_tfidf_unigram_lr",
+    "selected_C": 32.0,
+    "validation_macro_f1": {
+      "baseline_tfidf_unigram_lr": 0.8089,
+      "final_tfidf_word_char_lr": 0.7991
+    },
+    "validation_macro_f1_by_C": {
+      "1.0": 0.7944,
+      "2.0": 0.7948,
+      "4.0": 0.7942,
+      "8.0": 0.7941,
+      "16.0": 0.7943,
+      "32.0": 0.7991
+    },
+    "test": {
+      "baseline_tfidf_unigram_lr": {
+        "accuracy": 0.8644,
+        "macro_precision": 0.8681,
+        "macro_recall": 0.8116,
+        "macro_f1": 0.831,
+        "weighted_f1": 0.8613,
+        "support": 2397,
+        "per_class": {
+          "anger": {
+            "precision": 0.7818,
+            "recall": 0.8798,
+            "f1": 0.8279,
+            "support": 391
+          },
+          "disgust": {
+            "precision": 0.918,
+            "recall": 0.6588,
+            "f1": 0.7671,
+            "support": 85
+          },
+          "fear": {
+            "precision": 0.8025,
+            "recall": 0.8904,
+            "f1": 0.8442,
+            "support": 73
+          },
+          "sadness": {
+            "precision": 0.8688,
+            "recall": 0.7249,
+            "f1": 0.7903,
+            "support": 338
+          },
+          "surprise": {
+            "precision": 0.9424,
+            "recall": 0.6485,
+            "f1": 0.7683,
+            "support": 202
+          },
+          "neutral": {
+            "precision": 0.8606,
+            "recall": 0.9035,
+            "f1": 0.8816,
+            "support": 622
+          },
+          "joy": {
+            "precision": 0.9028,
+            "recall": 0.9752,
+            "f1": 0.9376,
+            "support": 686
+          }
+        },
+        "confusion_matrix": {
+          "labels": [
+            "anger",
+            "disgust",
+            "fear",
+            "sadness",
+            "surprise",
+            "neutral",
+            "joy"
+          ],
+          "matrix": [
+            [
+              344,
+              4,
+              5,
+              11,
+              1,
+              20,
+              6
+            ],
+            [
+              14,
+              56,
+              1,
+              5,
+              1,
+              7,
+              1
+            ],
+            [
+              4,
+              0,
+              65,
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              54,
+              0,
+              4,
+              245,
+              2,
+              31,
+              2
+            ],
+            [
+              8,
+              0,
+              0,
+              7,
+              131,
+              19,
+              37
+            ],
+            [
+              13,
+              1,
+              5,
+              11,
+              4,
+              562,
+              26
+            ],
+            [
+              3,
+              0,
+              1,
+              3,
+              0,
+              10,
+              669
+            ]
+          ]
+        }
+      },
+      "final_tfidf_word_char_lr": {
+        "accuracy": 0.8411,
+        "macro_precision": 0.7852,
+        "macro_recall": 0.8105,
+        "macro_f1": 0.7965,
+        "weighted_f1": 0.8428,
+        "support": 2397,
+        "per_class": {
+          "anger": {
+            "precision": 0.8149,
+            "recall": 0.8107,
+            "f1": 0.8128,
+            "support": 391
+          },
+          "disgust": {
+            "precision": 0.6667,
+            "recall": 0.7294,
+            "f1": 0.6966,
+            "support": 85
+          },
+          "fear": {
+            "precision": 0.7619,
+            "recall": 0.8767,
+            "f1": 0.8153,
+            "support": 73
+          },
+          "sadness": {
+            "precision": 0.8239,
+            "recall": 0.7751,
+            "f1": 0.7988,
+            "support": 338
+          },
+          "surprise": {
+            "precision": 0.6009,
+            "recall": 0.6931,
+            "f1": 0.6437,
+            "support": 202
+          },
+          "neutral": {
+            "precision": 0.9023,
+            "recall": 0.8762,
+            "f1": 0.8891,
+            "support": 622
+          },
+          "joy": {
+            "precision": 0.926,
+            "recall": 0.9125,
+            "f1": 0.9192,
+            "support": 686
+          }
+        },
+        "confusion_matrix": {
+          "labels": [
+            "anger",
+            "disgust",
+            "fear",
+            "sadness",
+            "surprise",
+            "neutral",
+            "joy"
+          ],
+          "matrix": [
+            [
+              317,
+              15,
+              6,
+              22,
+              14,
+              14,
+              3
+            ],
+            [
+              7,
+              62,
+              1,
+              9,
+              4,
+              2,
+              0
+            ],
+            [
+              3,
+              3,
+              64,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              36,
+              3,
+              4,
+              262,
+              15,
+              18,
+              0
+            ],
+            [
+              9,
+              4,
+              0,
+              6,
+              140,
+              11,
+              32
+            ],
+            [
+              14,
+              5,
+              7,
+              14,
+              22,
+              545,
+              15
+            ],
+            [
+              3,
+              1,
+              2,
+              5,
+              38,
+              11,
+              626
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "intent": {
+    "labels": [
+      "complaint",
+      "praise",
+      "refund_request",
+      "technical_problem",
+      "fraud_report",
+      "cancellation",
+      "product_question",
+      "delivery_issue",
+      "payment_issue",
+      "account_issue"
+    ],
+    "selected_model": "final_tfidf_word_char_lr",
+    "selected_C": 32.0,
+    "validation_macro_f1": {
+      "baseline_tfidf_unigram_lr": 0.8289,
+      "final_tfidf_word_char_lr": 0.855
+    },
+    "validation_macro_f1_by_C": {
+      "1.0": 0.8251,
+      "2.0": 0.8315,
+      "4.0": 0.8296,
+      "8.0": 0.8423,
+      "16.0": 0.8501,
+      "32.0": 0.855
+    },
+    "test": {
+      "baseline_tfidf_unigram_lr": {
+        "accuracy": 0.9237,
+        "macro_precision": 0.8886,
+        "macro_recall": 0.8064,
+        "macro_f1": 0.8424,
+        "weighted_f1": 0.9232,
+        "support": 2397,
+        "per_class": {
+          "complaint": {
+            "precision": 0.813,
+            "recall": 0.9293,
+            "f1": 0.8673,
+            "support": 566
+          },
+          "praise": {
+            "precision": 0.9865,
+            "recall": 0.9682,
+            "f1": 0.9772,
+            "support": 754
+          },
+          "refund_request": {
+            "precision": 0.8971,
+            "recall": 0.6932,
+            "f1": 0.7821,
+            "support": 88
+          },
+          "technical_problem": {
+            "precision": 0.7965,
+            "recall": 0.7258,
+            "f1": 0.7595,
+            "support": 124
+          },
+          "fraud_report": {
+            "precision": 1.0,
+            "recall": 0.7333,
+            "f1": 0.8462,
+            "support": 30
+          },
+          "cancellation": {
+            "precision": 1.0,
+            "recall": 0.9205,
+            "f1": 0.9586,
+            "support": 88
+          },
+          "product_question": {
+            "precision": 1.0,
+            "recall": 0.9935,
+            "f1": 0.9967,
+            "support": 617
+          },
+          "delivery_issue": {
+            "precision": 0.7885,
+            "recall": 0.6833,
+            "f1": 0.7321,
+            "support": 60
+          },
+          "payment_issue": {
+            "precision": 0.8269,
+            "recall": 0.7167,
+            "f1": 0.7679,
+            "support": 60
+          },
+          "account_issue": {
+            "precision": 0.7778,
+            "recall": 0.7,
+            "f1": 0.7368,
+            "support": 10
+          }
+        },
+        "confusion_matrix": {
+          "labels": [
+            "complaint",
+            "praise",
+            "refund_request",
+            "technical_problem",
+            "fraud_report",
+            "cancellation",
+            "product_question",
+            "delivery_issue",
+            "payment_issue",
+            "account_issue"
+          ],
+          "matrix": [
+            [
+              526,
+              6,
+              2,
+              16,
+              0,
+              0,
+              0,
+              6,
+              8,
+              2
+            ],
+            [
+              22,
+              730,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              22,
+              0,
+              61,
+              1,
+              0,
+              0,
+              0,
+              3,
+              1,
+              0
+            ],
+            [
+              31,
+              1,
+              1,
+              90,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              7,
+              0,
+              1,
+              0,
+              22,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              5,
+              0,
+              0,
+              2,
+              0,
+              81,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              0,
+              1,
+              0,
+              0,
+              613,
+              0,
+              0,
+              0
+            ],
+            [
+              15,
+              1,
+              1,
+              2,
+              0,
+              0,
+              0,
+              41,
+              0,
+              0
+            ],
+            [
+              14,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              43,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              7
+            ]
+          ]
+        }
+      },
+      "final_tfidf_word_char_lr": {
+        "accuracy": 0.9199,
+        "macro_precision": 0.7991,
+        "macro_recall": 0.8729,
+        "macro_f1": 0.8295,
+        "weighted_f1": 0.9223,
+        "support": 2397,
+        "per_class": {
+          "complaint": {
+            "precision": 0.9077,
+            "recall": 0.8339,
+            "f1": 0.8692,
+            "support": 566
+          },
+          "praise": {
+            "precision": 0.9932,
+            "recall": 0.9735,
+            "f1": 0.9833,
+            "support": 754
+          },
+          "refund_request": {
+            "precision": 0.6226,
+            "recall": 0.75,
+            "f1": 0.6804,
+            "support": 88
+          },
+          "technical_problem": {
+            "precision": 0.7552,
+            "recall": 0.871,
+            "f1": 0.809,
+            "support": 124
+          },
+          "fraud_report": {
+            "precision": 0.8333,
+            "recall": 0.8333,
+            "f1": 0.8333,
+            "support": 30
+          },
+          "cancellation": {
+            "precision": 1.0,
+            "recall": 0.9886,
+            "f1": 0.9943,
+            "support": 88
+          },
+          "product_question": {
+            "precision": 1.0,
+            "recall": 0.9951,
+            "f1": 0.9976,
+            "support": 617
+          },
+          "delivery_issue": {
+            "precision": 0.5915,
+            "recall": 0.7,
+            "f1": 0.6412,
+            "support": 60
+          },
+          "payment_issue": {
+            "precision": 0.662,
+            "recall": 0.7833,
+            "f1": 0.7176,
+            "support": 60
+          },
+          "account_issue": {
+            "precision": 0.625,
+            "recall": 1.0,
+            "f1": 0.7692,
+            "support": 10
+          }
+        },
+        "confusion_matrix": {
+          "labels": [
+            "complaint",
+            "praise",
+            "refund_request",
+            "technical_problem",
+            "fraud_report",
+            "cancellation",
+            "product_question",
+            "delivery_issue",
+            "payment_issue",
+            "account_issue"
+          ],
+          "matrix": [
+            [
+              472,
+              3,
+              18,
+              25,
+              4,
+              0,
+              0,
+              21,
+              18,
+              5
+            ],
+            [
+              16,
+              734,
+              1,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              9,
+              1,
+              66,
+              1,
+              1,
+              0,
+              0,
+              4,
+              5,
+              1
+            ],
+            [
+              10,
+              0,
+              3,
+              108,
+              0,
+              0,
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              1,
+              1,
+              25,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              87,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              614,
+              0,
+              1,
+              0
+            ],
+            [
+              7,
+              0,
+              9,
+              2,
+              0,
+              0,
+              0,
+              42,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              8,
+              1,
+              0,
+              0,
+              0,
+              1,
+              47,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              10
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "aspects": {
+    "test": {
+      "detection": {
+        "precision": 0.9883,
+        "recall": 0.9761,
+        "f1": 0.9822,
+        "support": 3980
+      },
+      "per_aspect": {
+        "payment": {
+          "precision": 0.9336,
+          "recall": 0.9956,
+          "f1": 0.9636,
+          "support": 452
+        },
+        "delivery": {
+          "precision": 0.9727,
+          "recall": 0.9861,
+          "f1": 0.9794,
+          "support": 433
+        },
+        "pricing": {
+          "precision": 1.0,
+          "recall": 0.9749,
+          "f1": 0.9873,
+          "support": 359
+        },
+        "customer_support": {
+          "precision": 1.0,
+          "recall": 0.9899,
+          "f1": 0.9949,
+          "support": 397
+        },
+        "product_quality": {
+          "precision": 0.997,
+          "recall": 0.8842,
+          "f1": 0.9372,
+          "support": 380
+        },
+        "performance": {
+          "precision": 0.9972,
+          "recall": 0.9545,
+          "f1": 0.9754,
+          "support": 374
+        },
+        "security": {
+          "precision": 1.0,
+          "recall": 0.9972,
+          "f1": 0.9986,
+          "support": 359
+        },
+        "usability": {
+          "precision": 1.0,
+          "recall": 0.9795,
+          "f1": 0.9897,
+          "support": 342
+        },
+        "refund": {
+          "precision": 1.0,
+          "recall": 0.9932,
+          "f1": 0.9966,
+          "support": 443
+        },
+        "availability": {
+          "precision": 1.0,
+          "recall": 0.9955,
+          "f1": 0.9977,
+          "support": 441
+        }
+      },
+      "sentiment_accuracy": 0.9284,
+      "sentiment_evaluated": 3885
+    }
+  },
+  "challenge_set": {
+    "size": 60,
+    "sentiment_accuracy": 0.75,
+    "emotion_accuracy": 0.5833,
+    "intent_accuracy": 0.5833,
+    "aspects": {
+      "detection": {
+        "precision": 0.9167,
+        "recall": 0.7534,
+        "f1": 0.8271,
+        "support": 73
+      },
+      "per_aspect": {
+        "payment": {
+          "precision": 0.9091,
+          "recall": 0.8333,
+          "f1": 0.8696,
+          "support": 12
+        },
+        "delivery": {
+          "precision": 0.9091,
+          "recall": 0.7692,
+          "f1": 0.8333,
+          "support": 13
+        },
+        "pricing": {
+          "precision": 0.875,
+          "recall": 0.875,
+          "f1": 0.875,
+          "support": 8
+        },
+        "customer_support": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571,
+          "support": 8
+        },
+        "product_quality": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6667,
+          "support": 8
+        },
+        "performance": {
+          "precision": 0.6,
+          "recall": 0.6,
+          "f1": 0.6,
+          "support": 5
+        },
+        "security": {
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8,
+          "support": 6
+        },
+        "usability": {
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571,
+          "support": 4
+        },
+        "refund": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 6
+        },
+        "availability": {
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8,
+          "support": 3
+        }
+      },
+      "sentiment_accuracy": 0.7636,
+      "sentiment_evaluated": 55
+    },
+    "by_category": {
+      "clear": {
+        "size": 17,
+        "sentiment_accuracy": 0.8824
+      },
+      "domain": {
+        "size": 5,
+        "sentiment_accuracy": 0.6
+      },
+      "implicit": {
+        "size": 6,
+        "sentiment_accuracy": 1.0
+      },
+      "mixed": {
+        "size": 6,
+        "sentiment_accuracy": 0.5
+      },
+      "negation": {
+        "size": 5,
+        "sentiment_accuracy": 0.4
+      },
+      "neutral": {
+        "size": 3,
+        "sentiment_accuracy": 0.6667
+      },
+      "question": {
+        "size": 3,
+        "sentiment_accuracy": 0.6667
+      },
+      "sarcasm": {
+        "size": 5,
+        "sentiment_accuracy": 0.8
+      },
+      "short": {
+        "size": 6,
+        "sentiment_accuracy": 0.8333
+      },
+      "typo": {
+        "size": 4,
+        "sentiment_accuracy": 0.75
+      }
+    },
+    "rows": [
+      {
+        "text": "The app looks great, but payment fails every time and support is slow.",
+        "category": "mixed",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "anger",
+          "predicted": "anger"
+        },
+        "intent": {
+          "expected": "payment_issue",
+          "predicted": "payment_issue"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "usability",
+              "sentiment": "positive"
+            },
+            {
+              "aspect": "payment",
+              "sentiment": "negative"
+            },
+            {
+              "aspect": "customer_support",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "usability",
+              "sentiment": "positive"
+            },
+            {
+              "aspect": "payment",
+              "sentiment": "negative"
+            },
+            {
+              "aspect": "customer_support",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Delivery was not bad at all, honestly quicker than I expected.",
+        "category": "negation",
+        "sentiment": {
+          "expected": "positive",
+          "predicted": "positive"
+        },
+        "emotion": {
+          "expected": "surprise",
+          "predicted": "neutral"
+        },
+        "intent": {
+          "expected": "praise",
+          "predicted": "praise"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "delivery",
+              "sentiment": "positive"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "delivery",
+              "sentiment": "positive"
+            }
+          ]
+        }
+      },
+      {
+        "text": "I wouldn't say the prices are fair anymore.",
+        "category": "negation",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "sadness",
+          "predicted": "anger"
+        },
+        "intent": {
+          "expected": "complaint",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "pricing",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "pricing",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Never had a single problem with checkout.",
+        "category": "negation",
+        "sentiment": {
+          "expected": "positive",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "joy",
+          "predicted": "anger"
+        },
+        "intent": {
+          "expected": "praise",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "payment",
+              "sentiment": "positive"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "payment",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "The agent was not unhelpful, just slow.",
+        "category": "negation",
+        "sentiment": {
+          "expected": "neutral",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "neutral",
+          "predicted": "neutral"
+        },
+        "intent": {
+          "expected": "complaint",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "customer_support",
+              "sentiment": "neutral"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "customer_support",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Not impressed with the build quality of the speaker.",
+        "category": "negation",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "positive"
+        },
+        "emotion": {
+          "expected": "sadness",
+          "predicted": "joy"
+        },
+        "intent": {
+          "expected": "complaint",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "product_quality",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "product_quality",
+              "sentiment": "positive"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Oh brilliant, the app crashed right as I was paying. Just what I needed.",
+        "category": "sarcasm",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "positive"
+        },
+        "emotion": {
+          "expected": "anger",
+          "predicted": "joy"
+        },
+        "intent": {
+          "expected": "technical_problem",
+          "predicted": "praise"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "performance",
+              "sentiment": "negative"
+            },
+            {
+              "aspect": "payment",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "payment",
+              "sentiment": "negative"
+            },
+            {
+              "aspect": "performance",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Thanks for nothing, customer care.",
+        "category": "sarcasm",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "anger",
+          "predicted": "anger"
+        },
+        "intent": {
+          "expected": "complaint",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "customer_support",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "customer_support",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Wow, only three weeks for a parcel to cross town. Impressive.",
+        "category": "sarcasm",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "anger",
+          "predicted": "surprise"
+        },
+        "intent": {
+          "expected": "delivery_issue",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "delivery",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "delivery",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Love paying extra fees for a service that never works.",
+        "category": "sarcasm",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "anger",
+          "predicted": "joy"
+        },
+        "intent": {
+          "expected": "complaint",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "pricing",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "payment",
+              "sentiment": "negative"
+            },
+            {
+              "aspect": "pricing",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Sure, take my money twice, why not.",
+        "category": "sarcasm",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "anger",
+          "predicted": "anger"
+        },
+        "intent": {
+          "expected": "payment_issue",
+          "predicted": "refund_request"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "payment",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": []
+        }
+      },
+      {
+        "text": "meh",
+        "category": "short",
+        "sentiment": {
+          "expected": "neutral",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "neutral",
+          "predicted": "joy"
+        },
+        "intent": {
+          "expected": "complaint",
+          "predicted": "praise"
+        },
+        "aspects": {
+          "expected": [],
+          "predicted": []
+        }
+      },
+      {
+        "text": "Brilliant!",
+        "category": "short",
+        "sentiment": {
+          "expected": "positive",
+          "predicted": "positive"
+        },
+        "emotion": {
+          "expected": "joy",
+          "predicted": "joy"
+        },
+        "intent": {
+          "expected": "praise",
+          "predicted": "praise"
+        },
+        "aspects": {
+          "expected": [],
+          "predicted": []
+        }
+      },
+      {
+        "text": "Scam.",
+        "category": "short",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "disgust",
+          "predicted": "joy"
+        },
+        "intent": {
+          "expected": "fraud_report",
+          "predicted": "praise"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "security",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "security",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "refund pls",
+        "category": "short",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "anger",
+          "predicted": "anger"
+        },
+        "intent": {
+          "expected": "refund_request",
+          "predicted": "refund_request"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "refund",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "refund",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "works fine",
+        "category": "short",
+        "sentiment": {
+          "expected": "positive",
+          "predicted": "positive"
+        },
+        "emotion": {
+          "expected": "joy",
+          "predicted": "joy"
+        },
+        "intent": {
+          "expected": "praise",
+          "predicted": "praise"
+        },
+        "aspects": {
+          "expected": [],
+          "predicted": []
+        }
+      },
+      {
+        "text": "Still waiting.",
+        "category": "short",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "anger",
+          "predicted": "anger"
+        },
+        "intent": {
+          "expected": "complaint",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [],
+          "predicted": []
+        }
+      },
+      {
+        "text": "the paymnet keeps failling and nobody replys",
+        "category": "typo",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "anger",
+          "predicted": "anger"
+        },
+        "intent": {
+          "expected": "payment_issue",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "payment",
+              "sentiment": "negative"
+            },
+            {
+              "aspect": "customer_support",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": []
+        }
+      },
+      {
+        "text": "deliverry was super fast, thank u",
+        "category": "typo",
+        "sentiment": {
+          "expected": "positive",
+          "predicted": "positive"
+        },
+        "emotion": {
+          "expected": "joy",
+          "predicted": "joy"
+        },
+        "intent": {
+          "expected": "praise",
+          "predicted": "praise"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "delivery",
+              "sentiment": "positive"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "performance",
+              "sentiment": "positive"
+            }
+          ]
+        }
+      },
+      {
+        "text": "app keeps crashng on my phone smh",
+        "category": "typo",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "neutral"
+        },
+        "emotion": {
+          "expected": "anger",
+          "predicted": "neutral"
+        },
+        "intent": {
+          "expected": "technical_problem",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "performance",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": []
+        }
+      },
+      {
+        "text": "Good quallity, fair prise",
+        "category": "typo",
+        "sentiment": {
+          "expected": "positive",
+          "predicted": "positive"
+        },
+        "emotion": {
+          "expected": "joy",
+          "predicted": "neutral"
+        },
+        "intent": {
+          "expected": "praise",
+          "predicted": "praise"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "product_quality",
+              "sentiment": "positive"
+            },
+            {
+              "aspect": "pricing",
+              "sentiment": "positive"
+            }
+          ],
+          "predicted": []
+        }
+      },
+      {
+        "text": "Abeg, una dispatch rider no show again. I don tire.",
+        "category": "domain",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "anger",
+          "predicted": "anger"
+        },
+        "intent": {
+          "expected": "delivery_issue",
+          "predicted": "cancellation"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "delivery",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "delivery",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "POS debit went through but transfer reversal never came.",
+        "category": "domain",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "neutral"
+        },
+        "emotion": {
+          "expected": "anger",
+          "predicted": "anger"
+        },
+        "intent": {
+          "expected": "payment_issue",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "payment",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "payment",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Card was charged but the order still shows pending. Chargeback incoming.",
+        "category": "domain",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "neutral"
+        },
+        "emotion": {
+          "expected": "anger",
+          "predicted": "anger"
+        },
+        "intent": {
+          "expected": "payment_issue",
+          "predicted": "payment_issue"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "payment",
+              "sentiment": "negative"
+            },
+            {
+              "aspect": "refund",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "payment",
+              "sentiment": "negative"
+            },
+            {
+              "aspect": "refund",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "No wahala at all, everything went smoothly from order to doorstep.",
+        "category": "domain",
+        "sentiment": {
+          "expected": "positive",
+          "predicted": "positive"
+        },
+        "emotion": {
+          "expected": "joy",
+          "predicted": "joy"
+        },
+        "intent": {
+          "expected": "praise",
+          "predicted": "praise"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "delivery",
+              "sentiment": "positive"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "performance",
+              "sentiment": "positive"
+            }
+          ]
+        }
+      },
+      {
+        "text": "OTP never arrives so I can't approve anything.",
+        "category": "domain",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "anger",
+          "predicted": "sadness"
+        },
+        "intent": {
+          "expected": "account_issue",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "security",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "delivery",
+              "sentiment": "negative"
+            },
+            {
+              "aspect": "security",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Someone emptied my wallet with transactions I never made. Please help!",
+        "category": "implicit",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "fear",
+          "predicted": "fear"
+        },
+        "intent": {
+          "expected": "fraud_report",
+          "predicted": "praise"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "security",
+              "sentiment": "negative"
+            },
+            {
+              "aspect": "payment",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "payment",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "It took forever to show up at my door.",
+        "category": "implicit",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "sadness",
+          "predicted": "anger"
+        },
+        "intent": {
+          "expected": "delivery_issue",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "delivery",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": []
+        }
+      },
+      {
+        "text": "The shoes fell apart after one wash.",
+        "category": "implicit",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "disgust",
+          "predicted": "anger"
+        },
+        "intent": {
+          "expected": "complaint",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "product_quality",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": []
+        }
+      },
+      {
+        "text": "I keep tapping around and can't figure out where my orders are.",
+        "category": "implicit",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "sadness",
+          "predicted": "sadness"
+        },
+        "intent": {
+          "expected": "technical_problem",
+          "predicted": "praise"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "usability",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": []
+        }
+      },
+      {
+        "text": "Twice the price of the shop down the road.",
+        "category": "implicit",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "sadness",
+          "predicted": "sadness"
+        },
+        "intent": {
+          "expected": "complaint",
+          "predicted": "technical_problem"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "pricing",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "pricing",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "They never have my size.",
+        "category": "implicit",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "sadness",
+          "predicted": "anger"
+        },
+        "intent": {
+          "expected": "complaint",
+          "predicted": "refund_request"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "availability",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": []
+        }
+      },
+      {
+        "text": "The courier was lovely but the food was cold and soggy.",
+        "category": "mixed",
+        "sentiment": {
+          "expected": "neutral",
+          "predicted": "neutral"
+        },
+        "emotion": {
+          "expected": "neutral",
+          "predicted": "neutral"
+        },
+        "intent": {
+          "expected": "complaint",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "delivery",
+              "sentiment": "positive"
+            },
+            {
+              "aspect": "product_quality",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "delivery",
+              "sentiment": "positive"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Cheap and cheerful, though the app is painfully slow.",
+        "category": "mixed",
+        "sentiment": {
+          "expected": "neutral",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "neutral",
+          "predicted": "anger"
+        },
+        "intent": {
+          "expected": "complaint",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "pricing",
+              "sentiment": "positive"
+            },
+            {
+              "aspect": "performance",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "pricing",
+              "sentiment": "positive"
+            },
+            {
+              "aspect": "performance",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Great discounts but refunds take ages.",
+        "category": "mixed",
+        "sentiment": {
+          "expected": "neutral",
+          "predicted": "neutral"
+        },
+        "emotion": {
+          "expected": "neutral",
+          "predicted": "neutral"
+        },
+        "intent": {
+          "expected": "complaint",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "pricing",
+              "sentiment": "positive"
+            },
+            {
+              "aspect": "refund",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "pricing",
+              "sentiment": "positive"
+            },
+            {
+              "aspect": "refund",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Support sorted everything out quickly even though the delivery was late.",
+        "category": "mixed",
+        "sentiment": {
+          "expected": "positive",
+          "predicted": "neutral"
+        },
+        "emotion": {
+          "expected": "joy",
+          "predicted": "sadness"
+        },
+        "intent": {
+          "expected": "praise",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "customer_support",
+              "sentiment": "positive"
+            },
+            {
+              "aspect": "delivery",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "customer_support",
+              "sentiment": "positive"
+            },
+            {
+              "aspect": "delivery",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Fantastic selection, always in stock, delivery on time. Five stars.",
+        "category": "clear",
+        "sentiment": {
+          "expected": "positive",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "joy",
+          "predicted": "neutral"
+        },
+        "intent": {
+          "expected": "praise",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "availability",
+              "sentiment": "positive"
+            },
+            {
+              "aspect": "delivery",
+              "sentiment": "positive"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "availability",
+              "sentiment": "negative"
+            },
+            {
+              "aspect": "delivery",
+              "sentiment": "neutral"
+            }
+          ]
+        }
+      },
+      {
+        "text": "My refund was in my account within 24 hours. Impressive service!",
+        "category": "clear",
+        "sentiment": {
+          "expected": "positive",
+          "predicted": "positive"
+        },
+        "emotion": {
+          "expected": "surprise",
+          "predicted": "joy"
+        },
+        "intent": {
+          "expected": "praise",
+          "predicted": "praise"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "refund",
+              "sentiment": "positive"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "refund",
+              "sentiment": "positive"
+            }
+          ]
+        }
+      },
+      {
+        "text": "I was charged twice and the support team keeps ignoring my emails. I want my money back.",
+        "category": "clear",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "anger",
+          "predicted": "anger"
+        },
+        "intent": {
+          "expected": "refund_request",
+          "predicted": "refund_request"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "payment",
+              "sentiment": "negative"
+            },
+            {
+              "aspect": "customer_support",
+              "sentiment": "negative"
+            },
+            {
+              "aspect": "refund",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "payment",
+              "sentiment": "negative"
+            },
+            {
+              "aspect": "customer_support",
+              "sentiment": "negative"
+            },
+            {
+              "aspect": "refund",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "The new update is fast and the layout is so clean.",
+        "category": "clear",
+        "sentiment": {
+          "expected": "positive",
+          "predicted": "positive"
+        },
+        "emotion": {
+          "expected": "joy",
+          "predicted": "joy"
+        },
+        "intent": {
+          "expected": "praise",
+          "predicted": "praise"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "performance",
+              "sentiment": "positive"
+            },
+            {
+              "aspect": "usability",
+              "sentiment": "positive"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "performance",
+              "sentiment": "positive"
+            },
+            {
+              "aspect": "usability",
+              "sentiment": "positive"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Someone logged into my account from another country. I'm terrified.",
+        "category": "clear",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "fear",
+          "predicted": "fear"
+        },
+        "intent": {
+          "expected": "fraud_report",
+          "predicted": "cancellation"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "security",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": []
+        }
+      },
+      {
+        "text": "I am deleting this app and moving to a competitor.",
+        "category": "clear",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "anger",
+          "predicted": "anger"
+        },
+        "intent": {
+          "expected": "cancellation",
+          "predicted": "technical_problem"
+        },
+        "aspects": {
+          "expected": [],
+          "predicted": []
+        }
+      },
+      {
+        "text": "Does the premium plan include free delivery?",
+        "category": "question",
+        "sentiment": {
+          "expected": "neutral",
+          "predicted": "neutral"
+        },
+        "emotion": {
+          "expected": "neutral",
+          "predicted": "neutral"
+        },
+        "intent": {
+          "expected": "product_question",
+          "predicted": "product_question"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "delivery",
+              "sentiment": "neutral"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "delivery",
+              "sentiment": "neutral"
+            }
+          ]
+        }
+      },
+      {
+        "text": "How do I add a second card to my wallet?",
+        "category": "question",
+        "sentiment": {
+          "expected": "neutral",
+          "predicted": "neutral"
+        },
+        "emotion": {
+          "expected": "neutral",
+          "predicted": "neutral"
+        },
+        "intent": {
+          "expected": "product_question",
+          "predicted": "product_question"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "payment",
+              "sentiment": "neutral"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "payment",
+              "sentiment": "neutral"
+            }
+          ]
+        }
+      },
+      {
+        "text": "When will the blue version be back in stock?",
+        "category": "question",
+        "sentiment": {
+          "expected": "neutral",
+          "predicted": "positive"
+        },
+        "emotion": {
+          "expected": "neutral",
+          "predicted": "surprise"
+        },
+        "intent": {
+          "expected": "product_question",
+          "predicted": "product_question"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "availability",
+              "sentiment": "neutral"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "availability",
+              "sentiment": "positive"
+            }
+          ]
+        }
+      },
+      {
+        "text": "The expired yoghurt I received was disgusting.",
+        "category": "clear",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "disgust",
+          "predicted": "disgust"
+        },
+        "intent": {
+          "expected": "complaint",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "product_quality",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "product_quality",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "I can't believe they shipped me a used phone as new!",
+        "category": "clear",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "surprise",
+          "predicted": "surprise"
+        },
+        "intent": {
+          "expected": "complaint",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "product_quality",
+              "sentiment": "negative"
+            },
+            {
+              "aspect": "delivery",
+              "sentiment": "neutral"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "delivery",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Customer care went above and beyond. Thank you, Ada!",
+        "category": "clear",
+        "sentiment": {
+          "expected": "positive",
+          "predicted": "positive"
+        },
+        "emotion": {
+          "expected": "joy",
+          "predicted": "joy"
+        },
+        "intent": {
+          "expected": "praise",
+          "predicted": "praise"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "customer_support",
+              "sentiment": "positive"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "customer_support",
+              "sentiment": "positive"
+            }
+          ]
+        }
+      },
+      {
+        "text": "The price went up again and I honestly can't afford it now. So sad.",
+        "category": "clear",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "sadness",
+          "predicted": "sadness"
+        },
+        "intent": {
+          "expected": "complaint",
+          "predicted": "technical_problem"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "pricing",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "pricing",
+              "sentiment": "positive"
+            }
+          ]
+        }
+      },
+      {
+        "text": "My account got locked after I changed my phone and nobody can unlock it.",
+        "category": "clear",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "anger",
+          "predicted": "fear"
+        },
+        "intent": {
+          "expected": "account_issue",
+          "predicted": "account_issue"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "security",
+              "sentiment": "negative"
+            },
+            {
+              "aspect": "customer_support",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "security",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "It's okay. Nothing special, nothing terrible.",
+        "category": "neutral",
+        "sentiment": {
+          "expected": "neutral",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "neutral",
+          "predicted": "anger"
+        },
+        "intent": {
+          "expected": "complaint",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [],
+          "predicted": []
+        }
+      },
+      {
+        "text": "I ordered on Monday and it arrived on Wednesday.",
+        "category": "neutral",
+        "sentiment": {
+          "expected": "neutral",
+          "predicted": "neutral"
+        },
+        "emotion": {
+          "expected": "neutral",
+          "predicted": "neutral"
+        },
+        "intent": {
+          "expected": "praise",
+          "predicted": "praise"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "delivery",
+              "sentiment": "neutral"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "delivery",
+              "sentiment": "positive"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Paid by transfer, collected at the pickup point.",
+        "category": "neutral",
+        "sentiment": {
+          "expected": "neutral",
+          "predicted": "neutral"
+        },
+        "emotion": {
+          "expected": "neutral",
+          "predicted": "neutral"
+        },
+        "intent": {
+          "expected": "praise",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "payment",
+              "sentiment": "neutral"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "payment",
+              "sentiment": "neutral"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Checkout is smooth but I really wish there was a dark mode.",
+        "category": "mixed",
+        "sentiment": {
+          "expected": "positive",
+          "predicted": "neutral"
+        },
+        "emotion": {
+          "expected": "joy",
+          "predicted": "sadness"
+        },
+        "intent": {
+          "expected": "praise",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "payment",
+              "sentiment": "positive"
+            },
+            {
+              "aspect": "usability",
+              "sentiment": "neutral"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "payment",
+              "sentiment": "negative"
+            },
+            {
+              "aspect": "usability",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "I'm shocked at how fast the rider got here!",
+        "category": "clear",
+        "sentiment": {
+          "expected": "positive",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "surprise",
+          "predicted": "surprise"
+        },
+        "intent": {
+          "expected": "praise",
+          "predicted": "complaint"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "delivery",
+              "sentiment": "positive"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "delivery",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Horrible. Fake product, and they refuse to refund me.",
+        "category": "clear",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "disgust",
+          "predicted": "anger"
+        },
+        "intent": {
+          "expected": "refund_request",
+          "predicted": "refund_request"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "product_quality",
+              "sentiment": "negative"
+            },
+            {
+              "aspect": "refund",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "product_quality",
+              "sentiment": "negative"
+            },
+            {
+              "aspect": "refund",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "The site was down all weekend during the sale.",
+        "category": "clear",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "anger",
+          "predicted": "sadness"
+        },
+        "intent": {
+          "expected": "technical_problem",
+          "predicted": "technical_problem"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "performance",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "pricing",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Cancel my subscription right now.",
+        "category": "clear",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "anger",
+          "predicted": "anger"
+        },
+        "intent": {
+          "expected": "cancellation",
+          "predicted": "cancellation"
+        },
+        "aspects": {
+          "expected": [],
+          "predicted": []
+        }
+      },
+      {
+        "text": "Got a text pretending to be your bank asking for my PIN. Is this you?",
+        "category": "clear",
+        "sentiment": {
+          "expected": "negative",
+          "predicted": "negative"
+        },
+        "emotion": {
+          "expected": "fear",
+          "predicted": "fear"
+        },
+        "intent": {
+          "expected": "fraud_report",
+          "predicted": "product_question"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "security",
+              "sentiment": "negative"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "security",
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      {
+        "text": "Prices are fair and the quality is solid. Happy customer.",
+        "category": "clear",
+        "sentiment": {
+          "expected": "positive",
+          "predicted": "positive"
+        },
+        "emotion": {
+          "expected": "joy",
+          "predicted": "joy"
+        },
+        "intent": {
+          "expected": "praise",
+          "predicted": "praise"
+        },
+        "aspects": {
+          "expected": [
+            {
+              "aspect": "pricing",
+              "sentiment": "positive"
+            },
+            {
+              "aspect": "product_quality",
+              "sentiment": "positive"
+            }
+          ],
+          "predicted": [
+            {
+              "aspect": "pricing",
+              "sentiment": "negative"
+            },
+            {
+              "aspect": "product_quality",
+              "sentiment": "positive"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "dataset_pack": {
+    "rows": 20000,
+    "unique_texts": 900,
+    "sentiment_unique_texts": {
+      "accuracy": 0.7333,
+      "macro_precision": 0.7657,
+      "macro_recall": 0.7333,
+      "macro_f1": 0.7291,
+      "weighted_f1": 0.7291,
+      "support": 900,
+      "per_class": {
+        "negative": {
+          "precision": 0.686,
+          "recall": 0.9833,
+          "f1": 0.8082,
+          "support": 300
+        },
+        "neutral": {
+          "precision": 0.6111,
+          "recall": 0.55,
+          "f1": 0.5789,
+          "support": 300
+        },
+        "positive": {
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8,
+          "support": 300
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "negative",
+          "neutral",
+          "positive"
+        ],
+        "matrix": [
+          [
+            295,
+            5,
+            0
+          ],
+          [
+            135,
+            165,
+            0
+          ],
+          [
+            0,
+            100,
+            200
+          ]
+        ]
+      }
+    },
+    "emotion_agreement": 0.443,
+    "emotion_label_ceiling": 0.5605,
+    "intent_agreement": 0.1163,
+    "intent_label_ceiling": 0.6581,
+    "primary_aspect_detected": 1.0,
+    "absa_sample": {
+      "unique_texts": 2505,
+      "detection": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5010
+      },
+      "per_aspect": {
+        "payment": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 504
+        },
+        "delivery": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 505
+        },
+        "pricing": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 509
+        },
+        "customer_support": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 471
+        },
+        "product_quality": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 530
+        },
+        "performance": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 476
+        },
+        "security": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 480
+        },
+        "usability": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 505
+        },
+        "refund": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 515
+        },
+        "availability": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 515
+        }
+      },
+      "sentiment_accuracy": 0.3499,
+      "sentiment_evaluated": 5010
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "source": "customer_feedback_demo.csv",
+  "rows": 20000,
+  "date_range": [
+    "2025-01-01",
+    "2026-10-02"
+  ],
+  "checks": [
+    {
+      "check": "Required columns present",
+      "status": "pass",
+      "detail": "All contract columns found"
+    },
+    {
+      "check": "Text present",
+      "status": "pass",
+      "detail": "0 empty texts"
+    },
+    {
+      "check": "Unique review_id",
+      "status": "pass",
+      "detail": "0 duplicate ids"
+    },
+    {
+      "check": "Rating in 1-5",
+      "status": "pass",
+      "detail": "0 out of range"
+    },
+    {
+      "check": "Timestamp parses",
+      "status": "pass",
+      "detail": "0 unparseable"
+    },
+    {
+      "check": "Timestamp has time of day",
+      "status": "warn",
+      "detail": "Every timestamp is midnight, so only daily (not hourly) trends are possible"
+    },
+    {
+      "check": "City belongs to country",
+      "status": "warn",
+      "detail": "14,930 rows (75%) pair a city with another country, so city and country filters disagree"
+    },
+    {
+      "check": "Product column matches the text",
+      "status": "pass",
+      "detail": "0 rows (0%) name a different product in the text than in the product column"
+    },
+    {
+      "check": "Duplicate texts",
+      "status": "warn",
+      "detail": "900 unique texts in 20,000 rows"
+    }
+  ],
+  "processed_at": "2026-10-06T16:06:03+00:00",
+  "processed_rows": 20000,
+  "unique_texts_analyzed": 900,
+  "model_version": "pulseiq-nlp-v1"
+}

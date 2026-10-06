@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.pytest_cache/
+# Rebuilt by `python -m src.pipeline` (the API runs it on start-up if missing).
+backend/data/processed/
+# Events received through the API at runtime.
+backend/data/raw/live/

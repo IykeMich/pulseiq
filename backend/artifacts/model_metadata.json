@@ -1,0 +1,49 @@
+{
+  "model_version": "pulseiq-nlp-v1",
+  "trained_at": "2026-10-06T16:05:32+00:00",
+  "models": {
+    "sentiment": {
+      "selected": "final_tfidf_word_char_lr",
+      "type": "TF-IDF (word 1-2gram + negation, char 2-5gram) + LogisticRegression (balanced)",
+      "C": 1.0,
+      "classes": [
+        "negative",
+        "neutral",
+        "positive"
+      ]
+    },
+    "emotion": {
+      "selected": "baseline_tfidf_unigram_lr",
+      "type": "TF-IDF (word unigrams) + LogisticRegression",
+      "C": 1.0,
+      "classes": [
+        "anger",
+        "disgust",
+        "fear",
+        "joy",
+        "neutral",
+        "sadness",
+        "surprise"
+      ]
+    },
+    "intent": {
+      "selected": "final_tfidf_word_char_lr",
+      "type": "TF-IDF (word 1-2gram + negation, char 2-5gram) + LogisticRegression (balanced)",
+      "C": 32.0,
+      "classes": [
+        "account_issue",
+        "cancellation",
+        "complaint",
+        "delivery_issue",
+        "fraud_report",
+        "payment_issue",
+        "praise",
+        "product_question",
+        "refund_request",
+        "technical_problem"
+      ]
+    }
+  },
+  "aspect_method": "taxonomy keywords per clause + clause-level sentiment model",
+  "training_reviews": 13580
+}

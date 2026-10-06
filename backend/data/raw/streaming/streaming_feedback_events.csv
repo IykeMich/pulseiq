@@ -1,0 +1,1001 @@
+event_id,event_type,event_time,source,entity_id,text,product,channel
+evt_000001,feedback.created,2026-10-01T00:00:00,web_feedback_form,rv_stream_000001,I have tried several times and the security on CloudDesk still does not work.,RideGo,mobile_app
+evt_000002,feedback.created,2026-10-01T00:07:00,web_feedback_form,rv_stream_000002,I have tried several times and the performance on PayWave Mobile App still does not work.,SwiftBank Mobile,support_chat
+evt_000003,feedback.created,2026-10-01T00:14:00,web_feedback_form,rv_stream_000003,The PayWave Mobile App is frustrating. The security has been a terrible experience.,SwiftBank Mobile,mobile_app
+evt_000004,feedback.created,2026-10-01T00:21:00,web_feedback_form,rv_stream_000004,I really like the RideGo. The refund experience was smooth and easy.,ShopNow,call_center
+evt_000005,feedback.created,2026-10-01T00:28:00,web_feedback_form,rv_stream_000005,I really like the SwiftBank Mobile. The security experience was smooth and easy.,PayWave Mobile App,call_center
+evt_000006,feedback.created,2026-10-01T00:35:00,web_feedback_form,rv_stream_000006,The SwiftBank Mobile is frustrating. The product_quality has been a terrible experience.,HealthPlus,email
+evt_000007,feedback.created,2026-10-01T00:42:00,web_feedback_form,rv_stream_000007,I had a great experience using LearnHub. Everything around pricing was straightforward.,FreshMart,email
+evt_000008,feedback.created,2026-10-01T00:49:00,web_feedback_form,rv_stream_000008,I had a great experience using SwiftBank Mobile. Everything around usability was straightforward.,SwiftBank Mobile,call_center
+evt_000009,feedback.created,2026-10-01T00:56:00,web_feedback_form,rv_stream_000009,I really like the CloudDesk. The payment experience was smooth and easy.,SwiftBank Mobile,support_chat
+evt_000010,feedback.created,2026-10-01T01:03:00,web_feedback_form,rv_stream_000010,The QuickCash Wallet is frustrating. The product_quality has been a terrible experience.,HealthPlus,mobile_app
+evt_000011,feedback.created,2026-10-01T01:10:00,web_feedback_form,rv_stream_000011,I had a great experience using StreamBox. Everything around product_quality was straightforward.,HealthPlus,social_media
+evt_000012,feedback.created,2026-10-01T01:17:00,web_feedback_form,rv_stream_000012,The HealthPlus worked perfectly for me. Very happy with the customer_support.,QuickCash Wallet,social_media
+evt_000013,feedback.created,2026-10-01T01:24:00,web_feedback_form,rv_stream_000013,I have tried several times and the refund on PayWave Mobile App still does not work.,StreamBox,survey
+evt_000014,feedback.created,2026-10-01T01:31:00,web_feedback_form,rv_stream_000014,The LearnHub is frustrating. The customer_support has been a terrible experience.,FreshMart,web
+evt_000015,feedback.created,2026-10-01T01:38:00,web_feedback_form,rv_stream_000015,I had a great experience using StreamBox. Everything around usability was straightforward.,SwiftBank Mobile,email
+evt_000016,feedback.created,2026-10-01T01:45:00,web_feedback_form,rv_stream_000016,The PayWave Mobile App worked perfectly for me. Very happy with the delivery.,ShopNow,support_chat
+evt_000017,feedback.created,2026-10-01T01:52:00,web_feedback_form,rv_stream_000017,I had a great experience using HealthPlus. Everything around delivery was straightforward.,HealthPlus,call_center
+evt_000018,feedback.created,2026-10-01T01:59:00,web_feedback_form,rv_stream_000018,I really like the CloudDesk. The security experience was smooth and easy.,ShopNow,email
+evt_000019,feedback.created,2026-10-01T02:06:00,web_feedback_form,rv_stream_000019,I have tried several times and the product_quality on QuickCash Wallet still does not work.,FreshMart,web
+evt_000020,feedback.created,2026-10-01T02:13:00,web_feedback_form,rv_stream_000020,I really like the PayWave Mobile App. The usability experience was smooth and easy.,HealthPlus,web
+evt_000021,feedback.created,2026-10-01T02:20:00,web_feedback_form,rv_stream_000021,The FreshMart worked perfectly for me. Very happy with the refund.,QuickCash Wallet,mobile_app
+evt_000022,feedback.created,2026-10-01T02:27:00,web_feedback_form,rv_stream_000022,The PayWave Mobile App worked perfectly for me. Very happy with the performance.,CloudDesk,call_center
+evt_000023,feedback.created,2026-10-01T02:34:00,web_feedback_form,rv_stream_000023,I had a great experience using StreamBox. Everything around security was straightforward.,StreamBox,email
+evt_000024,feedback.created,2026-10-01T02:41:00,web_feedback_form,rv_stream_000024,I have tried several times and the delivery on LearnHub still does not work.,RideGo,survey
+evt_000025,feedback.created,2026-10-01T02:48:00,web_feedback_form,rv_stream_000025,The QuickCash Wallet worked perfectly for me. Very happy with the security.,RideGo,support_chat
+evt_000026,feedback.created,2026-10-01T02:55:00,web_feedback_form,rv_stream_000026,The SwiftBank Mobile is frustrating. The product_quality has been a terrible experience.,RideGo,support_chat
+evt_000027,feedback.created,2026-10-01T03:02:00,web_feedback_form,rv_stream_000027,Very disappointed with RideGo. The product_quality needs serious improvement.,PayWave Mobile App,call_center
+evt_000028,feedback.created,2026-10-01T03:09:00,web_feedback_form,rv_stream_000028,The PayWave Mobile App is frustrating. The payment has been a terrible experience.,ShopNow,web
+evt_000029,feedback.created,2026-10-01T03:16:00,web_feedback_form,rv_stream_000029,I have tried several times and the refund on LearnHub still does not work.,StreamBox,mobile_app
+evt_000030,feedback.created,2026-10-01T03:23:00,web_feedback_form,rv_stream_000030,The StreamBox is frustrating. The availability has been a terrible experience.,StreamBox,survey
+evt_000031,feedback.created,2026-10-01T03:30:00,web_feedback_form,rv_stream_000031,The FreshMart worked perfectly for me. Very happy with the refund.,SwiftBank Mobile,survey
+evt_000032,feedback.created,2026-10-01T03:37:00,web_feedback_form,rv_stream_000032,Very disappointed with HealthPlus. The customer_support needs serious improvement.,SwiftBank Mobile,email
+evt_000033,feedback.created,2026-10-01T03:44:00,web_feedback_form,rv_stream_000033,I have tried several times and the refund on LearnHub still does not work.,PayWave Mobile App,support_chat
+evt_000034,feedback.created,2026-10-01T03:51:00,web_feedback_form,rv_stream_000034,I really like the FreshMart. The performance experience was smooth and easy.,ShopNow,social_media
+evt_000035,feedback.created,2026-10-01T03:58:00,web_feedback_form,rv_stream_000035,Very disappointed with HealthPlus. The performance needs serious improvement.,SwiftBank Mobile,web
+evt_000036,feedback.created,2026-10-01T04:05:00,web_feedback_form,rv_stream_000036,I really like the ShopNow. The security experience was smooth and easy.,FreshMart,mobile_app
+evt_000037,feedback.created,2026-10-01T04:12:00,web_feedback_form,rv_stream_000037,The RideGo is frustrating. The performance has been a terrible experience.,SwiftBank Mobile,social_media
+evt_000038,feedback.created,2026-10-01T04:19:00,web_feedback_form,rv_stream_000038,I really like the FreshMart. The customer_support experience was smooth and easy.,CloudDesk,call_center
+evt_000039,feedback.created,2026-10-01T04:26:00,web_feedback_form,rv_stream_000039,The HealthPlus is frustrating. The performance has been a terrible experience.,ShopNow,email
+evt_000040,feedback.created,2026-10-01T04:33:00,web_feedback_form,rv_stream_000040,The CloudDesk is frustrating. The pricing has been a terrible experience.,CloudDesk,survey
+evt_000041,feedback.created,2026-10-01T04:40:00,web_feedback_form,rv_stream_000041,The RideGo is frustrating. The security has been a terrible experience.,SwiftBank Mobile,web
+evt_000042,feedback.created,2026-10-01T04:47:00,web_feedback_form,rv_stream_000042,I had a great experience using HealthPlus. Everything around performance was straightforward.,SwiftBank Mobile,web
+evt_000043,feedback.created,2026-10-01T04:54:00,web_feedback_form,rv_stream_000043,The SwiftBank Mobile is frustrating. The delivery has been a terrible experience.,SwiftBank Mobile,support_chat
+evt_000044,feedback.created,2026-10-01T05:01:00,web_feedback_form,rv_stream_000044,The LearnHub worked perfectly for me. Very happy with the customer_support.,PayWave Mobile App,support_chat
+evt_000045,feedback.created,2026-10-01T05:08:00,web_feedback_form,rv_stream_000045,The PayWave Mobile App worked perfectly for me. Very happy with the delivery.,HealthPlus,email
+evt_000046,feedback.created,2026-10-01T05:15:00,web_feedback_form,rv_stream_000046,I have tried several times and the product_quality on QuickCash Wallet still does not work.,FreshMart,web
+evt_000047,feedback.created,2026-10-01T05:22:00,web_feedback_form,rv_stream_000047,I had a great experience using FreshMart. Everything around security was straightforward.,QuickCash Wallet,support_chat
+evt_000048,feedback.created,2026-10-01T05:29:00,web_feedback_form,rv_stream_000048,I really like the PayWave Mobile App. The refund experience was smooth and easy.,FreshMart,web
+evt_000049,feedback.created,2026-10-01T05:36:00,web_feedback_form,rv_stream_000049,I really like the StreamBox. The delivery experience was smooth and easy.,LearnHub,mobile_app
+evt_000050,feedback.created,2026-10-01T05:43:00,web_feedback_form,rv_stream_000050,The CloudDesk is frustrating. The availability has been a terrible experience.,QuickCash Wallet,survey
+evt_000051,feedback.created,2026-10-01T05:50:00,web_feedback_form,rv_stream_000051,The RideGo is frustrating. The product_quality has been a terrible experience.,FreshMart,social_media
+evt_000052,feedback.created,2026-10-01T05:57:00,web_feedback_form,rv_stream_000052,I really like the PayWave Mobile App. The delivery experience was smooth and easy.,SwiftBank Mobile,survey
+evt_000053,feedback.created,2026-10-01T06:04:00,web_feedback_form,rv_stream_000053,I have tried several times and the usability on QuickCash Wallet still does not work.,RideGo,call_center
+evt_000054,feedback.created,2026-10-01T06:11:00,web_feedback_form,rv_stream_000054,I had a great experience using LearnHub. Everything around payment was straightforward.,ShopNow,social_media
+evt_000055,feedback.created,2026-10-01T06:18:00,web_feedback_form,rv_stream_000055,The LearnHub is frustrating. The pricing has been a terrible experience.,StreamBox,support_chat
+evt_000056,feedback.created,2026-10-01T06:25:00,web_feedback_form,rv_stream_000056,I have tried several times and the product_quality on PayWave Mobile App still does not work.,LearnHub,support_chat
+evt_000057,feedback.created,2026-10-01T06:32:00,web_feedback_form,rv_stream_000057,I have tried several times and the refund on FreshMart still does not work.,LearnHub,mobile_app
+evt_000058,feedback.created,2026-10-01T06:39:00,web_feedback_form,rv_stream_000058,The CloudDesk worked perfectly for me. Very happy with the availability.,HealthPlus,web
+evt_000059,feedback.created,2026-10-01T06:46:00,web_feedback_form,rv_stream_000059,The PayWave Mobile App is frustrating. The pricing has been a terrible experience.,HealthPlus,survey
+evt_000060,feedback.created,2026-10-01T06:53:00,web_feedback_form,rv_stream_000060,The LearnHub is frustrating. The availability has been a terrible experience.,FreshMart,support_chat
+evt_000061,feedback.created,2026-10-01T07:00:00,web_feedback_form,rv_stream_000061,I had a great experience using RideGo. Everything around product_quality was straightforward.,PayWave Mobile App,email
+evt_000062,feedback.created,2026-10-01T07:07:00,web_feedback_form,rv_stream_000062,I had a great experience using SwiftBank Mobile. Everything around product_quality was straightforward.,FreshMart,call_center
+evt_000063,feedback.created,2026-10-01T07:14:00,web_feedback_form,rv_stream_000063,I really like the QuickCash Wallet. The availability experience was smooth and easy.,ShopNow,support_chat
+evt_000064,feedback.created,2026-10-01T07:21:00,web_feedback_form,rv_stream_000064,Very disappointed with CloudDesk. The product_quality needs serious improvement.,QuickCash Wallet,support_chat
+evt_000065,feedback.created,2026-10-01T07:28:00,web_feedback_form,rv_stream_000065,I really like the ShopNow. The security experience was smooth and easy.,ShopNow,web
+evt_000066,feedback.created,2026-10-01T07:35:00,web_feedback_form,rv_stream_000066,The RideGo worked perfectly for me. Very happy with the product_quality.,RideGo,support_chat
+evt_000067,feedback.created,2026-10-01T07:42:00,web_feedback_form,rv_stream_000067,I had a great experience using LearnHub. Everything around payment was straightforward.,SwiftBank Mobile,web
+evt_000068,feedback.created,2026-10-01T07:49:00,web_feedback_form,rv_stream_000068,I have tried several times and the pricing on SwiftBank Mobile still does not work.,SwiftBank Mobile,web
+evt_000069,feedback.created,2026-10-01T07:56:00,web_feedback_form,rv_stream_000069,I have tried several times and the performance on LearnHub still does not work.,QuickCash Wallet,social_media
+evt_000070,feedback.created,2026-10-01T08:03:00,web_feedback_form,rv_stream_000070,The SwiftBank Mobile is frustrating. The delivery has been a terrible experience.,LearnHub,survey
+evt_000071,feedback.created,2026-10-01T08:10:00,web_feedback_form,rv_stream_000071,The LearnHub worked perfectly for me. Very happy with the payment.,LearnHub,mobile_app
+evt_000072,feedback.created,2026-10-01T08:17:00,web_feedback_form,rv_stream_000072,I have tried several times and the availability on CloudDesk still does not work.,SwiftBank Mobile,survey
+evt_000073,feedback.created,2026-10-01T08:24:00,web_feedback_form,rv_stream_000073,The LearnHub is frustrating. The delivery has been a terrible experience.,StreamBox,email
+evt_000074,feedback.created,2026-10-01T08:31:00,web_feedback_form,rv_stream_000074,I have tried several times and the pricing on CloudDesk still does not work.,FreshMart,web
+evt_000075,feedback.created,2026-10-01T08:38:00,web_feedback_form,rv_stream_000075,I had a great experience using HealthPlus. Everything around performance was straightforward.,PayWave Mobile App,call_center
+evt_000076,feedback.created,2026-10-01T08:45:00,web_feedback_form,rv_stream_000076,The QuickCash Wallet is frustrating. The refund has been a terrible experience.,StreamBox,support_chat
+evt_000077,feedback.created,2026-10-01T08:52:00,web_feedback_form,rv_stream_000077,The ShopNow worked perfectly for me. Very happy with the customer_support.,FreshMart,support_chat
+evt_000078,feedback.created,2026-10-01T08:59:00,web_feedback_form,rv_stream_000078,I really like the ShopNow. The performance experience was smooth and easy.,FreshMart,call_center
+evt_000079,feedback.created,2026-10-01T09:06:00,web_feedback_form,rv_stream_000079,I have tried several times and the payment on StreamBox still does not work.,PayWave Mobile App,social_media
+evt_000080,feedback.created,2026-10-01T09:13:00,web_feedback_form,rv_stream_000080,The StreamBox worked perfectly for me. Very happy with the pricing.,HealthPlus,survey
+evt_000081,feedback.created,2026-10-01T09:20:00,web_feedback_form,rv_stream_000081,The QuickCash Wallet worked perfectly for me. Very happy with the availability.,QuickCash Wallet,survey
+evt_000082,feedback.created,2026-10-01T09:27:00,web_feedback_form,rv_stream_000082,The FreshMart is frustrating. The availability has been a terrible experience.,ShopNow,mobile_app
+evt_000083,feedback.created,2026-10-01T09:34:00,web_feedback_form,rv_stream_000083,I had a great experience using ShopNow. Everything around performance was straightforward.,HealthPlus,call_center
+evt_000084,feedback.created,2026-10-01T09:41:00,web_feedback_form,rv_stream_000084,Very disappointed with FreshMart. The refund needs serious improvement.,LearnHub,call_center
+evt_000085,feedback.created,2026-10-01T09:48:00,web_feedback_form,rv_stream_000085,I really like the StreamBox. The usability experience was smooth and easy.,LearnHub,mobile_app
+evt_000086,feedback.created,2026-10-01T09:55:00,web_feedback_form,rv_stream_000086,The PayWave Mobile App worked perfectly for me. Very happy with the delivery.,QuickCash Wallet,survey
+evt_000087,feedback.created,2026-10-01T10:02:00,web_feedback_form,rv_stream_000087,I had a great experience using LearnHub. Everything around availability was straightforward.,FreshMart,survey
+evt_000088,feedback.created,2026-10-01T10:09:00,web_feedback_form,rv_stream_000088,I had a great experience using StreamBox. Everything around availability was straightforward.,QuickCash Wallet,social_media
+evt_000089,feedback.created,2026-10-01T10:16:00,web_feedback_form,rv_stream_000089,I have tried several times and the product_quality on FreshMart still does not work.,StreamBox,email
+evt_000090,feedback.created,2026-10-01T10:23:00,web_feedback_form,rv_stream_000090,Very disappointed with QuickCash Wallet. The security needs serious improvement.,SwiftBank Mobile,support_chat
+evt_000091,feedback.created,2026-10-01T10:30:00,web_feedback_form,rv_stream_000091,Very disappointed with QuickCash Wallet. The performance needs serious improvement.,SwiftBank Mobile,support_chat
+evt_000092,feedback.created,2026-10-01T10:37:00,web_feedback_form,rv_stream_000092,I had a great experience using FreshMart. Everything around customer_support was straightforward.,RideGo,call_center
+evt_000093,feedback.created,2026-10-01T10:44:00,web_feedback_form,rv_stream_000093,I really like the SwiftBank Mobile. The security experience was smooth and easy.,RideGo,support_chat
+evt_000094,feedback.created,2026-10-01T10:51:00,web_feedback_form,rv_stream_000094,I had a great experience using StreamBox. Everything around refund was straightforward.,LearnHub,call_center
+evt_000095,feedback.created,2026-10-01T10:58:00,web_feedback_form,rv_stream_000095,The CloudDesk worked perfectly for me. Very happy with the refund.,FreshMart,social_media
+evt_000096,feedback.created,2026-10-01T11:05:00,web_feedback_form,rv_stream_000096,I had a great experience using CloudDesk. Everything around security was straightforward.,ShopNow,call_center
+evt_000097,feedback.created,2026-10-01T11:12:00,web_feedback_form,rv_stream_000097,The LearnHub is frustrating. The payment has been a terrible experience.,QuickCash Wallet,web
+evt_000098,feedback.created,2026-10-01T11:19:00,web_feedback_form,rv_stream_000098,Very disappointed with HealthPlus. The product_quality needs serious improvement.,CloudDesk,call_center
+evt_000099,feedback.created,2026-10-01T11:26:00,web_feedback_form,rv_stream_000099,Very disappointed with StreamBox. The refund needs serious improvement.,QuickCash Wallet,support_chat
+evt_000100,feedback.created,2026-10-01T11:33:00,web_feedback_form,rv_stream_000100,I have tried several times and the pricing on LearnHub still does not work.,CloudDesk,social_media
+evt_000101,feedback.created,2026-10-01T11:40:00,web_feedback_form,rv_stream_000101,The StreamBox worked perfectly for me. Very happy with the pricing.,CloudDesk,survey
+evt_000102,feedback.created,2026-10-01T11:47:00,web_feedback_form,rv_stream_000102,I really like the QuickCash Wallet. The payment experience was smooth and easy.,PayWave Mobile App,call_center
+evt_000103,feedback.created,2026-10-01T11:54:00,web_feedback_form,rv_stream_000103,I had a great experience using SwiftBank Mobile. Everything around performance was straightforward.,SwiftBank Mobile,email
+evt_000104,feedback.created,2026-10-01T12:01:00,web_feedback_form,rv_stream_000104,I really like the PayWave Mobile App. The customer_support experience was smooth and easy.,FreshMart,web
+evt_000105,feedback.created,2026-10-01T12:08:00,web_feedback_form,rv_stream_000105,I had a great experience using HealthPlus. Everything around product_quality was straightforward.,RideGo,email
+evt_000106,feedback.created,2026-10-01T12:15:00,web_feedback_form,rv_stream_000106,The SwiftBank Mobile is frustrating. The performance has been a terrible experience.,SwiftBank Mobile,survey
+evt_000107,feedback.created,2026-10-01T12:22:00,web_feedback_form,rv_stream_000107,I had a great experience using ShopNow. Everything around security was straightforward.,ShopNow,email
+evt_000108,feedback.created,2026-10-01T12:29:00,web_feedback_form,rv_stream_000108,The CloudDesk worked perfectly for me. Very happy with the refund.,SwiftBank Mobile,social_media
+evt_000109,feedback.created,2026-10-01T12:36:00,web_feedback_form,rv_stream_000109,I have tried several times and the pricing on RideGo still does not work.,ShopNow,support_chat
+evt_000110,feedback.created,2026-10-01T12:43:00,web_feedback_form,rv_stream_000110,Very disappointed with SwiftBank Mobile. The product_quality needs serious improvement.,PayWave Mobile App,survey
+evt_000111,feedback.created,2026-10-01T12:50:00,web_feedback_form,rv_stream_000111,Very disappointed with PayWave Mobile App. The availability needs serious improvement.,QuickCash Wallet,social_media
+evt_000112,feedback.created,2026-10-01T12:57:00,web_feedback_form,rv_stream_000112,The ShopNow is frustrating. The delivery has been a terrible experience.,PayWave Mobile App,social_media
+evt_000113,feedback.created,2026-10-01T13:04:00,web_feedback_form,rv_stream_000113,I really like the SwiftBank Mobile. The product_quality experience was smooth and easy.,StreamBox,email
+evt_000114,feedback.created,2026-10-01T13:11:00,web_feedback_form,rv_stream_000114,I had a great experience using StreamBox. Everything around refund was straightforward.,PayWave Mobile App,web
+evt_000115,feedback.created,2026-10-01T13:18:00,web_feedback_form,rv_stream_000115,I really like the ShopNow. The pricing experience was smooth and easy.,HealthPlus,web
+evt_000116,feedback.created,2026-10-01T13:25:00,web_feedback_form,rv_stream_000116,I had a great experience using RideGo. Everything around delivery was straightforward.,SwiftBank Mobile,support_chat
+evt_000117,feedback.created,2026-10-01T13:32:00,web_feedback_form,rv_stream_000117,Very disappointed with PayWave Mobile App. The refund needs serious improvement.,CloudDesk,call_center
+evt_000118,feedback.created,2026-10-01T13:39:00,web_feedback_form,rv_stream_000118,I really like the CloudDesk. The delivery experience was smooth and easy.,FreshMart,call_center
+evt_000119,feedback.created,2026-10-01T13:46:00,web_feedback_form,rv_stream_000119,The HealthPlus worked perfectly for me. Very happy with the pricing.,StreamBox,survey
+evt_000120,feedback.created,2026-10-01T13:53:00,web_feedback_form,rv_stream_000120,I have tried several times and the usability on RideGo still does not work.,PayWave Mobile App,survey
+evt_000121,feedback.created,2026-10-01T14:00:00,web_feedback_form,rv_stream_000121,Very disappointed with PayWave Mobile App. The customer_support needs serious improvement.,PayWave Mobile App,call_center
+evt_000122,feedback.created,2026-10-01T14:07:00,web_feedback_form,rv_stream_000122,I really like the StreamBox. The availability experience was smooth and easy.,CloudDesk,mobile_app
+evt_000123,feedback.created,2026-10-01T14:14:00,web_feedback_form,rv_stream_000123,I have tried several times and the performance on RideGo still does not work.,CloudDesk,email
+evt_000124,feedback.created,2026-10-01T14:21:00,web_feedback_form,rv_stream_000124,I really like the FreshMart. The delivery experience was smooth and easy.,HealthPlus,email
+evt_000125,feedback.created,2026-10-01T14:28:00,web_feedback_form,rv_stream_000125,I had a great experience using RideGo. Everything around availability was straightforward.,CloudDesk,support_chat
+evt_000126,feedback.created,2026-10-01T14:35:00,web_feedback_form,rv_stream_000126,I have tried several times and the payment on CloudDesk still does not work.,PayWave Mobile App,mobile_app
+evt_000127,feedback.created,2026-10-01T14:42:00,web_feedback_form,rv_stream_000127,I had a great experience using LearnHub. Everything around payment was straightforward.,PayWave Mobile App,support_chat
+evt_000128,feedback.created,2026-10-01T14:49:00,web_feedback_form,rv_stream_000128,The LearnHub is frustrating. The security has been a terrible experience.,RideGo,survey
+evt_000129,feedback.created,2026-10-01T14:56:00,web_feedback_form,rv_stream_000129,I had a great experience using PayWave Mobile App. Everything around payment was straightforward.,ShopNow,mobile_app
+evt_000130,feedback.created,2026-10-01T15:03:00,web_feedback_form,rv_stream_000130,Very disappointed with LearnHub. The product_quality needs serious improvement.,HealthPlus,support_chat
+evt_000131,feedback.created,2026-10-01T15:10:00,web_feedback_form,rv_stream_000131,I really like the LearnHub. The availability experience was smooth and easy.,ShopNow,email
+evt_000132,feedback.created,2026-10-01T15:17:00,web_feedback_form,rv_stream_000132,The SwiftBank Mobile is frustrating. The security has been a terrible experience.,ShopNow,support_chat
+evt_000133,feedback.created,2026-10-01T15:24:00,web_feedback_form,rv_stream_000133,I have tried several times and the pricing on QuickCash Wallet still does not work.,PayWave Mobile App,mobile_app
+evt_000134,feedback.created,2026-10-01T15:31:00,web_feedback_form,rv_stream_000134,Very disappointed with ShopNow. The refund needs serious improvement.,RideGo,call_center
+evt_000135,feedback.created,2026-10-01T15:38:00,web_feedback_form,rv_stream_000135,I really like the QuickCash Wallet. The customer_support experience was smooth and easy.,SwiftBank Mobile,call_center
+evt_000136,feedback.created,2026-10-01T15:45:00,web_feedback_form,rv_stream_000136,I had a great experience using CloudDesk. Everything around usability was straightforward.,RideGo,social_media
+evt_000137,feedback.created,2026-10-01T15:52:00,web_feedback_form,rv_stream_000137,I really like the FreshMart. The pricing experience was smooth and easy.,QuickCash Wallet,support_chat
+evt_000138,feedback.created,2026-10-01T15:59:00,web_feedback_form,rv_stream_000138,Very disappointed with CloudDesk. The usability needs serious improvement.,PayWave Mobile App,email
+evt_000139,feedback.created,2026-10-01T16:06:00,web_feedback_form,rv_stream_000139,I have tried several times and the refund on LearnHub still does not work.,CloudDesk,email
+evt_000140,feedback.created,2026-10-01T16:13:00,web_feedback_form,rv_stream_000140,I really like the SwiftBank Mobile. The pricing experience was smooth and easy.,ShopNow,survey
+evt_000141,feedback.created,2026-10-01T16:20:00,web_feedback_form,rv_stream_000141,Very disappointed with SwiftBank Mobile. The availability needs serious improvement.,LearnHub,support_chat
+evt_000142,feedback.created,2026-10-01T16:27:00,web_feedback_form,rv_stream_000142,I had a great experience using LearnHub. Everything around payment was straightforward.,RideGo,web
+evt_000143,feedback.created,2026-10-01T16:34:00,web_feedback_form,rv_stream_000143,I had a great experience using HealthPlus. Everything around security was straightforward.,RideGo,email
+evt_000144,feedback.created,2026-10-01T16:41:00,web_feedback_form,rv_stream_000144,I have tried several times and the refund on HealthPlus still does not work.,StreamBox,web
+evt_000145,feedback.created,2026-10-01T16:48:00,web_feedback_form,rv_stream_000145,I have tried several times and the refund on FreshMart still does not work.,QuickCash Wallet,web
+evt_000146,feedback.created,2026-10-01T16:55:00,web_feedback_form,rv_stream_000146,I have tried several times and the delivery on ShopNow still does not work.,PayWave Mobile App,mobile_app
+evt_000147,feedback.created,2026-10-01T17:02:00,web_feedback_form,rv_stream_000147,The LearnHub is frustrating. The delivery has been a terrible experience.,StreamBox,web
+evt_000148,feedback.created,2026-10-01T17:09:00,web_feedback_form,rv_stream_000148,Very disappointed with HealthPlus. The refund needs serious improvement.,SwiftBank Mobile,social_media
+evt_000149,feedback.created,2026-10-01T17:16:00,web_feedback_form,rv_stream_000149,I had a great experience using PayWave Mobile App. Everything around usability was straightforward.,QuickCash Wallet,mobile_app
+evt_000150,feedback.created,2026-10-01T17:23:00,web_feedback_form,rv_stream_000150,I really like the StreamBox. The customer_support experience was smooth and easy.,FreshMart,social_media
+evt_000151,feedback.created,2026-10-01T17:30:00,web_feedback_form,rv_stream_000151,Very disappointed with ShopNow. The performance needs serious improvement.,RideGo,survey
+evt_000152,feedback.created,2026-10-01T17:37:00,web_feedback_form,rv_stream_000152,Very disappointed with SwiftBank Mobile. The pricing needs serious improvement.,FreshMart,survey
+evt_000153,feedback.created,2026-10-01T17:44:00,web_feedback_form,rv_stream_000153,The CloudDesk worked perfectly for me. Very happy with the security.,FreshMart,survey
+evt_000154,feedback.created,2026-10-01T17:51:00,web_feedback_form,rv_stream_000154,Very disappointed with RideGo. The product_quality needs serious improvement.,PayWave Mobile App,email
+evt_000155,feedback.created,2026-10-01T17:58:00,web_feedback_form,rv_stream_000155,I really like the LearnHub. The performance experience was smooth and easy.,ShopNow,email
+evt_000156,feedback.created,2026-10-01T18:05:00,web_feedback_form,rv_stream_000156,I have tried several times and the security on HealthPlus still does not work.,SwiftBank Mobile,email
+evt_000157,feedback.created,2026-10-01T18:12:00,web_feedback_form,rv_stream_000157,The SwiftBank Mobile is frustrating. The delivery has been a terrible experience.,ShopNow,mobile_app
+evt_000158,feedback.created,2026-10-01T18:19:00,web_feedback_form,rv_stream_000158,The StreamBox worked perfectly for me. Very happy with the customer_support.,FreshMart,support_chat
+evt_000159,feedback.created,2026-10-01T18:26:00,web_feedback_form,rv_stream_000159,The StreamBox worked perfectly for me. Very happy with the availability.,FreshMart,support_chat
+evt_000160,feedback.created,2026-10-01T18:33:00,web_feedback_form,rv_stream_000160,Very disappointed with CloudDesk. The pricing needs serious improvement.,PayWave Mobile App,web
+evt_000161,feedback.created,2026-10-01T18:40:00,web_feedback_form,rv_stream_000161,I had a great experience using RideGo. Everything around refund was straightforward.,StreamBox,support_chat
+evt_000162,feedback.created,2026-10-01T18:47:00,web_feedback_form,rv_stream_000162,I had a great experience using CloudDesk. Everything around usability was straightforward.,RideGo,call_center
+evt_000163,feedback.created,2026-10-01T18:54:00,web_feedback_form,rv_stream_000163,The LearnHub is frustrating. The pricing has been a terrible experience.,SwiftBank Mobile,call_center
+evt_000164,feedback.created,2026-10-01T19:01:00,web_feedback_form,rv_stream_000164,I have tried several times and the delivery on FreshMart still does not work.,StreamBox,email
+evt_000165,feedback.created,2026-10-01T19:08:00,web_feedback_form,rv_stream_000165,Very disappointed with CloudDesk. The performance needs serious improvement.,RideGo,email
+evt_000166,feedback.created,2026-10-01T19:15:00,web_feedback_form,rv_stream_000166,I really like the LearnHub. The product_quality experience was smooth and easy.,CloudDesk,email
+evt_000167,feedback.created,2026-10-01T19:22:00,web_feedback_form,rv_stream_000167,The PayWave Mobile App worked perfectly for me. Very happy with the security.,StreamBox,email
+evt_000168,feedback.created,2026-10-01T19:29:00,web_feedback_form,rv_stream_000168,The FreshMart worked perfectly for me. Very happy with the performance.,LearnHub,support_chat
+evt_000169,feedback.created,2026-10-01T19:36:00,web_feedback_form,rv_stream_000169,I had a great experience using CloudDesk. Everything around usability was straightforward.,ShopNow,survey
+evt_000170,feedback.created,2026-10-01T19:43:00,web_feedback_form,rv_stream_000170,The ShopNow worked perfectly for me. Very happy with the delivery.,HealthPlus,mobile_app
+evt_000171,feedback.created,2026-10-01T19:50:00,web_feedback_form,rv_stream_000171,The LearnHub worked perfectly for me. Very happy with the availability.,CloudDesk,web
+evt_000172,feedback.created,2026-10-01T19:57:00,web_feedback_form,rv_stream_000172,Very disappointed with RideGo. The customer_support needs serious improvement.,ShopNow,mobile_app
+evt_000173,feedback.created,2026-10-01T20:04:00,web_feedback_form,rv_stream_000173,The LearnHub is frustrating. The security has been a terrible experience.,StreamBox,call_center
+evt_000174,feedback.created,2026-10-01T20:11:00,web_feedback_form,rv_stream_000174,I really like the StreamBox. The performance experience was smooth and easy.,RideGo,email
+evt_000175,feedback.created,2026-10-01T20:18:00,web_feedback_form,rv_stream_000175,I really like the CloudDesk. The security experience was smooth and easy.,LearnHub,mobile_app
+evt_000176,feedback.created,2026-10-01T20:25:00,web_feedback_form,rv_stream_000176,I really like the QuickCash Wallet. The availability experience was smooth and easy.,FreshMart,web
+evt_000177,feedback.created,2026-10-01T20:32:00,web_feedback_form,rv_stream_000177,I had a great experience using RideGo. Everything around availability was straightforward.,RideGo,support_chat
+evt_000178,feedback.created,2026-10-01T20:39:00,web_feedback_form,rv_stream_000178,I have tried several times and the payment on PayWave Mobile App still does not work.,RideGo,survey
+evt_000179,feedback.created,2026-10-01T20:46:00,web_feedback_form,rv_stream_000179,The HealthPlus is frustrating. The availability has been a terrible experience.,RideGo,social_media
+evt_000180,feedback.created,2026-10-01T20:53:00,web_feedback_form,rv_stream_000180,I had a great experience using PayWave Mobile App. Everything around usability was straightforward.,HealthPlus,web
+evt_000181,feedback.created,2026-10-01T21:00:00,web_feedback_form,rv_stream_000181,I have tried several times and the usability on SwiftBank Mobile still does not work.,RideGo,social_media
+evt_000182,feedback.created,2026-10-01T21:07:00,web_feedback_form,rv_stream_000182,Very disappointed with ShopNow. The customer_support needs serious improvement.,QuickCash Wallet,survey
+evt_000183,feedback.created,2026-10-01T21:14:00,web_feedback_form,rv_stream_000183,Very disappointed with FreshMart. The availability needs serious improvement.,QuickCash Wallet,survey
+evt_000184,feedback.created,2026-10-01T21:21:00,web_feedback_form,rv_stream_000184,I had a great experience using LearnHub. Everything around pricing was straightforward.,RideGo,support_chat
+evt_000185,feedback.created,2026-10-01T21:28:00,web_feedback_form,rv_stream_000185,Very disappointed with FreshMart. The customer_support needs serious improvement.,QuickCash Wallet,survey
+evt_000186,feedback.created,2026-10-01T21:35:00,web_feedback_form,rv_stream_000186,The FreshMart is frustrating. The customer_support has been a terrible experience.,LearnHub,mobile_app
+evt_000187,feedback.created,2026-10-01T21:42:00,web_feedback_form,rv_stream_000187,I had a great experience using RideGo. Everything around customer_support was straightforward.,PayWave Mobile App,survey
+evt_000188,feedback.created,2026-10-01T21:49:00,web_feedback_form,rv_stream_000188,I had a great experience using CloudDesk. Everything around payment was straightforward.,PayWave Mobile App,social_media
+evt_000189,feedback.created,2026-10-01T21:56:00,web_feedback_form,rv_stream_000189,The ShopNow worked perfectly for me. Very happy with the customer_support.,ShopNow,support_chat
+evt_000190,feedback.created,2026-10-01T22:03:00,web_feedback_form,rv_stream_000190,The PayWave Mobile App worked perfectly for me. Very happy with the performance.,CloudDesk,call_center
+evt_000191,feedback.created,2026-10-01T22:10:00,web_feedback_form,rv_stream_000191,I really like the ShopNow. The performance experience was smooth and easy.,ShopNow,web
+evt_000192,feedback.created,2026-10-01T22:17:00,web_feedback_form,rv_stream_000192,I really like the StreamBox. The usability experience was smooth and easy.,LearnHub,survey
+evt_000193,feedback.created,2026-10-01T22:24:00,web_feedback_form,rv_stream_000193,I have tried several times and the refund on CloudDesk still does not work.,QuickCash Wallet,email
+evt_000194,feedback.created,2026-10-01T22:31:00,web_feedback_form,rv_stream_000194,The FreshMart worked perfectly for me. Very happy with the customer_support.,LearnHub,call_center
+evt_000195,feedback.created,2026-10-01T22:38:00,web_feedback_form,rv_stream_000195,I really like the QuickCash Wallet. The payment experience was smooth and easy.,SwiftBank Mobile,survey
+evt_000196,feedback.created,2026-10-01T22:45:00,web_feedback_form,rv_stream_000196,Very disappointed with HealthPlus. The performance needs serious improvement.,QuickCash Wallet,email
+evt_000197,feedback.created,2026-10-01T22:52:00,web_feedback_form,rv_stream_000197,I had a great experience using QuickCash Wallet. Everything around payment was straightforward.,ShopNow,email
+evt_000198,feedback.created,2026-10-01T22:59:00,web_feedback_form,rv_stream_000198,I really like the HealthPlus. The customer_support experience was smooth and easy.,QuickCash Wallet,survey
+evt_000199,feedback.created,2026-10-01T23:06:00,web_feedback_form,rv_stream_000199,Very disappointed with RideGo. The performance needs serious improvement.,ShopNow,call_center
+evt_000200,feedback.created,2026-10-01T23:13:00,web_feedback_form,rv_stream_000200,I have tried several times and the pricing on RideGo still does not work.,LearnHub,survey
+evt_000201,feedback.created,2026-10-01T23:20:00,web_feedback_form,rv_stream_000201,I have tried several times and the performance on ShopNow still does not work.,LearnHub,support_chat
+evt_000202,feedback.created,2026-10-01T23:27:00,web_feedback_form,rv_stream_000202,The HealthPlus is frustrating. The payment has been a terrible experience.,QuickCash Wallet,social_media
+evt_000203,feedback.created,2026-10-01T23:34:00,web_feedback_form,rv_stream_000203,The CloudDesk worked perfectly for me. Very happy with the delivery.,RideGo,mobile_app
+evt_000204,feedback.created,2026-10-01T23:41:00,web_feedback_form,rv_stream_000204,The QuickCash Wallet worked perfectly for me. Very happy with the delivery.,StreamBox,support_chat
+evt_000205,feedback.created,2026-10-01T23:48:00,web_feedback_form,rv_stream_000205,The RideGo is frustrating. The pricing has been a terrible experience.,FreshMart,support_chat
+evt_000206,feedback.created,2026-10-01T23:55:00,web_feedback_form,rv_stream_000206,I have tried several times and the availability on RideGo still does not work.,HealthPlus,email
+evt_000207,feedback.created,2026-10-02T00:02:00,web_feedback_form,rv_stream_000207,I really like the FreshMart. The delivery experience was smooth and easy.,PayWave Mobile App,mobile_app
+evt_000208,feedback.created,2026-10-02T00:09:00,web_feedback_form,rv_stream_000208,The SwiftBank Mobile worked perfectly for me. Very happy with the usability.,LearnHub,social_media
+evt_000209,feedback.created,2026-10-02T00:16:00,web_feedback_form,rv_stream_000209,I had a great experience using RideGo. Everything around usability was straightforward.,FreshMart,web
+evt_000210,feedback.created,2026-10-02T00:23:00,web_feedback_form,rv_stream_000210,Very disappointed with PayWave Mobile App. The customer_support needs serious improvement.,FreshMart,mobile_app
+evt_000211,feedback.created,2026-10-02T00:30:00,web_feedback_form,rv_stream_000211,I had a great experience using RideGo. Everything around payment was straightforward.,HealthPlus,survey
+evt_000212,feedback.created,2026-10-02T00:37:00,web_feedback_form,rv_stream_000212,I really like the ShopNow. The security experience was smooth and easy.,LearnHub,call_center
+evt_000213,feedback.created,2026-10-02T00:44:00,web_feedback_form,rv_stream_000213,The StreamBox worked perfectly for me. Very happy with the usability.,SwiftBank Mobile,call_center
+evt_000214,feedback.created,2026-10-02T00:51:00,web_feedback_form,rv_stream_000214,The CloudDesk is frustrating. The refund has been a terrible experience.,ShopNow,call_center
+evt_000215,feedback.created,2026-10-02T00:58:00,web_feedback_form,rv_stream_000215,Very disappointed with StreamBox. The refund needs serious improvement.,HealthPlus,web
+evt_000216,feedback.created,2026-10-02T01:05:00,web_feedback_form,rv_stream_000216,I had a great experience using FreshMart. Everything around performance was straightforward.,SwiftBank Mobile,mobile_app
+evt_000217,feedback.created,2026-10-02T01:12:00,web_feedback_form,rv_stream_000217,I have tried several times and the usability on QuickCash Wallet still does not work.,SwiftBank Mobile,support_chat
+evt_000218,feedback.created,2026-10-02T01:19:00,web_feedback_form,rv_stream_000218,Very disappointed with ShopNow. The pricing needs serious improvement.,QuickCash Wallet,support_chat
+evt_000219,feedback.created,2026-10-02T01:26:00,web_feedback_form,rv_stream_000219,I have tried several times and the payment on LearnHub still does not work.,ShopNow,survey
+evt_000220,feedback.created,2026-10-02T01:33:00,web_feedback_form,rv_stream_000220,The CloudDesk is frustrating. The usability has been a terrible experience.,SwiftBank Mobile,survey
+evt_000221,feedback.created,2026-10-02T01:40:00,web_feedback_form,rv_stream_000221,The LearnHub worked perfectly for me. Very happy with the payment.,PayWave Mobile App,survey
+evt_000222,feedback.created,2026-10-02T01:47:00,web_feedback_form,rv_stream_000222,Very disappointed with ShopNow. The usability needs serious improvement.,PayWave Mobile App,support_chat
+evt_000223,feedback.created,2026-10-02T01:54:00,web_feedback_form,rv_stream_000223,The HealthPlus is frustrating. The availability has been a terrible experience.,SwiftBank Mobile,web
+evt_000224,feedback.created,2026-10-02T02:01:00,web_feedback_form,rv_stream_000224,Very disappointed with ShopNow. The customer_support needs serious improvement.,StreamBox,web
+evt_000225,feedback.created,2026-10-02T02:08:00,web_feedback_form,rv_stream_000225,I really like the ShopNow. The pricing experience was smooth and easy.,PayWave Mobile App,call_center
+evt_000226,feedback.created,2026-10-02T02:15:00,web_feedback_form,rv_stream_000226,The QuickCash Wallet worked perfectly for me. Very happy with the customer_support.,CloudDesk,social_media
+evt_000227,feedback.created,2026-10-02T02:22:00,web_feedback_form,rv_stream_000227,I have tried several times and the refund on QuickCash Wallet still does not work.,ShopNow,mobile_app
+evt_000228,feedback.created,2026-10-02T02:29:00,web_feedback_form,rv_stream_000228,Very disappointed with PayWave Mobile App. The pricing needs serious improvement.,ShopNow,survey
+evt_000229,feedback.created,2026-10-02T02:36:00,web_feedback_form,rv_stream_000229,Very disappointed with CloudDesk. The delivery needs serious improvement.,LearnHub,call_center
+evt_000230,feedback.created,2026-10-02T02:43:00,web_feedback_form,rv_stream_000230,Very disappointed with CloudDesk. The usability needs serious improvement.,SwiftBank Mobile,survey
+evt_000231,feedback.created,2026-10-02T02:50:00,web_feedback_form,rv_stream_000231,I have tried several times and the usability on LearnHub still does not work.,CloudDesk,call_center
+evt_000232,feedback.created,2026-10-02T02:57:00,web_feedback_form,rv_stream_000232,Very disappointed with CloudDesk. The availability needs serious improvement.,StreamBox,survey
+evt_000233,feedback.created,2026-10-02T03:04:00,web_feedback_form,rv_stream_000233,The LearnHub worked perfectly for me. Very happy with the delivery.,ShopNow,survey
+evt_000234,feedback.created,2026-10-02T03:11:00,web_feedback_form,rv_stream_000234,The QuickCash Wallet worked perfectly for me. Very happy with the customer_support.,StreamBox,mobile_app
+evt_000235,feedback.created,2026-10-02T03:18:00,web_feedback_form,rv_stream_000235,I really like the StreamBox. The product_quality experience was smooth and easy.,ShopNow,email
+evt_000236,feedback.created,2026-10-02T03:25:00,web_feedback_form,rv_stream_000236,I really like the QuickCash Wallet. The availability experience was smooth and easy.,LearnHub,survey
+evt_000237,feedback.created,2026-10-02T03:32:00,web_feedback_form,rv_stream_000237,I really like the SwiftBank Mobile. The product_quality experience was smooth and easy.,FreshMart,call_center
+evt_000238,feedback.created,2026-10-02T03:39:00,web_feedback_form,rv_stream_000238,I had a great experience using StreamBox. Everything around delivery was straightforward.,StreamBox,support_chat
+evt_000239,feedback.created,2026-10-02T03:46:00,web_feedback_form,rv_stream_000239,I had a great experience using PayWave Mobile App. Everything around performance was straightforward.,SwiftBank Mobile,social_media
+evt_000240,feedback.created,2026-10-02T03:53:00,web_feedback_form,rv_stream_000240,I really like the RideGo. The product_quality experience was smooth and easy.,ShopNow,support_chat
+evt_000241,feedback.created,2026-10-02T04:00:00,web_feedback_form,rv_stream_000241,Very disappointed with PayWave Mobile App. The customer_support needs serious improvement.,PayWave Mobile App,call_center
+evt_000242,feedback.created,2026-10-02T04:07:00,web_feedback_form,rv_stream_000242,The HealthPlus worked perfectly for me. Very happy with the performance.,HealthPlus,mobile_app
+evt_000243,feedback.created,2026-10-02T04:14:00,web_feedback_form,rv_stream_000243,I have tried several times and the refund on QuickCash Wallet still does not work.,QuickCash Wallet,mobile_app
+evt_000244,feedback.created,2026-10-02T04:21:00,web_feedback_form,rv_stream_000244,The RideGo is frustrating. The refund has been a terrible experience.,ShopNow,social_media
+evt_000245,feedback.created,2026-10-02T04:28:00,web_feedback_form,rv_stream_000245,I had a great experience using QuickCash Wallet. Everything around availability was straightforward.,LearnHub,web
+evt_000246,feedback.created,2026-10-02T04:35:00,web_feedback_form,rv_stream_000246,I have tried several times and the payment on QuickCash Wallet still does not work.,SwiftBank Mobile,support_chat
+evt_000247,feedback.created,2026-10-02T04:42:00,web_feedback_form,rv_stream_000247,The ShopNow worked perfectly for me. Very happy with the payment.,RideGo,support_chat
+evt_000248,feedback.created,2026-10-02T04:49:00,web_feedback_form,rv_stream_000248,The StreamBox worked perfectly for me. Very happy with the security.,StreamBox,social_media
+evt_000249,feedback.created,2026-10-02T04:56:00,web_feedback_form,rv_stream_000249,The QuickCash Wallet worked perfectly for me. Very happy with the customer_support.,StreamBox,survey
+evt_000250,feedback.created,2026-10-02T05:03:00,web_feedback_form,rv_stream_000250,I have tried several times and the pricing on HealthPlus still does not work.,RideGo,call_center
+evt_000251,feedback.created,2026-10-02T05:10:00,web_feedback_form,rv_stream_000251,The RideGo is frustrating. The customer_support has been a terrible experience.,QuickCash Wallet,mobile_app
+evt_000252,feedback.created,2026-10-02T05:17:00,web_feedback_form,rv_stream_000252,The SwiftBank Mobile is frustrating. The availability has been a terrible experience.,CloudDesk,call_center
+evt_000253,feedback.created,2026-10-02T05:24:00,web_feedback_form,rv_stream_000253,The QuickCash Wallet worked perfectly for me. Very happy with the performance.,SwiftBank Mobile,social_media
+evt_000254,feedback.created,2026-10-02T05:31:00,web_feedback_form,rv_stream_000254,I had a great experience using RideGo. Everything around product_quality was straightforward.,StreamBox,survey
+evt_000255,feedback.created,2026-10-02T05:38:00,web_feedback_form,rv_stream_000255,I had a great experience using QuickCash Wallet. Everything around customer_support was straightforward.,PayWave Mobile App,web
+evt_000256,feedback.created,2026-10-02T05:45:00,web_feedback_form,rv_stream_000256,I really like the PayWave Mobile App. The availability experience was smooth and easy.,QuickCash Wallet,email
+evt_000257,feedback.created,2026-10-02T05:52:00,web_feedback_form,rv_stream_000257,I really like the ShopNow. The security experience was smooth and easy.,FreshMart,web
+evt_000258,feedback.created,2026-10-02T05:59:00,web_feedback_form,rv_stream_000258,The LearnHub is frustrating. The usability has been a terrible experience.,HealthPlus,email
+evt_000259,feedback.created,2026-10-02T06:06:00,web_feedback_form,rv_stream_000259,I really like the StreamBox. The security experience was smooth and easy.,QuickCash Wallet,survey
+evt_000260,feedback.created,2026-10-02T06:13:00,web_feedback_form,rv_stream_000260,I have tried several times and the performance on StreamBox still does not work.,SwiftBank Mobile,email
+evt_000261,feedback.created,2026-10-02T06:20:00,web_feedback_form,rv_stream_000261,I had a great experience using LearnHub. Everything around usability was straightforward.,CloudDesk,support_chat
+evt_000262,feedback.created,2026-10-02T06:27:00,web_feedback_form,rv_stream_000262,I really like the FreshMart. The customer_support experience was smooth and easy.,QuickCash Wallet,survey
+evt_000263,feedback.created,2026-10-02T06:34:00,web_feedback_form,rv_stream_000263,The QuickCash Wallet worked perfectly for me. Very happy with the performance.,SwiftBank Mobile,social_media
+evt_000264,feedback.created,2026-10-02T06:41:00,web_feedback_form,rv_stream_000264,I really like the SwiftBank Mobile. The delivery experience was smooth and easy.,FreshMart,support_chat
+evt_000265,feedback.created,2026-10-02T06:48:00,web_feedback_form,rv_stream_000265,The PayWave Mobile App worked perfectly for me. Very happy with the product_quality.,FreshMart,social_media
+evt_000266,feedback.created,2026-10-02T06:55:00,web_feedback_form,rv_stream_000266,The ShopNow is frustrating. The delivery has been a terrible experience.,PayWave Mobile App,email
+evt_000267,feedback.created,2026-10-02T07:02:00,web_feedback_form,rv_stream_000267,I have tried several times and the payment on QuickCash Wallet still does not work.,RideGo,survey
+evt_000268,feedback.created,2026-10-02T07:09:00,web_feedback_form,rv_stream_000268,I had a great experience using HealthPlus. Everything around security was straightforward.,ShopNow,call_center
+evt_000269,feedback.created,2026-10-02T07:16:00,web_feedback_form,rv_stream_000269,I have tried several times and the delivery on QuickCash Wallet still does not work.,QuickCash Wallet,call_center
+evt_000270,feedback.created,2026-10-02T07:23:00,web_feedback_form,rv_stream_000270,I have tried several times and the customer_support on CloudDesk still does not work.,LearnHub,social_media
+evt_000271,feedback.created,2026-10-02T07:30:00,web_feedback_form,rv_stream_000271,Very disappointed with SwiftBank Mobile. The customer_support needs serious improvement.,LearnHub,survey
+evt_000272,feedback.created,2026-10-02T07:37:00,web_feedback_form,rv_stream_000272,The CloudDesk worked perfectly for me. Very happy with the delivery.,RideGo,social_media
+evt_000273,feedback.created,2026-10-02T07:44:00,web_feedback_form,rv_stream_000273,Very disappointed with RideGo. The pricing needs serious improvement.,HealthPlus,call_center
+evt_000274,feedback.created,2026-10-02T07:51:00,web_feedback_form,rv_stream_000274,The HealthPlus worked perfectly for me. Very happy with the performance.,RideGo,support_chat
+evt_000275,feedback.created,2026-10-02T07:58:00,web_feedback_form,rv_stream_000275,I really like the LearnHub. The product_quality experience was smooth and easy.,ShopNow,social_media
+evt_000276,feedback.created,2026-10-02T08:05:00,web_feedback_form,rv_stream_000276,I really like the PayWave Mobile App. The refund experience was smooth and easy.,ShopNow,mobile_app
+evt_000277,feedback.created,2026-10-02T08:12:00,web_feedback_form,rv_stream_000277,I really like the HealthPlus. The usability experience was smooth and easy.,SwiftBank Mobile,email
+evt_000278,feedback.created,2026-10-02T08:19:00,web_feedback_form,rv_stream_000278,The ShopNow is frustrating. The refund has been a terrible experience.,HealthPlus,call_center
+evt_000279,feedback.created,2026-10-02T08:26:00,web_feedback_form,rv_stream_000279,The CloudDesk worked perfectly for me. Very happy with the customer_support.,PayWave Mobile App,social_media
+evt_000280,feedback.created,2026-10-02T08:33:00,web_feedback_form,rv_stream_000280,Very disappointed with RideGo. The payment needs serious improvement.,FreshMart,support_chat
+evt_000281,feedback.created,2026-10-02T08:40:00,web_feedback_form,rv_stream_000281,I have tried several times and the availability on ShopNow still does not work.,PayWave Mobile App,web
+evt_000282,feedback.created,2026-10-02T08:47:00,web_feedback_form,rv_stream_000282,I really like the SwiftBank Mobile. The usability experience was smooth and easy.,CloudDesk,mobile_app
+evt_000283,feedback.created,2026-10-02T08:54:00,web_feedback_form,rv_stream_000283,I have tried several times and the security on QuickCash Wallet still does not work.,LearnHub,call_center
+evt_000284,feedback.created,2026-10-02T09:01:00,web_feedback_form,rv_stream_000284,Very disappointed with PayWave Mobile App. The performance needs serious improvement.,StreamBox,mobile_app
+evt_000285,feedback.created,2026-10-02T09:08:00,web_feedback_form,rv_stream_000285,I had a great experience using LearnHub. Everything around availability was straightforward.,ShopNow,email
+evt_000286,feedback.created,2026-10-02T09:15:00,web_feedback_form,rv_stream_000286,The FreshMart is frustrating. The pricing has been a terrible experience.,FreshMart,mobile_app
+evt_000287,feedback.created,2026-10-02T09:22:00,web_feedback_form,rv_stream_000287,The QuickCash Wallet is frustrating. The pricing has been a terrible experience.,QuickCash Wallet,survey
+evt_000288,feedback.created,2026-10-02T09:29:00,web_feedback_form,rv_stream_000288,Very disappointed with LearnHub. The refund needs serious improvement.,QuickCash Wallet,email
+evt_000289,feedback.created,2026-10-02T09:36:00,web_feedback_form,rv_stream_000289,The FreshMart worked perfectly for me. Very happy with the delivery.,HealthPlus,web
+evt_000290,feedback.created,2026-10-02T09:43:00,web_feedback_form,rv_stream_000290,I had a great experience using StreamBox. Everything around usability was straightforward.,ShopNow,survey
+evt_000291,feedback.created,2026-10-02T09:50:00,web_feedback_form,rv_stream_000291,I had a great experience using HealthPlus. Everything around pricing was straightforward.,StreamBox,social_media
+evt_000292,feedback.created,2026-10-02T09:57:00,web_feedback_form,rv_stream_000292,I have tried several times and the delivery on StreamBox still does not work.,LearnHub,support_chat
+evt_000293,feedback.created,2026-10-02T10:04:00,web_feedback_form,rv_stream_000293,Very disappointed with HealthPlus. The security needs serious improvement.,ShopNow,survey
+evt_000294,feedback.created,2026-10-02T10:11:00,web_feedback_form,rv_stream_000294,The RideGo worked perfectly for me. Very happy with the delivery.,StreamBox,social_media
+evt_000295,feedback.created,2026-10-02T10:18:00,web_feedback_form,rv_stream_000295,I really like the RideGo. The usability experience was smooth and easy.,CloudDesk,call_center
+evt_000296,feedback.created,2026-10-02T10:25:00,web_feedback_form,rv_stream_000296,The RideGo worked perfectly for me. Very happy with the availability.,PayWave Mobile App,web
+evt_000297,feedback.created,2026-10-02T10:32:00,web_feedback_form,rv_stream_000297,I really like the FreshMart. The performance experience was smooth and easy.,HealthPlus,support_chat
+evt_000298,feedback.created,2026-10-02T10:39:00,web_feedback_form,rv_stream_000298,Very disappointed with PayWave Mobile App. The availability needs serious improvement.,HealthPlus,mobile_app
+evt_000299,feedback.created,2026-10-02T10:46:00,web_feedback_form,rv_stream_000299,The QuickCash Wallet is frustrating. The availability has been a terrible experience.,QuickCash Wallet,email
+evt_000300,feedback.created,2026-10-02T10:53:00,web_feedback_form,rv_stream_000300,I had a great experience using SwiftBank Mobile. Everything around refund was straightforward.,HealthPlus,survey
+evt_000301,feedback.created,2026-10-02T11:00:00,web_feedback_form,rv_stream_000301,The FreshMart is frustrating. The availability has been a terrible experience.,LearnHub,email
+evt_000302,feedback.created,2026-10-02T11:07:00,web_feedback_form,rv_stream_000302,The LearnHub worked perfectly for me. Very happy with the customer_support.,LearnHub,social_media
+evt_000303,feedback.created,2026-10-02T11:14:00,web_feedback_form,rv_stream_000303,I had a great experience using HealthPlus. Everything around refund was straightforward.,PayWave Mobile App,call_center
+evt_000304,feedback.created,2026-10-02T11:21:00,web_feedback_form,rv_stream_000304,I really like the CloudDesk. The usability experience was smooth and easy.,FreshMart,social_media
+evt_000305,feedback.created,2026-10-02T11:28:00,web_feedback_form,rv_stream_000305,I had a great experience using StreamBox. Everything around customer_support was straightforward.,StreamBox,support_chat
+evt_000306,feedback.created,2026-10-02T11:35:00,web_feedback_form,rv_stream_000306,I really like the PayWave Mobile App. The payment experience was smooth and easy.,RideGo,support_chat
+evt_000307,feedback.created,2026-10-02T11:42:00,web_feedback_form,rv_stream_000307,The QuickCash Wallet worked perfectly for me. Very happy with the payment.,QuickCash Wallet,mobile_app
+evt_000308,feedback.created,2026-10-02T11:49:00,web_feedback_form,rv_stream_000308,Very disappointed with LearnHub. The availability needs serious improvement.,CloudDesk,survey
+evt_000309,feedback.created,2026-10-02T11:56:00,web_feedback_form,rv_stream_000309,I really like the CloudDesk. The payment experience was smooth and easy.,FreshMart,support_chat
+evt_000310,feedback.created,2026-10-02T12:03:00,web_feedback_form,rv_stream_000310,I really like the HealthPlus. The pricing experience was smooth and easy.,ShopNow,survey
+evt_000311,feedback.created,2026-10-02T12:10:00,web_feedback_form,rv_stream_000311,Very disappointed with RideGo. The security needs serious improvement.,CloudDesk,email
+evt_000312,feedback.created,2026-10-02T12:17:00,web_feedback_form,rv_stream_000312,Very disappointed with LearnHub. The refund needs serious improvement.,RideGo,survey
+evt_000313,feedback.created,2026-10-02T12:24:00,web_feedback_form,rv_stream_000313,Very disappointed with ShopNow. The pricing needs serious improvement.,RideGo,mobile_app
+evt_000314,feedback.created,2026-10-02T12:31:00,web_feedback_form,rv_stream_000314,I really like the RideGo. The pricing experience was smooth and easy.,SwiftBank Mobile,mobile_app
+evt_000315,feedback.created,2026-10-02T12:38:00,web_feedback_form,rv_stream_000315,The StreamBox worked perfectly for me. Very happy with the security.,ShopNow,support_chat
+evt_000316,feedback.created,2026-10-02T12:45:00,web_feedback_form,rv_stream_000316,Very disappointed with SwiftBank Mobile. The pricing needs serious improvement.,RideGo,survey
+evt_000317,feedback.created,2026-10-02T12:52:00,web_feedback_form,rv_stream_000317,I had a great experience using FreshMart. Everything around security was straightforward.,HealthPlus,survey
+evt_000318,feedback.created,2026-10-02T12:59:00,web_feedback_form,rv_stream_000318,Very disappointed with ShopNow. The performance needs serious improvement.,StreamBox,web
+evt_000319,feedback.created,2026-10-02T13:06:00,web_feedback_form,rv_stream_000319,I have tried several times and the usability on FreshMart still does not work.,StreamBox,support_chat
+evt_000320,feedback.created,2026-10-02T13:13:00,web_feedback_form,rv_stream_000320,The PayWave Mobile App worked perfectly for me. Very happy with the pricing.,HealthPlus,web
+evt_000321,feedback.created,2026-10-02T13:20:00,web_feedback_form,rv_stream_000321,I really like the RideGo. The refund experience was smooth and easy.,SwiftBank Mobile,support_chat
+evt_000322,feedback.created,2026-10-02T13:27:00,web_feedback_form,rv_stream_000322,The PayWave Mobile App worked perfectly for me. Very happy with the delivery.,StreamBox,email
+evt_000323,feedback.created,2026-10-02T13:34:00,web_feedback_form,rv_stream_000323,The StreamBox worked perfectly for me. Very happy with the customer_support.,ShopNow,mobile_app
+evt_000324,feedback.created,2026-10-02T13:41:00,web_feedback_form,rv_stream_000324,The HealthPlus worked perfectly for me. Very happy with the refund.,ShopNow,email
+evt_000325,feedback.created,2026-10-02T13:48:00,web_feedback_form,rv_stream_000325,The PayWave Mobile App worked perfectly for me. Very happy with the pricing.,CloudDesk,call_center
+evt_000326,feedback.created,2026-10-02T13:55:00,web_feedback_form,rv_stream_000326,Very disappointed with ShopNow. The customer_support needs serious improvement.,ShopNow,support_chat
+evt_000327,feedback.created,2026-10-02T14:02:00,web_feedback_form,rv_stream_000327,I really like the CloudDesk. The customer_support experience was smooth and easy.,FreshMart,support_chat
+evt_000328,feedback.created,2026-10-02T14:09:00,web_feedback_form,rv_stream_000328,Very disappointed with HealthPlus. The payment needs serious improvement.,ShopNow,support_chat
+evt_000329,feedback.created,2026-10-02T14:16:00,web_feedback_form,rv_stream_000329,The StreamBox is frustrating. The security has been a terrible experience.,HealthPlus,call_center
+evt_000330,feedback.created,2026-10-02T14:23:00,web_feedback_form,rv_stream_000330,I have tried several times and the usability on LearnHub still does not work.,RideGo,call_center
+evt_000331,feedback.created,2026-10-02T14:30:00,web_feedback_form,rv_stream_000331,The LearnHub worked perfectly for me. Very happy with the pricing.,FreshMart,mobile_app
+evt_000332,feedback.created,2026-10-02T14:37:00,web_feedback_form,rv_stream_000332,I had a great experience using CloudDesk. Everything around performance was straightforward.,SwiftBank Mobile,social_media
+evt_000333,feedback.created,2026-10-02T14:44:00,web_feedback_form,rv_stream_000333,I had a great experience using LearnHub. Everything around refund was straightforward.,ShopNow,survey
+evt_000334,feedback.created,2026-10-02T14:51:00,web_feedback_form,rv_stream_000334,I had a great experience using FreshMart. Everything around payment was straightforward.,QuickCash Wallet,email
+evt_000335,feedback.created,2026-10-02T14:58:00,web_feedback_form,rv_stream_000335,I really like the StreamBox. The usability experience was smooth and easy.,HealthPlus,survey
+evt_000336,feedback.created,2026-10-02T15:05:00,web_feedback_form,rv_stream_000336,I really like the StreamBox. The usability experience was smooth and easy.,ShopNow,social_media
+evt_000337,feedback.created,2026-10-02T15:12:00,web_feedback_form,rv_stream_000337,I really like the FreshMart. The security experience was smooth and easy.,SwiftBank Mobile,support_chat
+evt_000338,feedback.created,2026-10-02T15:19:00,web_feedback_form,rv_stream_000338,I had a great experience using ShopNow. Everything around product_quality was straightforward.,SwiftBank Mobile,survey
+evt_000339,feedback.created,2026-10-02T15:26:00,web_feedback_form,rv_stream_000339,The PayWave Mobile App is frustrating. The payment has been a terrible experience.,ShopNow,web
+evt_000340,feedback.created,2026-10-02T15:33:00,web_feedback_form,rv_stream_000340,The StreamBox worked perfectly for me. Very happy with the payment.,ShopNow,mobile_app
+evt_000341,feedback.created,2026-10-02T15:40:00,web_feedback_form,rv_stream_000341,The RideGo is frustrating. The performance has been a terrible experience.,ShopNow,support_chat
+evt_000342,feedback.created,2026-10-02T15:47:00,web_feedback_form,rv_stream_000342,Very disappointed with SwiftBank Mobile. The security needs serious improvement.,QuickCash Wallet,survey
+evt_000343,feedback.created,2026-10-02T15:54:00,web_feedback_form,rv_stream_000343,I really like the PayWave Mobile App. The usability experience was smooth and easy.,RideGo,call_center
+evt_000344,feedback.created,2026-10-02T16:01:00,web_feedback_form,rv_stream_000344,Very disappointed with ShopNow. The delivery needs serious improvement.,ShopNow,mobile_app
+evt_000345,feedback.created,2026-10-02T16:08:00,web_feedback_form,rv_stream_000345,Very disappointed with HealthPlus. The security needs serious improvement.,RideGo,support_chat
+evt_000346,feedback.created,2026-10-02T16:15:00,web_feedback_form,rv_stream_000346,The RideGo worked perfectly for me. Very happy with the security.,HealthPlus,support_chat
+evt_000347,feedback.created,2026-10-02T16:22:00,web_feedback_form,rv_stream_000347,I really like the RideGo. The customer_support experience was smooth and easy.,LearnHub,call_center
+evt_000348,feedback.created,2026-10-02T16:29:00,web_feedback_form,rv_stream_000348,The StreamBox is frustrating. The pricing has been a terrible experience.,CloudDesk,social_media
+evt_000349,feedback.created,2026-10-02T16:36:00,web_feedback_form,rv_stream_000349,Very disappointed with FreshMart. The customer_support needs serious improvement.,SwiftBank Mobile,call_center
+evt_000350,feedback.created,2026-10-02T16:43:00,web_feedback_form,rv_stream_000350,I had a great experience using CloudDesk. Everything around performance was straightforward.,CloudDesk,survey
+evt_000351,feedback.created,2026-10-02T16:50:00,web_feedback_form,rv_stream_000351,I had a great experience using PayWave Mobile App. Everything around delivery was straightforward.,QuickCash Wallet,web
+evt_000352,feedback.created,2026-10-02T16:57:00,web_feedback_form,rv_stream_000352,I have tried several times and the delivery on HealthPlus still does not work.,PayWave Mobile App,web
+evt_000353,feedback.created,2026-10-02T17:04:00,web_feedback_form,rv_stream_000353,Very disappointed with FreshMart. The delivery needs serious improvement.,SwiftBank Mobile,email
+evt_000354,feedback.created,2026-10-02T17:11:00,web_feedback_form,rv_stream_000354,I have tried several times and the delivery on CloudDesk still does not work.,CloudDesk,survey
+evt_000355,feedback.created,2026-10-02T17:18:00,web_feedback_form,rv_stream_000355,Very disappointed with HealthPlus. The performance needs serious improvement.,HealthPlus,call_center
+evt_000356,feedback.created,2026-10-02T17:25:00,web_feedback_form,rv_stream_000356,I have tried several times and the delivery on SwiftBank Mobile still does not work.,StreamBox,survey
+evt_000357,feedback.created,2026-10-02T17:32:00,web_feedback_form,rv_stream_000357,I have tried several times and the customer_support on HealthPlus still does not work.,StreamBox,survey
+evt_000358,feedback.created,2026-10-02T17:39:00,web_feedback_form,rv_stream_000358,I had a great experience using CloudDesk. Everything around refund was straightforward.,QuickCash Wallet,survey
+evt_000359,feedback.created,2026-10-02T17:46:00,web_feedback_form,rv_stream_000359,I really like the StreamBox. The refund experience was smooth and easy.,ShopNow,survey
+evt_000360,feedback.created,2026-10-02T17:53:00,web_feedback_form,rv_stream_000360,I have tried several times and the security on FreshMart still does not work.,ShopNow,web
+evt_000361,feedback.created,2026-10-02T18:00:00,web_feedback_form,rv_stream_000361,The FreshMart worked perfectly for me. Very happy with the delivery.,CloudDesk,survey
+evt_000362,feedback.created,2026-10-02T18:07:00,web_feedback_form,rv_stream_000362,I really like the SwiftBank Mobile. The usability experience was smooth and easy.,QuickCash Wallet,call_center
+evt_000363,feedback.created,2026-10-02T18:14:00,web_feedback_form,rv_stream_000363,I really like the ShopNow. The payment experience was smooth and easy.,HealthPlus,web
+evt_000364,feedback.created,2026-10-02T18:21:00,web_feedback_form,rv_stream_000364,Very disappointed with RideGo. The security needs serious improvement.,HealthPlus,mobile_app
+evt_000365,feedback.created,2026-10-02T18:28:00,web_feedback_form,rv_stream_000365,The ShopNow is frustrating. The availability has been a terrible experience.,QuickCash Wallet,web
+evt_000366,feedback.created,2026-10-02T18:35:00,web_feedback_form,rv_stream_000366,I really like the QuickCash Wallet. The delivery experience was smooth and easy.,FreshMart,support_chat
+evt_000367,feedback.created,2026-10-02T18:42:00,web_feedback_form,rv_stream_000367,Very disappointed with CloudDesk. The refund needs serious improvement.,FreshMart,email
+evt_000368,feedback.created,2026-10-02T18:49:00,web_feedback_form,rv_stream_000368,The RideGo is frustrating. The product_quality has been a terrible experience.,QuickCash Wallet,email
+evt_000369,feedback.created,2026-10-02T18:56:00,web_feedback_form,rv_stream_000369,I have tried several times and the pricing on LearnHub still does not work.,RideGo,web
+evt_000370,feedback.created,2026-10-02T19:03:00,web_feedback_form,rv_stream_000370,I had a great experience using PayWave Mobile App. Everything around customer_support was straightforward.,FreshMart,social_media
+evt_000371,feedback.created,2026-10-02T19:10:00,web_feedback_form,rv_stream_000371,I had a great experience using ShopNow. Everything around payment was straightforward.,HealthPlus,call_center
+evt_000372,feedback.created,2026-10-02T19:17:00,web_feedback_form,rv_stream_000372,I really like the ShopNow. The payment experience was smooth and easy.,CloudDesk,mobile_app
+evt_000373,feedback.created,2026-10-02T19:24:00,web_feedback_form,rv_stream_000373,The FreshMart worked perfectly for me. Very happy with the delivery.,ShopNow,call_center
+evt_000374,feedback.created,2026-10-02T19:31:00,web_feedback_form,rv_stream_000374,I have tried several times and the delivery on CloudDesk still does not work.,ShopNow,mobile_app
+evt_000375,feedback.created,2026-10-02T19:38:00,web_feedback_form,rv_stream_000375,I have tried several times and the refund on RideGo still does not work.,QuickCash Wallet,call_center
+evt_000376,feedback.created,2026-10-02T19:45:00,web_feedback_form,rv_stream_000376,The RideGo is frustrating. The product_quality has been a terrible experience.,ShopNow,social_media
+evt_000377,feedback.created,2026-10-02T19:52:00,web_feedback_form,rv_stream_000377,The FreshMart worked perfectly for me. Very happy with the refund.,QuickCash Wallet,call_center
+evt_000378,feedback.created,2026-10-02T19:59:00,web_feedback_form,rv_stream_000378,The QuickCash Wallet is frustrating. The customer_support has been a terrible experience.,PayWave Mobile App,call_center
+evt_000379,feedback.created,2026-10-02T20:06:00,web_feedback_form,rv_stream_000379,I had a great experience using RideGo. Everything around availability was straightforward.,StreamBox,support_chat
+evt_000380,feedback.created,2026-10-02T20:13:00,web_feedback_form,rv_stream_000380,I really like the FreshMart. The delivery experience was smooth and easy.,PayWave Mobile App,social_media
+evt_000381,feedback.created,2026-10-02T20:20:00,web_feedback_form,rv_stream_000381,The RideGo is frustrating. The payment has been a terrible experience.,LearnHub,call_center
+evt_000382,feedback.created,2026-10-02T20:27:00,web_feedback_form,rv_stream_000382,Very disappointed with SwiftBank Mobile. The payment needs serious improvement.,RideGo,call_center
+evt_000383,feedback.created,2026-10-02T20:34:00,web_feedback_form,rv_stream_000383,The ShopNow is frustrating. The delivery has been a terrible experience.,ShopNow,email
+evt_000384,feedback.created,2026-10-02T20:41:00,web_feedback_form,rv_stream_000384,Very disappointed with SwiftBank Mobile. The usability needs serious improvement.,FreshMart,call_center
+evt_000385,feedback.created,2026-10-02T20:48:00,web_feedback_form,rv_stream_000385,I had a great experience using PayWave Mobile App. Everything around product_quality was straightforward.,QuickCash Wallet,mobile_app
+evt_000386,feedback.created,2026-10-02T20:55:00,web_feedback_form,rv_stream_000386,The FreshMart is frustrating. The delivery has been a terrible experience.,SwiftBank Mobile,mobile_app
+evt_000387,feedback.created,2026-10-02T21:02:00,web_feedback_form,rv_stream_000387,I have tried several times and the usability on CloudDesk still does not work.,PayWave Mobile App,web
+evt_000388,feedback.created,2026-10-02T21:09:00,web_feedback_form,rv_stream_000388,Very disappointed with LearnHub. The refund needs serious improvement.,StreamBox,survey
+evt_000389,feedback.created,2026-10-02T21:16:00,web_feedback_form,rv_stream_000389,The LearnHub worked perfectly for me. Very happy with the availability.,ShopNow,email
+evt_000390,feedback.created,2026-10-02T21:23:00,web_feedback_form,rv_stream_000390,Very disappointed with SwiftBank Mobile. The delivery needs serious improvement.,LearnHub,survey
+evt_000391,feedback.created,2026-10-02T21:30:00,web_feedback_form,rv_stream_000391,The LearnHub is frustrating. The performance has been a terrible experience.,PayWave Mobile App,social_media
+evt_000392,feedback.created,2026-10-02T21:37:00,web_feedback_form,rv_stream_000392,I really like the FreshMart. The delivery experience was smooth and easy.,SwiftBank Mobile,support_chat
+evt_000393,feedback.created,2026-10-02T21:44:00,web_feedback_form,rv_stream_000393,I really like the PayWave Mobile App. The performance experience was smooth and easy.,LearnHub,call_center
+evt_000394,feedback.created,2026-10-02T21:51:00,web_feedback_form,rv_stream_000394,I have tried several times and the refund on HealthPlus still does not work.,StreamBox,call_center
+evt_000395,feedback.created,2026-10-02T21:58:00,web_feedback_form,rv_stream_000395,The StreamBox is frustrating. The payment has been a terrible experience.,QuickCash Wallet,email
+evt_000396,feedback.created,2026-10-02T22:05:00,web_feedback_form,rv_stream_000396,I had a great experience using StreamBox. Everything around refund was straightforward.,CloudDesk,support_chat
+evt_000397,feedback.created,2026-10-02T22:12:00,web_feedback_form,rv_stream_000397,I had a great experience using ShopNow. Everything around delivery was straightforward.,CloudDesk,email
+evt_000398,feedback.created,2026-10-02T22:19:00,web_feedback_form,rv_stream_000398,The RideGo worked perfectly for me. Very happy with the pricing.,ShopNow,support_chat
+evt_000399,feedback.created,2026-10-02T22:26:00,web_feedback_form,rv_stream_000399,Very disappointed with HealthPlus. The product_quality needs serious improvement.,CloudDesk,support_chat
+evt_000400,feedback.created,2026-10-02T22:33:00,web_feedback_form,rv_stream_000400,I had a great experience using QuickCash Wallet. Everything around refund was straightforward.,CloudDesk,support_chat
+evt_000401,feedback.created,2026-10-02T22:40:00,web_feedback_form,rv_stream_000401,The HealthPlus is frustrating. The product_quality has been a terrible experience.,LearnHub,social_media
+evt_000402,feedback.created,2026-10-02T22:47:00,web_feedback_form,rv_stream_000402,I really like the RideGo. The usability experience was smooth and easy.,StreamBox,web
+evt_000403,feedback.created,2026-10-02T22:54:00,web_feedback_form,rv_stream_000403,I have tried several times and the pricing on CloudDesk still does not work.,HealthPlus,mobile_app
+evt_000404,feedback.created,2026-10-02T23:01:00,web_feedback_form,rv_stream_000404,Very disappointed with SwiftBank Mobile. The availability needs serious improvement.,QuickCash Wallet,social_media
+evt_000405,feedback.created,2026-10-02T23:08:00,web_feedback_form,rv_stream_000405,I really like the StreamBox. The delivery experience was smooth and easy.,ShopNow,survey
+evt_000406,feedback.created,2026-10-02T23:15:00,web_feedback_form,rv_stream_000406,I have tried several times and the availability on PayWave Mobile App still does not work.,QuickCash Wallet,call_center
+evt_000407,feedback.created,2026-10-02T23:22:00,web_feedback_form,rv_stream_000407,I have tried several times and the payment on StreamBox still does not work.,SwiftBank Mobile,survey
+evt_000408,feedback.created,2026-10-02T23:29:00,web_feedback_form,rv_stream_000408,The SwiftBank Mobile is frustrating. The customer_support has been a terrible experience.,QuickCash Wallet,social_media
+evt_000409,feedback.created,2026-10-02T23:36:00,web_feedback_form,rv_stream_000409,Very disappointed with PayWave Mobile App. The usability needs serious improvement.,SwiftBank Mobile,social_media
+evt_000410,feedback.created,2026-10-02T23:43:00,web_feedback_form,rv_stream_000410,Very disappointed with HealthPlus. The security needs serious improvement.,HealthPlus,call_center
+evt_000411,feedback.created,2026-10-02T23:50:00,web_feedback_form,rv_stream_000411,I have tried several times and the performance on PayWave Mobile App still does not work.,FreshMart,web
+evt_000412,feedback.created,2026-10-02T23:57:00,web_feedback_form,rv_stream_000412,The CloudDesk worked perfectly for me. Very happy with the payment.,LearnHub,web
+evt_000413,feedback.created,2026-10-03T00:04:00,web_feedback_form,rv_stream_000413,I really like the ShopNow. The customer_support experience was smooth and easy.,SwiftBank Mobile,call_center
+evt_000414,feedback.created,2026-10-03T00:11:00,web_feedback_form,rv_stream_000414,I have tried several times and the availability on SwiftBank Mobile still does not work.,StreamBox,support_chat
+evt_000415,feedback.created,2026-10-03T00:18:00,web_feedback_form,rv_stream_000415,The StreamBox is frustrating. The product_quality has been a terrible experience.,HealthPlus,call_center
+evt_000416,feedback.created,2026-10-03T00:25:00,web_feedback_form,rv_stream_000416,I have tried several times and the pricing on RideGo still does not work.,LearnHub,support_chat
+evt_000417,feedback.created,2026-10-03T00:32:00,web_feedback_form,rv_stream_000417,I have tried several times and the availability on ShopNow still does not work.,PayWave Mobile App,call_center
+evt_000418,feedback.created,2026-10-03T00:39:00,web_feedback_form,rv_stream_000418,I have tried several times and the delivery on CloudDesk still does not work.,QuickCash Wallet,mobile_app
+evt_000419,feedback.created,2026-10-03T00:46:00,web_feedback_form,rv_stream_000419,The FreshMart worked perfectly for me. Very happy with the availability.,ShopNow,support_chat
+evt_000420,feedback.created,2026-10-03T00:53:00,web_feedback_form,rv_stream_000420,The FreshMart is frustrating. The availability has been a terrible experience.,PayWave Mobile App,social_media
+evt_000421,feedback.created,2026-10-03T01:00:00,web_feedback_form,rv_stream_000421,I have tried several times and the usability on CloudDesk still does not work.,StreamBox,survey
+evt_000422,feedback.created,2026-10-03T01:07:00,web_feedback_form,rv_stream_000422,I have tried several times and the performance on PayWave Mobile App still does not work.,SwiftBank Mobile,mobile_app
+evt_000423,feedback.created,2026-10-03T01:14:00,web_feedback_form,rv_stream_000423,The RideGo worked perfectly for me. Very happy with the pricing.,LearnHub,support_chat
+evt_000424,feedback.created,2026-10-03T01:21:00,web_feedback_form,rv_stream_000424,The ShopNow is frustrating. The security has been a terrible experience.,QuickCash Wallet,email
+evt_000425,feedback.created,2026-10-03T01:28:00,web_feedback_form,rv_stream_000425,I have tried several times and the customer_support on HealthPlus still does not work.,LearnHub,survey
+evt_000426,feedback.created,2026-10-03T01:35:00,web_feedback_form,rv_stream_000426,I really like the HealthPlus. The product_quality experience was smooth and easy.,CloudDesk,email
+evt_000427,feedback.created,2026-10-03T01:42:00,web_feedback_form,rv_stream_000427,The SwiftBank Mobile worked perfectly for me. Very happy with the refund.,HealthPlus,social_media
+evt_000428,feedback.created,2026-10-03T01:49:00,web_feedback_form,rv_stream_000428,Very disappointed with RideGo. The availability needs serious improvement.,PayWave Mobile App,support_chat
+evt_000429,feedback.created,2026-10-03T01:56:00,web_feedback_form,rv_stream_000429,The RideGo is frustrating. The performance has been a terrible experience.,SwiftBank Mobile,social_media
+evt_000430,feedback.created,2026-10-03T02:03:00,web_feedback_form,rv_stream_000430,Very disappointed with CloudDesk. The refund needs serious improvement.,ShopNow,call_center
+evt_000431,feedback.created,2026-10-03T02:10:00,web_feedback_form,rv_stream_000431,Very disappointed with CloudDesk. The performance needs serious improvement.,QuickCash Wallet,email
+evt_000432,feedback.created,2026-10-03T02:17:00,web_feedback_form,rv_stream_000432,The FreshMart worked perfectly for me. Very happy with the pricing.,HealthPlus,web
+evt_000433,feedback.created,2026-10-03T02:24:00,web_feedback_form,rv_stream_000433,I have tried several times and the payment on PayWave Mobile App still does not work.,FreshMart,survey
+evt_000434,feedback.created,2026-10-03T02:31:00,web_feedback_form,rv_stream_000434,The RideGo is frustrating. The product_quality has been a terrible experience.,HealthPlus,mobile_app
+evt_000435,feedback.created,2026-10-03T02:38:00,web_feedback_form,rv_stream_000435,The LearnHub worked perfectly for me. Very happy with the availability.,ShopNow,mobile_app
+evt_000436,feedback.created,2026-10-03T02:45:00,web_feedback_form,rv_stream_000436,I really like the RideGo. The delivery experience was smooth and easy.,LearnHub,survey
+evt_000437,feedback.created,2026-10-03T02:52:00,web_feedback_form,rv_stream_000437,Very disappointed with LearnHub. The product_quality needs serious improvement.,QuickCash Wallet,email
+evt_000438,feedback.created,2026-10-03T02:59:00,web_feedback_form,rv_stream_000438,I have tried several times and the usability on QuickCash Wallet still does not work.,CloudDesk,survey
+evt_000439,feedback.created,2026-10-03T03:06:00,web_feedback_form,rv_stream_000439,The CloudDesk worked perfectly for me. Very happy with the product_quality.,CloudDesk,social_media
+evt_000440,feedback.created,2026-10-03T03:13:00,web_feedback_form,rv_stream_000440,I had a great experience using LearnHub. Everything around security was straightforward.,LearnHub,support_chat
+evt_000441,feedback.created,2026-10-03T03:20:00,web_feedback_form,rv_stream_000441,I really like the CloudDesk. The performance experience was smooth and easy.,CloudDesk,email
+evt_000442,feedback.created,2026-10-03T03:27:00,web_feedback_form,rv_stream_000442,The LearnHub worked perfectly for me. Very happy with the usability.,HealthPlus,mobile_app
+evt_000443,feedback.created,2026-10-03T03:34:00,web_feedback_form,rv_stream_000443,Very disappointed with QuickCash Wallet. The usability needs serious improvement.,LearnHub,support_chat
+evt_000444,feedback.created,2026-10-03T03:41:00,web_feedback_form,rv_stream_000444,I have tried several times and the availability on QuickCash Wallet still does not work.,CloudDesk,web
+evt_000445,feedback.created,2026-10-03T03:48:00,web_feedback_form,rv_stream_000445,I really like the CloudDesk. The customer_support experience was smooth and easy.,SwiftBank Mobile,support_chat
+evt_000446,feedback.created,2026-10-03T03:55:00,web_feedback_form,rv_stream_000446,Very disappointed with HealthPlus. The performance needs serious improvement.,RideGo,support_chat
+evt_000447,feedback.created,2026-10-03T04:02:00,web_feedback_form,rv_stream_000447,I had a great experience using PayWave Mobile App. Everything around security was straightforward.,QuickCash Wallet,support_chat
+evt_000448,feedback.created,2026-10-03T04:09:00,web_feedback_form,rv_stream_000448,The RideGo worked perfectly for me. Very happy with the pricing.,SwiftBank Mobile,support_chat
+evt_000449,feedback.created,2026-10-03T04:16:00,web_feedback_form,rv_stream_000449,Very disappointed with FreshMart. The refund needs serious improvement.,FreshMart,survey
+evt_000450,feedback.created,2026-10-03T04:23:00,web_feedback_form,rv_stream_000450,I have tried several times and the product_quality on StreamBox still does not work.,HealthPlus,mobile_app
+evt_000451,feedback.created,2026-10-03T04:30:00,web_feedback_form,rv_stream_000451,Very disappointed with StreamBox. The security needs serious improvement.,QuickCash Wallet,mobile_app
+evt_000452,feedback.created,2026-10-03T04:37:00,web_feedback_form,rv_stream_000452,I really like the RideGo. The security experience was smooth and easy.,QuickCash Wallet,support_chat
+evt_000453,feedback.created,2026-10-03T04:44:00,web_feedback_form,rv_stream_000453,The CloudDesk is frustrating. The product_quality has been a terrible experience.,QuickCash Wallet,email
+evt_000454,feedback.created,2026-10-03T04:51:00,web_feedback_form,rv_stream_000454,Very disappointed with HealthPlus. The usability needs serious improvement.,RideGo,survey
+evt_000455,feedback.created,2026-10-03T04:58:00,web_feedback_form,rv_stream_000455,Very disappointed with CloudDesk. The usability needs serious improvement.,RideGo,mobile_app
+evt_000456,feedback.created,2026-10-03T05:05:00,web_feedback_form,rv_stream_000456,I really like the FreshMart. The pricing experience was smooth and easy.,PayWave Mobile App,mobile_app
+evt_000457,feedback.created,2026-10-03T05:12:00,web_feedback_form,rv_stream_000457,The QuickCash Wallet worked perfectly for me. Very happy with the availability.,PayWave Mobile App,web
+evt_000458,feedback.created,2026-10-03T05:19:00,web_feedback_form,rv_stream_000458,The PayWave Mobile App worked perfectly for me. Very happy with the delivery.,QuickCash Wallet,survey
+evt_000459,feedback.created,2026-10-03T05:26:00,web_feedback_form,rv_stream_000459,Very disappointed with RideGo. The pricing needs serious improvement.,LearnHub,social_media
+evt_000460,feedback.created,2026-10-03T05:33:00,web_feedback_form,rv_stream_000460,I really like the FreshMart. The customer_support experience was smooth and easy.,HealthPlus,web
+evt_000461,feedback.created,2026-10-03T05:40:00,web_feedback_form,rv_stream_000461,I have tried several times and the pricing on HealthPlus still does not work.,RideGo,web
+evt_000462,feedback.created,2026-10-03T05:47:00,web_feedback_form,rv_stream_000462,I have tried several times and the availability on QuickCash Wallet still does not work.,QuickCash Wallet,mobile_app
+evt_000463,feedback.created,2026-10-03T05:54:00,web_feedback_form,rv_stream_000463,The RideGo is frustrating. The customer_support has been a terrible experience.,PayWave Mobile App,email
+evt_000464,feedback.created,2026-10-03T06:01:00,web_feedback_form,rv_stream_000464,The HealthPlus worked perfectly for me. Very happy with the product_quality.,SwiftBank Mobile,web
+evt_000465,feedback.created,2026-10-03T06:08:00,web_feedback_form,rv_stream_000465,I had a great experience using StreamBox. Everything around usability was straightforward.,QuickCash Wallet,web
+evt_000466,feedback.created,2026-10-03T06:15:00,web_feedback_form,rv_stream_000466,I had a great experience using QuickCash Wallet. Everything around availability was straightforward.,PayWave Mobile App,web
+evt_000467,feedback.created,2026-10-03T06:22:00,web_feedback_form,rv_stream_000467,Very disappointed with SwiftBank Mobile. The delivery needs serious improvement.,HealthPlus,call_center
+evt_000468,feedback.created,2026-10-03T06:29:00,web_feedback_form,rv_stream_000468,The SwiftBank Mobile worked perfectly for me. Very happy with the availability.,RideGo,mobile_app
+evt_000469,feedback.created,2026-10-03T06:36:00,web_feedback_form,rv_stream_000469,Very disappointed with FreshMart. The security needs serious improvement.,FreshMart,survey
+evt_000470,feedback.created,2026-10-03T06:43:00,web_feedback_form,rv_stream_000470,Very disappointed with PayWave Mobile App. The delivery needs serious improvement.,RideGo,survey
+evt_000471,feedback.created,2026-10-03T06:50:00,web_feedback_form,rv_stream_000471,Very disappointed with SwiftBank Mobile. The availability needs serious improvement.,LearnHub,survey
+evt_000472,feedback.created,2026-10-03T06:57:00,web_feedback_form,rv_stream_000472,I had a great experience using QuickCash Wallet. Everything around performance was straightforward.,QuickCash Wallet,social_media
+evt_000473,feedback.created,2026-10-03T07:04:00,web_feedback_form,rv_stream_000473,I really like the PayWave Mobile App. The refund experience was smooth and easy.,ShopNow,social_media
+evt_000474,feedback.created,2026-10-03T07:11:00,web_feedback_form,rv_stream_000474,Very disappointed with FreshMart. The customer_support needs serious improvement.,LearnHub,support_chat
+evt_000475,feedback.created,2026-10-03T07:18:00,web_feedback_form,rv_stream_000475,The StreamBox worked perfectly for me. Very happy with the security.,QuickCash Wallet,survey
+evt_000476,feedback.created,2026-10-03T07:25:00,web_feedback_form,rv_stream_000476,I have tried several times and the delivery on HealthPlus still does not work.,QuickCash Wallet,mobile_app
+evt_000477,feedback.created,2026-10-03T07:32:00,web_feedback_form,rv_stream_000477,I have tried several times and the usability on LearnHub still does not work.,LearnHub,social_media
+evt_000478,feedback.created,2026-10-03T07:39:00,web_feedback_form,rv_stream_000478,I had a great experience using FreshMart. Everything around payment was straightforward.,PayWave Mobile App,call_center
+evt_000479,feedback.created,2026-10-03T07:46:00,web_feedback_form,rv_stream_000479,I really like the ShopNow. The customer_support experience was smooth and easy.,FreshMart,call_center
+evt_000480,feedback.created,2026-10-03T07:53:00,web_feedback_form,rv_stream_000480,The HealthPlus worked perfectly for me. Very happy with the security.,StreamBox,web
+evt_000481,feedback.created,2026-10-03T08:00:00,web_feedback_form,rv_stream_000481,I have tried several times and the payment on StreamBox still does not work.,CloudDesk,mobile_app
+evt_000482,feedback.created,2026-10-03T08:07:00,web_feedback_form,rv_stream_000482,The HealthPlus worked perfectly for me. Very happy with the delivery.,SwiftBank Mobile,mobile_app
+evt_000483,feedback.created,2026-10-03T08:14:00,web_feedback_form,rv_stream_000483,The QuickCash Wallet is frustrating. The pricing has been a terrible experience.,QuickCash Wallet,social_media
+evt_000484,feedback.created,2026-10-03T08:21:00,web_feedback_form,rv_stream_000484,The StreamBox worked perfectly for me. Very happy with the security.,StreamBox,email
+evt_000485,feedback.created,2026-10-03T08:28:00,web_feedback_form,rv_stream_000485,The CloudDesk is frustrating. The product_quality has been a terrible experience.,CloudDesk,email
+evt_000486,feedback.created,2026-10-03T08:35:00,web_feedback_form,rv_stream_000486,The FreshMart is frustrating. The availability has been a terrible experience.,RideGo,call_center
+evt_000487,feedback.created,2026-10-03T08:42:00,web_feedback_form,rv_stream_000487,Very disappointed with SwiftBank Mobile. The product_quality needs serious improvement.,LearnHub,call_center
+evt_000488,feedback.created,2026-10-03T08:49:00,web_feedback_form,rv_stream_000488,The SwiftBank Mobile worked perfectly for me. Very happy with the availability.,ShopNow,support_chat
+evt_000489,feedback.created,2026-10-03T08:56:00,web_feedback_form,rv_stream_000489,I have tried several times and the product_quality on CloudDesk still does not work.,PayWave Mobile App,survey
+evt_000490,feedback.created,2026-10-03T09:03:00,web_feedback_form,rv_stream_000490,The SwiftBank Mobile worked perfectly for me. Very happy with the security.,RideGo,email
+evt_000491,feedback.created,2026-10-03T09:10:00,web_feedback_form,rv_stream_000491,I really like the QuickCash Wallet. The delivery experience was smooth and easy.,FreshMart,email
+evt_000492,feedback.created,2026-10-03T09:17:00,web_feedback_form,rv_stream_000492,I have tried several times and the pricing on ShopNow still does not work.,SwiftBank Mobile,support_chat
+evt_000493,feedback.created,2026-10-03T09:24:00,web_feedback_form,rv_stream_000493,Very disappointed with QuickCash Wallet. The performance needs serious improvement.,SwiftBank Mobile,support_chat
+evt_000494,feedback.created,2026-10-03T09:31:00,web_feedback_form,rv_stream_000494,The PayWave Mobile App worked perfectly for me. Very happy with the customer_support.,PayWave Mobile App,web
+evt_000495,feedback.created,2026-10-03T09:38:00,web_feedback_form,rv_stream_000495,Very disappointed with CloudDesk. The pricing needs serious improvement.,HealthPlus,support_chat
+evt_000496,feedback.created,2026-10-03T09:45:00,web_feedback_form,rv_stream_000496,I really like the RideGo. The usability experience was smooth and easy.,ShopNow,social_media
+evt_000497,feedback.created,2026-10-03T09:52:00,web_feedback_form,rv_stream_000497,I had a great experience using RideGo. Everything around payment was straightforward.,LearnHub,support_chat
+evt_000498,feedback.created,2026-10-03T09:59:00,web_feedback_form,rv_stream_000498,Very disappointed with LearnHub. The pricing needs serious improvement.,SwiftBank Mobile,social_media
+evt_000499,feedback.created,2026-10-03T10:06:00,web_feedback_form,rv_stream_000499,I had a great experience using QuickCash Wallet. Everything around delivery was straightforward.,LearnHub,survey
+evt_000500,feedback.created,2026-10-03T10:13:00,web_feedback_form,rv_stream_000500,I had a great experience using ShopNow. Everything around delivery was straightforward.,QuickCash Wallet,email
+evt_000501,feedback.created,2026-10-03T10:20:00,web_feedback_form,rv_stream_000501,I really like the CloudDesk. The pricing experience was smooth and easy.,LearnHub,social_media
+evt_000502,feedback.created,2026-10-03T10:27:00,web_feedback_form,rv_stream_000502,The StreamBox is frustrating. The delivery has been a terrible experience.,RideGo,email
+evt_000503,feedback.created,2026-10-03T10:34:00,web_feedback_form,rv_stream_000503,Very disappointed with FreshMart. The product_quality needs serious improvement.,PayWave Mobile App,support_chat
+evt_000504,feedback.created,2026-10-03T10:41:00,web_feedback_form,rv_stream_000504,I had a great experience using SwiftBank Mobile. Everything around delivery was straightforward.,LearnHub,call_center
+evt_000505,feedback.created,2026-10-03T10:48:00,web_feedback_form,rv_stream_000505,I have tried several times and the payment on FreshMart still does not work.,StreamBox,mobile_app
+evt_000506,feedback.created,2026-10-03T10:55:00,web_feedback_form,rv_stream_000506,I had a great experience using SwiftBank Mobile. Everything around availability was straightforward.,SwiftBank Mobile,mobile_app
+evt_000507,feedback.created,2026-10-03T11:02:00,web_feedback_form,rv_stream_000507,The SwiftBank Mobile worked perfectly for me. Very happy with the usability.,ShopNow,web
+evt_000508,feedback.created,2026-10-03T11:09:00,web_feedback_form,rv_stream_000508,The StreamBox is frustrating. The pricing has been a terrible experience.,FreshMart,survey
+evt_000509,feedback.created,2026-10-03T11:16:00,web_feedback_form,rv_stream_000509,The StreamBox is frustrating. The security has been a terrible experience.,PayWave Mobile App,call_center
+evt_000510,feedback.created,2026-10-03T11:23:00,web_feedback_form,rv_stream_000510,The StreamBox is frustrating. The refund has been a terrible experience.,PayWave Mobile App,mobile_app
+evt_000511,feedback.created,2026-10-03T11:30:00,web_feedback_form,rv_stream_000511,The QuickCash Wallet is frustrating. The product_quality has been a terrible experience.,ShopNow,survey
+evt_000512,feedback.created,2026-10-03T11:37:00,web_feedback_form,rv_stream_000512,The LearnHub is frustrating. The delivery has been a terrible experience.,FreshMart,web
+evt_000513,feedback.created,2026-10-03T11:44:00,web_feedback_form,rv_stream_000513,I really like the FreshMart. The security experience was smooth and easy.,LearnHub,mobile_app
+evt_000514,feedback.created,2026-10-03T11:51:00,web_feedback_form,rv_stream_000514,The QuickCash Wallet worked perfectly for me. Very happy with the refund.,HealthPlus,web
+evt_000515,feedback.created,2026-10-03T11:58:00,web_feedback_form,rv_stream_000515,The QuickCash Wallet is frustrating. The customer_support has been a terrible experience.,HealthPlus,email
+evt_000516,feedback.created,2026-10-03T12:05:00,web_feedback_form,rv_stream_000516,Very disappointed with PayWave Mobile App. The product_quality needs serious improvement.,SwiftBank Mobile,web
+evt_000517,feedback.created,2026-10-03T12:12:00,web_feedback_form,rv_stream_000517,I really like the SwiftBank Mobile. The customer_support experience was smooth and easy.,ShopNow,support_chat
+evt_000518,feedback.created,2026-10-03T12:19:00,web_feedback_form,rv_stream_000518,I really like the RideGo. The product_quality experience was smooth and easy.,SwiftBank Mobile,mobile_app
+evt_000519,feedback.created,2026-10-03T12:26:00,web_feedback_form,rv_stream_000519,I really like the HealthPlus. The performance experience was smooth and easy.,SwiftBank Mobile,survey
+evt_000520,feedback.created,2026-10-03T12:33:00,web_feedback_form,rv_stream_000520,I have tried several times and the availability on CloudDesk still does not work.,RideGo,web
+evt_000521,feedback.created,2026-10-03T12:40:00,web_feedback_form,rv_stream_000521,I have tried several times and the refund on QuickCash Wallet still does not work.,QuickCash Wallet,support_chat
+evt_000522,feedback.created,2026-10-03T12:47:00,web_feedback_form,rv_stream_000522,The QuickCash Wallet worked perfectly for me. Very happy with the delivery.,HealthPlus,web
+evt_000523,feedback.created,2026-10-03T12:54:00,web_feedback_form,rv_stream_000523,The HealthPlus is frustrating. The security has been a terrible experience.,SwiftBank Mobile,social_media
+evt_000524,feedback.created,2026-10-03T13:01:00,web_feedback_form,rv_stream_000524,Very disappointed with RideGo. The pricing needs serious improvement.,PayWave Mobile App,support_chat
+evt_000525,feedback.created,2026-10-03T13:08:00,web_feedback_form,rv_stream_000525,The RideGo is frustrating. The availability has been a terrible experience.,SwiftBank Mobile,email
+evt_000526,feedback.created,2026-10-03T13:15:00,web_feedback_form,rv_stream_000526,I really like the LearnHub. The performance experience was smooth and easy.,LearnHub,survey
+evt_000527,feedback.created,2026-10-03T13:22:00,web_feedback_form,rv_stream_000527,The QuickCash Wallet worked perfectly for me. Very happy with the availability.,FreshMart,web
+evt_000528,feedback.created,2026-10-03T13:29:00,web_feedback_form,rv_stream_000528,I really like the StreamBox. The performance experience was smooth and easy.,RideGo,web
+evt_000529,feedback.created,2026-10-03T13:36:00,web_feedback_form,rv_stream_000529,The FreshMart worked perfectly for me. Very happy with the refund.,FreshMart,web
+evt_000530,feedback.created,2026-10-03T13:43:00,web_feedback_form,rv_stream_000530,I really like the RideGo. The usability experience was smooth and easy.,FreshMart,survey
+evt_000531,feedback.created,2026-10-03T13:50:00,web_feedback_form,rv_stream_000531,Very disappointed with LearnHub. The security needs serious improvement.,StreamBox,email
+evt_000532,feedback.created,2026-10-03T13:57:00,web_feedback_form,rv_stream_000532,The PayWave Mobile App worked perfectly for me. Very happy with the payment.,LearnHub,call_center
+evt_000533,feedback.created,2026-10-03T14:04:00,web_feedback_form,rv_stream_000533,Very disappointed with HealthPlus. The usability needs serious improvement.,ShopNow,web
+evt_000534,feedback.created,2026-10-03T14:11:00,web_feedback_form,rv_stream_000534,I had a great experience using FreshMart. Everything around performance was straightforward.,FreshMart,social_media
+evt_000535,feedback.created,2026-10-03T14:18:00,web_feedback_form,rv_stream_000535,I really like the SwiftBank Mobile. The delivery experience was smooth and easy.,CloudDesk,web
+evt_000536,feedback.created,2026-10-03T14:25:00,web_feedback_form,rv_stream_000536,The LearnHub worked perfectly for me. Very happy with the performance.,PayWave Mobile App,email
+evt_000537,feedback.created,2026-10-03T14:32:00,web_feedback_form,rv_stream_000537,I really like the HealthPlus. The usability experience was smooth and easy.,SwiftBank Mobile,email
+evt_000538,feedback.created,2026-10-03T14:39:00,web_feedback_form,rv_stream_000538,Very disappointed with HealthPlus. The pricing needs serious improvement.,PayWave Mobile App,social_media
+evt_000539,feedback.created,2026-10-03T14:46:00,web_feedback_form,rv_stream_000539,The CloudDesk is frustrating. The refund has been a terrible experience.,PayWave Mobile App,social_media
+evt_000540,feedback.created,2026-10-03T14:53:00,web_feedback_form,rv_stream_000540,The HealthPlus is frustrating. The product_quality has been a terrible experience.,CloudDesk,survey
+evt_000541,feedback.created,2026-10-03T15:00:00,web_feedback_form,rv_stream_000541,The SwiftBank Mobile is frustrating. The availability has been a terrible experience.,QuickCash Wallet,email
+evt_000542,feedback.created,2026-10-03T15:07:00,web_feedback_form,rv_stream_000542,I had a great experience using SwiftBank Mobile. Everything around delivery was straightforward.,StreamBox,survey
+evt_000543,feedback.created,2026-10-03T15:14:00,web_feedback_form,rv_stream_000543,The PayWave Mobile App is frustrating. The delivery has been a terrible experience.,FreshMart,survey
+evt_000544,feedback.created,2026-10-03T15:21:00,web_feedback_form,rv_stream_000544,The CloudDesk worked perfectly for me. Very happy with the delivery.,SwiftBank Mobile,social_media
+evt_000545,feedback.created,2026-10-03T15:28:00,web_feedback_form,rv_stream_000545,I had a great experience using FreshMart. Everything around refund was straightforward.,QuickCash Wallet,mobile_app
+evt_000546,feedback.created,2026-10-03T15:35:00,web_feedback_form,rv_stream_000546,I have tried several times and the payment on ShopNow still does not work.,ShopNow,mobile_app
+evt_000547,feedback.created,2026-10-03T15:42:00,web_feedback_form,rv_stream_000547,The StreamBox is frustrating. The payment has been a terrible experience.,PayWave Mobile App,email
+evt_000548,feedback.created,2026-10-03T15:49:00,web_feedback_form,rv_stream_000548,I have tried several times and the refund on CloudDesk still does not work.,RideGo,web
+evt_000549,feedback.created,2026-10-03T15:56:00,web_feedback_form,rv_stream_000549,I really like the PayWave Mobile App. The refund experience was smooth and easy.,StreamBox,email
+evt_000550,feedback.created,2026-10-03T16:03:00,web_feedback_form,rv_stream_000550,The QuickCash Wallet is frustrating. The performance has been a terrible experience.,RideGo,email
+evt_000551,feedback.created,2026-10-03T16:10:00,web_feedback_form,rv_stream_000551,The CloudDesk is frustrating. The delivery has been a terrible experience.,StreamBox,survey
+evt_000552,feedback.created,2026-10-03T16:17:00,web_feedback_form,rv_stream_000552,Very disappointed with LearnHub. The pricing needs serious improvement.,ShopNow,web
+evt_000553,feedback.created,2026-10-03T16:24:00,web_feedback_form,rv_stream_000553,Very disappointed with QuickCash Wallet. The availability needs serious improvement.,QuickCash Wallet,support_chat
+evt_000554,feedback.created,2026-10-03T16:31:00,web_feedback_form,rv_stream_000554,The ShopNow is frustrating. The delivery has been a terrible experience.,FreshMart,social_media
+evt_000555,feedback.created,2026-10-03T16:38:00,web_feedback_form,rv_stream_000555,The LearnHub is frustrating. The delivery has been a terrible experience.,QuickCash Wallet,call_center
+evt_000556,feedback.created,2026-10-03T16:45:00,web_feedback_form,rv_stream_000556,I had a great experience using LearnHub. Everything around refund was straightforward.,HealthPlus,survey
+evt_000557,feedback.created,2026-10-03T16:52:00,web_feedback_form,rv_stream_000557,The StreamBox worked perfectly for me. Very happy with the product_quality.,LearnHub,email
+evt_000558,feedback.created,2026-10-03T16:59:00,web_feedback_form,rv_stream_000558,The RideGo worked perfectly for me. Very happy with the pricing.,RideGo,email
+evt_000559,feedback.created,2026-10-03T17:06:00,web_feedback_form,rv_stream_000559,I have tried several times and the performance on HealthPlus still does not work.,QuickCash Wallet,call_center
+evt_000560,feedback.created,2026-10-03T17:13:00,web_feedback_form,rv_stream_000560,The QuickCash Wallet worked perfectly for me. Very happy with the usability.,HealthPlus,call_center
+evt_000561,feedback.created,2026-10-03T17:20:00,web_feedback_form,rv_stream_000561,I had a great experience using PayWave Mobile App. Everything around customer_support was straightforward.,QuickCash Wallet,call_center
+evt_000562,feedback.created,2026-10-03T17:27:00,web_feedback_form,rv_stream_000562,Very disappointed with HealthPlus. The refund needs serious improvement.,SwiftBank Mobile,social_media
+evt_000563,feedback.created,2026-10-03T17:34:00,web_feedback_form,rv_stream_000563,I had a great experience using LearnHub. Everything around usability was straightforward.,LearnHub,survey
+evt_000564,feedback.created,2026-10-03T17:41:00,web_feedback_form,rv_stream_000564,The QuickCash Wallet is frustrating. The customer_support has been a terrible experience.,SwiftBank Mobile,social_media
+evt_000565,feedback.created,2026-10-03T17:48:00,web_feedback_form,rv_stream_000565,I really like the LearnHub. The payment experience was smooth and easy.,HealthPlus,social_media
+evt_000566,feedback.created,2026-10-03T17:55:00,web_feedback_form,rv_stream_000566,Very disappointed with SwiftBank Mobile. The product_quality needs serious improvement.,LearnHub,call_center
+evt_000567,feedback.created,2026-10-03T18:02:00,web_feedback_form,rv_stream_000567,The HealthPlus worked perfectly for me. Very happy with the usability.,CloudDesk,support_chat
+evt_000568,feedback.created,2026-10-03T18:09:00,web_feedback_form,rv_stream_000568,Very disappointed with LearnHub. The pricing needs serious improvement.,HealthPlus,support_chat
+evt_000569,feedback.created,2026-10-03T18:16:00,web_feedback_form,rv_stream_000569,The HealthPlus worked perfectly for me. Very happy with the security.,PayWave Mobile App,mobile_app
+evt_000570,feedback.created,2026-10-03T18:23:00,web_feedback_form,rv_stream_000570,I have tried several times and the refund on QuickCash Wallet still does not work.,SwiftBank Mobile,survey
+evt_000571,feedback.created,2026-10-03T18:30:00,web_feedback_form,rv_stream_000571,I really like the SwiftBank Mobile. The availability experience was smooth and easy.,FreshMart,mobile_app
+evt_000572,feedback.created,2026-10-03T18:37:00,web_feedback_form,rv_stream_000572,I had a great experience using ShopNow. Everything around delivery was straightforward.,ShopNow,mobile_app
+evt_000573,feedback.created,2026-10-03T18:44:00,web_feedback_form,rv_stream_000573,I have tried several times and the pricing on FreshMart still does not work.,SwiftBank Mobile,web
+evt_000574,feedback.created,2026-10-03T18:51:00,web_feedback_form,rv_stream_000574,I have tried several times and the performance on PayWave Mobile App still does not work.,ShopNow,social_media
+evt_000575,feedback.created,2026-10-03T18:58:00,web_feedback_form,rv_stream_000575,I have tried several times and the delivery on StreamBox still does not work.,LearnHub,support_chat
+evt_000576,feedback.created,2026-10-03T19:05:00,web_feedback_form,rv_stream_000576,I have tried several times and the refund on FreshMart still does not work.,QuickCash Wallet,email
+evt_000577,feedback.created,2026-10-03T19:12:00,web_feedback_form,rv_stream_000577,I had a great experience using CloudDesk. Everything around customer_support was straightforward.,ShopNow,support_chat
+evt_000578,feedback.created,2026-10-03T19:19:00,web_feedback_form,rv_stream_000578,I have tried several times and the payment on PayWave Mobile App still does not work.,LearnHub,call_center
+evt_000579,feedback.created,2026-10-03T19:26:00,web_feedback_form,rv_stream_000579,I have tried several times and the product_quality on LearnHub still does not work.,ShopNow,support_chat
+evt_000580,feedback.created,2026-10-03T19:33:00,web_feedback_form,rv_stream_000580,Very disappointed with RideGo. The security needs serious improvement.,SwiftBank Mobile,web
+evt_000581,feedback.created,2026-10-03T19:40:00,web_feedback_form,rv_stream_000581,I had a great experience using LearnHub. Everything around refund was straightforward.,FreshMart,support_chat
+evt_000582,feedback.created,2026-10-03T19:47:00,web_feedback_form,rv_stream_000582,I had a great experience using LearnHub. Everything around availability was straightforward.,RideGo,social_media
+evt_000583,feedback.created,2026-10-03T19:54:00,web_feedback_form,rv_stream_000583,The ShopNow worked perfectly for me. Very happy with the performance.,CloudDesk,web
+evt_000584,feedback.created,2026-10-03T20:01:00,web_feedback_form,rv_stream_000584,I have tried several times and the security on RideGo still does not work.,CloudDesk,call_center
+evt_000585,feedback.created,2026-10-03T20:08:00,web_feedback_form,rv_stream_000585,The ShopNow worked perfectly for me. Very happy with the usability.,HealthPlus,email
+evt_000586,feedback.created,2026-10-03T20:15:00,web_feedback_form,rv_stream_000586,I had a great experience using StreamBox. Everything around security was straightforward.,LearnHub,social_media
+evt_000587,feedback.created,2026-10-03T20:22:00,web_feedback_form,rv_stream_000587,The StreamBox is frustrating. The performance has been a terrible experience.,QuickCash Wallet,mobile_app
+evt_000588,feedback.created,2026-10-03T20:29:00,web_feedback_form,rv_stream_000588,The SwiftBank Mobile is frustrating. The availability has been a terrible experience.,QuickCash Wallet,survey
+evt_000589,feedback.created,2026-10-03T20:36:00,web_feedback_form,rv_stream_000589,I have tried several times and the performance on QuickCash Wallet still does not work.,CloudDesk,support_chat
+evt_000590,feedback.created,2026-10-03T20:43:00,web_feedback_form,rv_stream_000590,The StreamBox worked perfectly for me. Very happy with the pricing.,FreshMart,web
+evt_000591,feedback.created,2026-10-03T20:50:00,web_feedback_form,rv_stream_000591,The ShopNow worked perfectly for me. Very happy with the delivery.,PayWave Mobile App,survey
+evt_000592,feedback.created,2026-10-03T20:57:00,web_feedback_form,rv_stream_000592,The CloudDesk worked perfectly for me. Very happy with the usability.,SwiftBank Mobile,survey
+evt_000593,feedback.created,2026-10-03T21:04:00,web_feedback_form,rv_stream_000593,I had a great experience using ShopNow. Everything around pricing was straightforward.,HealthPlus,call_center
+evt_000594,feedback.created,2026-10-03T21:11:00,web_feedback_form,rv_stream_000594,The LearnHub worked perfectly for me. Very happy with the pricing.,StreamBox,email
+evt_000595,feedback.created,2026-10-03T21:18:00,web_feedback_form,rv_stream_000595,I have tried several times and the product_quality on LearnHub still does not work.,CloudDesk,call_center
+evt_000596,feedback.created,2026-10-03T21:25:00,web_feedback_form,rv_stream_000596,Very disappointed with CloudDesk. The usability needs serious improvement.,PayWave Mobile App,support_chat
+evt_000597,feedback.created,2026-10-03T21:32:00,web_feedback_form,rv_stream_000597,Very disappointed with FreshMart. The delivery needs serious improvement.,SwiftBank Mobile,support_chat
+evt_000598,feedback.created,2026-10-03T21:39:00,web_feedback_form,rv_stream_000598,I really like the CloudDesk. The payment experience was smooth and easy.,StreamBox,mobile_app
+evt_000599,feedback.created,2026-10-03T21:46:00,web_feedback_form,rv_stream_000599,I had a great experience using StreamBox. Everything around security was straightforward.,LearnHub,social_media
+evt_000600,feedback.created,2026-10-03T21:53:00,web_feedback_form,rv_stream_000600,Very disappointed with CloudDesk. The product_quality needs serious improvement.,SwiftBank Mobile,email
+evt_000601,feedback.created,2026-10-03T22:00:00,web_feedback_form,rv_stream_000601,The CloudDesk worked perfectly for me. Very happy with the product_quality.,HealthPlus,survey
+evt_000602,feedback.created,2026-10-03T22:07:00,web_feedback_form,rv_stream_000602,Very disappointed with RideGo. The performance needs serious improvement.,PayWave Mobile App,mobile_app
+evt_000603,feedback.created,2026-10-03T22:14:00,web_feedback_form,rv_stream_000603,I really like the QuickCash Wallet. The security experience was smooth and easy.,CloudDesk,social_media
+evt_000604,feedback.created,2026-10-03T22:21:00,web_feedback_form,rv_stream_000604,Very disappointed with RideGo. The performance needs serious improvement.,LearnHub,support_chat
+evt_000605,feedback.created,2026-10-03T22:28:00,web_feedback_form,rv_stream_000605,I have tried several times and the availability on ShopNow still does not work.,StreamBox,social_media
+evt_000606,feedback.created,2026-10-03T22:35:00,web_feedback_form,rv_stream_000606,I really like the FreshMart. The availability experience was smooth and easy.,SwiftBank Mobile,mobile_app
+evt_000607,feedback.created,2026-10-03T22:42:00,web_feedback_form,rv_stream_000607,The QuickCash Wallet is frustrating. The usability has been a terrible experience.,CloudDesk,call_center
+evt_000608,feedback.created,2026-10-03T22:49:00,web_feedback_form,rv_stream_000608,I had a great experience using FreshMart. Everything around security was straightforward.,StreamBox,social_media
+evt_000609,feedback.created,2026-10-03T22:56:00,web_feedback_form,rv_stream_000609,The ShopNow worked perfectly for me. Very happy with the availability.,StreamBox,survey
+evt_000610,feedback.created,2026-10-03T23:03:00,web_feedback_form,rv_stream_000610,The ShopNow is frustrating. The availability has been a terrible experience.,LearnHub,web
+evt_000611,feedback.created,2026-10-03T23:10:00,web_feedback_form,rv_stream_000611,I really like the HealthPlus. The performance experience was smooth and easy.,PayWave Mobile App,web
+evt_000612,feedback.created,2026-10-03T23:17:00,web_feedback_form,rv_stream_000612,Very disappointed with HealthPlus. The pricing needs serious improvement.,StreamBox,web
+evt_000613,feedback.created,2026-10-03T23:24:00,web_feedback_form,rv_stream_000613,The CloudDesk is frustrating. The usability has been a terrible experience.,ShopNow,mobile_app
+evt_000614,feedback.created,2026-10-03T23:31:00,web_feedback_form,rv_stream_000614,I have tried several times and the customer_support on CloudDesk still does not work.,HealthPlus,support_chat
+evt_000615,feedback.created,2026-10-03T23:38:00,web_feedback_form,rv_stream_000615,The RideGo is frustrating. The refund has been a terrible experience.,ShopNow,web
+evt_000616,feedback.created,2026-10-03T23:45:00,web_feedback_form,rv_stream_000616,I really like the SwiftBank Mobile. The availability experience was smooth and easy.,RideGo,survey
+evt_000617,feedback.created,2026-10-03T23:52:00,web_feedback_form,rv_stream_000617,I really like the QuickCash Wallet. The availability experience was smooth and easy.,StreamBox,mobile_app
+evt_000618,feedback.created,2026-10-03T23:59:00,web_feedback_form,rv_stream_000618,I really like the ShopNow. The delivery experience was smooth and easy.,HealthPlus,call_center
+evt_000619,feedback.created,2026-10-04T00:06:00,web_feedback_form,rv_stream_000619,I had a great experience using PayWave Mobile App. Everything around delivery was straightforward.,FreshMart,support_chat
+evt_000620,feedback.created,2026-10-04T00:13:00,web_feedback_form,rv_stream_000620,The FreshMart is frustrating. The customer_support has been a terrible experience.,RideGo,support_chat
+evt_000621,feedback.created,2026-10-04T00:20:00,web_feedback_form,rv_stream_000621,The QuickCash Wallet is frustrating. The payment has been a terrible experience.,SwiftBank Mobile,web
+evt_000622,feedback.created,2026-10-04T00:27:00,web_feedback_form,rv_stream_000622,I had a great experience using HealthPlus. Everything around security was straightforward.,RideGo,email
+evt_000623,feedback.created,2026-10-04T00:34:00,web_feedback_form,rv_stream_000623,Very disappointed with HealthPlus. The delivery needs serious improvement.,RideGo,call_center
+evt_000624,feedback.created,2026-10-04T00:41:00,web_feedback_form,rv_stream_000624,I have tried several times and the pricing on RideGo still does not work.,ShopNow,mobile_app
+evt_000625,feedback.created,2026-10-04T00:48:00,web_feedback_form,rv_stream_000625,I have tried several times and the security on ShopNow still does not work.,StreamBox,mobile_app
+evt_000626,feedback.created,2026-10-04T00:55:00,web_feedback_form,rv_stream_000626,I had a great experience using HealthPlus. Everything around customer_support was straightforward.,SwiftBank Mobile,email
+evt_000627,feedback.created,2026-10-04T01:02:00,web_feedback_form,rv_stream_000627,The ShopNow is frustrating. The payment has been a terrible experience.,HealthPlus,email
+evt_000628,feedback.created,2026-10-04T01:09:00,web_feedback_form,rv_stream_000628,The CloudDesk worked perfectly for me. Very happy with the delivery.,SwiftBank Mobile,email
+evt_000629,feedback.created,2026-10-04T01:16:00,web_feedback_form,rv_stream_000629,I have tried several times and the product_quality on SwiftBank Mobile still does not work.,LearnHub,web
+evt_000630,feedback.created,2026-10-04T01:23:00,web_feedback_form,rv_stream_000630,Very disappointed with CloudDesk. The usability needs serious improvement.,FreshMart,email
+evt_000631,feedback.created,2026-10-04T01:30:00,web_feedback_form,rv_stream_000631,I have tried several times and the refund on RideGo still does not work.,StreamBox,mobile_app
+evt_000632,feedback.created,2026-10-04T01:37:00,web_feedback_form,rv_stream_000632,Very disappointed with StreamBox. The availability needs serious improvement.,LearnHub,mobile_app
+evt_000633,feedback.created,2026-10-04T01:44:00,web_feedback_form,rv_stream_000633,The SwiftBank Mobile is frustrating. The customer_support has been a terrible experience.,RideGo,support_chat
+evt_000634,feedback.created,2026-10-04T01:51:00,web_feedback_form,rv_stream_000634,I really like the CloudDesk. The payment experience was smooth and easy.,LearnHub,email
+evt_000635,feedback.created,2026-10-04T01:58:00,web_feedback_form,rv_stream_000635,The HealthPlus worked perfectly for me. Very happy with the refund.,ShopNow,mobile_app
+evt_000636,feedback.created,2026-10-04T02:05:00,web_feedback_form,rv_stream_000636,I really like the FreshMart. The customer_support experience was smooth and easy.,SwiftBank Mobile,call_center
+evt_000637,feedback.created,2026-10-04T02:12:00,web_feedback_form,rv_stream_000637,I have tried several times and the refund on RideGo still does not work.,QuickCash Wallet,web
+evt_000638,feedback.created,2026-10-04T02:19:00,web_feedback_form,rv_stream_000638,I have tried several times and the usability on PayWave Mobile App still does not work.,StreamBox,mobile_app
+evt_000639,feedback.created,2026-10-04T02:26:00,web_feedback_form,rv_stream_000639,The ShopNow worked perfectly for me. Very happy with the product_quality.,LearnHub,survey
+evt_000640,feedback.created,2026-10-04T02:33:00,web_feedback_form,rv_stream_000640,I had a great experience using PayWave Mobile App. Everything around pricing was straightforward.,RideGo,web
+evt_000641,feedback.created,2026-10-04T02:40:00,web_feedback_form,rv_stream_000641,I really like the HealthPlus. The security experience was smooth and easy.,QuickCash Wallet,call_center
+evt_000642,feedback.created,2026-10-04T02:47:00,web_feedback_form,rv_stream_000642,The PayWave Mobile App worked perfectly for me. Very happy with the refund.,LearnHub,social_media
+evt_000643,feedback.created,2026-10-04T02:54:00,web_feedback_form,rv_stream_000643,Very disappointed with LearnHub. The refund needs serious improvement.,ShopNow,call_center
+evt_000644,feedback.created,2026-10-04T03:01:00,web_feedback_form,rv_stream_000644,I have tried several times and the performance on PayWave Mobile App still does not work.,StreamBox,email
+evt_000645,feedback.created,2026-10-04T03:08:00,web_feedback_form,rv_stream_000645,Very disappointed with LearnHub. The pricing needs serious improvement.,QuickCash Wallet,social_media
+evt_000646,feedback.created,2026-10-04T03:15:00,web_feedback_form,rv_stream_000646,I had a great experience using HealthPlus. Everything around pricing was straightforward.,StreamBox,support_chat
+evt_000647,feedback.created,2026-10-04T03:22:00,web_feedback_form,rv_stream_000647,I have tried several times and the availability on SwiftBank Mobile still does not work.,RideGo,call_center
+evt_000648,feedback.created,2026-10-04T03:29:00,web_feedback_form,rv_stream_000648,Very disappointed with SwiftBank Mobile. The delivery needs serious improvement.,HealthPlus,mobile_app
+evt_000649,feedback.created,2026-10-04T03:36:00,web_feedback_form,rv_stream_000649,Very disappointed with FreshMart. The availability needs serious improvement.,CloudDesk,email
+evt_000650,feedback.created,2026-10-04T03:43:00,web_feedback_form,rv_stream_000650,The ShopNow is frustrating. The availability has been a terrible experience.,QuickCash Wallet,survey
+evt_000651,feedback.created,2026-10-04T03:50:00,web_feedback_form,rv_stream_000651,I really like the LearnHub. The security experience was smooth and easy.,StreamBox,social_media
+evt_000652,feedback.created,2026-10-04T03:57:00,web_feedback_form,rv_stream_000652,I have tried several times and the customer_support on HealthPlus still does not work.,SwiftBank Mobile,email
+evt_000653,feedback.created,2026-10-04T04:04:00,web_feedback_form,rv_stream_000653,Very disappointed with HealthPlus. The availability needs serious improvement.,HealthPlus,web
+evt_000654,feedback.created,2026-10-04T04:11:00,web_feedback_form,rv_stream_000654,The LearnHub is frustrating. The pricing has been a terrible experience.,PayWave Mobile App,support_chat
+evt_000655,feedback.created,2026-10-04T04:18:00,web_feedback_form,rv_stream_000655,I really like the StreamBox. The performance experience was smooth and easy.,HealthPlus,email
+evt_000656,feedback.created,2026-10-04T04:25:00,web_feedback_form,rv_stream_000656,I had a great experience using SwiftBank Mobile. Everything around payment was straightforward.,RideGo,social_media
+evt_000657,feedback.created,2026-10-04T04:32:00,web_feedback_form,rv_stream_000657,I have tried several times and the usability on StreamBox still does not work.,FreshMart,support_chat
+evt_000658,feedback.created,2026-10-04T04:39:00,web_feedback_form,rv_stream_000658,I had a great experience using StreamBox. Everything around pricing was straightforward.,CloudDesk,social_media
+evt_000659,feedback.created,2026-10-04T04:46:00,web_feedback_form,rv_stream_000659,The SwiftBank Mobile worked perfectly for me. Very happy with the product_quality.,StreamBox,support_chat
+evt_000660,feedback.created,2026-10-04T04:53:00,web_feedback_form,rv_stream_000660,The QuickCash Wallet is frustrating. The product_quality has been a terrible experience.,LearnHub,support_chat
+evt_000661,feedback.created,2026-10-04T05:00:00,web_feedback_form,rv_stream_000661,Very disappointed with QuickCash Wallet. The security needs serious improvement.,QuickCash Wallet,survey
+evt_000662,feedback.created,2026-10-04T05:07:00,web_feedback_form,rv_stream_000662,I had a great experience using RideGo. Everything around payment was straightforward.,HealthPlus,support_chat
+evt_000663,feedback.created,2026-10-04T05:14:00,web_feedback_form,rv_stream_000663,I have tried several times and the product_quality on ShopNow still does not work.,FreshMart,support_chat
+evt_000664,feedback.created,2026-10-04T05:21:00,web_feedback_form,rv_stream_000664,I have tried several times and the performance on FreshMart still does not work.,QuickCash Wallet,email
+evt_000665,feedback.created,2026-10-04T05:28:00,web_feedback_form,rv_stream_000665,The ShopNow worked perfectly for me. Very happy with the payment.,StreamBox,web
+evt_000666,feedback.created,2026-10-04T05:35:00,web_feedback_form,rv_stream_000666,The PayWave Mobile App is frustrating. The delivery has been a terrible experience.,HealthPlus,social_media
+evt_000667,feedback.created,2026-10-04T05:42:00,web_feedback_form,rv_stream_000667,I have tried several times and the availability on FreshMart still does not work.,LearnHub,call_center
+evt_000668,feedback.created,2026-10-04T05:49:00,web_feedback_form,rv_stream_000668,The LearnHub is frustrating. The usability has been a terrible experience.,RideGo,support_chat
+evt_000669,feedback.created,2026-10-04T05:56:00,web_feedback_form,rv_stream_000669,I really like the CloudDesk. The delivery experience was smooth and easy.,SwiftBank Mobile,social_media
+evt_000670,feedback.created,2026-10-04T06:03:00,web_feedback_form,rv_stream_000670,The PayWave Mobile App worked perfectly for me. Very happy with the security.,LearnHub,call_center
+evt_000671,feedback.created,2026-10-04T06:10:00,web_feedback_form,rv_stream_000671,I had a great experience using SwiftBank Mobile. Everything around refund was straightforward.,LearnHub,email
+evt_000672,feedback.created,2026-10-04T06:17:00,web_feedback_form,rv_stream_000672,I had a great experience using QuickCash Wallet. Everything around delivery was straightforward.,PayWave Mobile App,survey
+evt_000673,feedback.created,2026-10-04T06:24:00,web_feedback_form,rv_stream_000673,I had a great experience using QuickCash Wallet. Everything around payment was straightforward.,StreamBox,email
+evt_000674,feedback.created,2026-10-04T06:31:00,web_feedback_form,rv_stream_000674,I have tried several times and the refund on PayWave Mobile App still does not work.,StreamBox,web
+evt_000675,feedback.created,2026-10-04T06:38:00,web_feedback_form,rv_stream_000675,The PayWave Mobile App is frustrating. The pricing has been a terrible experience.,PayWave Mobile App,email
+evt_000676,feedback.created,2026-10-04T06:45:00,web_feedback_form,rv_stream_000676,The HealthPlus is frustrating. The pricing has been a terrible experience.,StreamBox,mobile_app
+evt_000677,feedback.created,2026-10-04T06:52:00,web_feedback_form,rv_stream_000677,The ShopNow is frustrating. The payment has been a terrible experience.,HealthPlus,call_center
+evt_000678,feedback.created,2026-10-04T06:59:00,web_feedback_form,rv_stream_000678,Very disappointed with StreamBox. The payment needs serious improvement.,HealthPlus,mobile_app
+evt_000679,feedback.created,2026-10-04T07:06:00,web_feedback_form,rv_stream_000679,I have tried several times and the refund on HealthPlus still does not work.,LearnHub,mobile_app
+evt_000680,feedback.created,2026-10-04T07:13:00,web_feedback_form,rv_stream_000680,I really like the ShopNow. The pricing experience was smooth and easy.,RideGo,mobile_app
+evt_000681,feedback.created,2026-10-04T07:20:00,web_feedback_form,rv_stream_000681,I have tried several times and the performance on LearnHub still does not work.,ShopNow,web
+evt_000682,feedback.created,2026-10-04T07:27:00,web_feedback_form,rv_stream_000682,Very disappointed with QuickCash Wallet. The customer_support needs serious improvement.,LearnHub,mobile_app
+evt_000683,feedback.created,2026-10-04T07:34:00,web_feedback_form,rv_stream_000683,I really like the SwiftBank Mobile. The pricing experience was smooth and easy.,PayWave Mobile App,web
+evt_000684,feedback.created,2026-10-04T07:41:00,web_feedback_form,rv_stream_000684,I had a great experience using HealthPlus. Everything around usability was straightforward.,ShopNow,web
+evt_000685,feedback.created,2026-10-04T07:48:00,web_feedback_form,rv_stream_000685,I really like the CloudDesk. The usability experience was smooth and easy.,HealthPlus,call_center
+evt_000686,feedback.created,2026-10-04T07:55:00,web_feedback_form,rv_stream_000686,The LearnHub worked perfectly for me. Very happy with the usability.,FreshMart,web
+evt_000687,feedback.created,2026-10-04T08:02:00,web_feedback_form,rv_stream_000687,I had a great experience using PayWave Mobile App. Everything around usability was straightforward.,FreshMart,web
+evt_000688,feedback.created,2026-10-04T08:09:00,web_feedback_form,rv_stream_000688,I really like the CloudDesk. The payment experience was smooth and easy.,ShopNow,support_chat
+evt_000689,feedback.created,2026-10-04T08:16:00,web_feedback_form,rv_stream_000689,I have tried several times and the payment on RideGo still does not work.,HealthPlus,email
+evt_000690,feedback.created,2026-10-04T08:23:00,web_feedback_form,rv_stream_000690,Very disappointed with LearnHub. The pricing needs serious improvement.,PayWave Mobile App,survey
+evt_000691,feedback.created,2026-10-04T08:30:00,web_feedback_form,rv_stream_000691,The QuickCash Wallet worked perfectly for me. Very happy with the pricing.,LearnHub,social_media
+evt_000692,feedback.created,2026-10-04T08:37:00,web_feedback_form,rv_stream_000692,Very disappointed with ShopNow. The refund needs serious improvement.,FreshMart,mobile_app
+evt_000693,feedback.created,2026-10-04T08:44:00,web_feedback_form,rv_stream_000693,I had a great experience using SwiftBank Mobile. Everything around product_quality was straightforward.,StreamBox,social_media
+evt_000694,feedback.created,2026-10-04T08:51:00,web_feedback_form,rv_stream_000694,I really like the CloudDesk. The payment experience was smooth and easy.,FreshMart,email
+evt_000695,feedback.created,2026-10-04T08:58:00,web_feedback_form,rv_stream_000695,I have tried several times and the delivery on StreamBox still does not work.,QuickCash Wallet,support_chat
+evt_000696,feedback.created,2026-10-04T09:05:00,web_feedback_form,rv_stream_000696,I have tried several times and the usability on HealthPlus still does not work.,FreshMart,social_media
+evt_000697,feedback.created,2026-10-04T09:12:00,web_feedback_form,rv_stream_000697,I have tried several times and the refund on ShopNow still does not work.,FreshMart,email
+evt_000698,feedback.created,2026-10-04T09:19:00,web_feedback_form,rv_stream_000698,The LearnHub worked perfectly for me. Very happy with the delivery.,LearnHub,email
+evt_000699,feedback.created,2026-10-04T09:26:00,web_feedback_form,rv_stream_000699,I have tried several times and the customer_support on SwiftBank Mobile still does not work.,RideGo,call_center
+evt_000700,feedback.created,2026-10-04T09:33:00,web_feedback_form,rv_stream_000700,I really like the FreshMart. The product_quality experience was smooth and easy.,ShopNow,social_media
+evt_000701,feedback.created,2026-10-04T09:40:00,web_feedback_form,rv_stream_000701,I have tried several times and the refund on CloudDesk still does not work.,PayWave Mobile App,support_chat
+evt_000702,feedback.created,2026-10-04T09:47:00,web_feedback_form,rv_stream_000702,Very disappointed with FreshMart. The availability needs serious improvement.,RideGo,email
+evt_000703,feedback.created,2026-10-04T09:54:00,web_feedback_form,rv_stream_000703,The LearnHub worked perfectly for me. Very happy with the refund.,StreamBox,mobile_app
+evt_000704,feedback.created,2026-10-04T10:01:00,web_feedback_form,rv_stream_000704,The CloudDesk is frustrating. The availability has been a terrible experience.,FreshMart,email
+evt_000705,feedback.created,2026-10-04T10:08:00,web_feedback_form,rv_stream_000705,I had a great experience using SwiftBank Mobile. Everything around usability was straightforward.,SwiftBank Mobile,mobile_app
+evt_000706,feedback.created,2026-10-04T10:15:00,web_feedback_form,rv_stream_000706,I had a great experience using LearnHub. Everything around usability was straightforward.,HealthPlus,mobile_app
+evt_000707,feedback.created,2026-10-04T10:22:00,web_feedback_form,rv_stream_000707,The ShopNow worked perfectly for me. Very happy with the security.,SwiftBank Mobile,web
+evt_000708,feedback.created,2026-10-04T10:29:00,web_feedback_form,rv_stream_000708,I really like the PayWave Mobile App. The availability experience was smooth and easy.,HealthPlus,support_chat
+evt_000709,feedback.created,2026-10-04T10:36:00,web_feedback_form,rv_stream_000709,Very disappointed with StreamBox. The performance needs serious improvement.,RideGo,survey
+evt_000710,feedback.created,2026-10-04T10:43:00,web_feedback_form,rv_stream_000710,I really like the ShopNow. The usability experience was smooth and easy.,CloudDesk,call_center
+evt_000711,feedback.created,2026-10-04T10:50:00,web_feedback_form,rv_stream_000711,I had a great experience using ShopNow. Everything around delivery was straightforward.,CloudDesk,call_center
+evt_000712,feedback.created,2026-10-04T10:57:00,web_feedback_form,rv_stream_000712,I have tried several times and the delivery on LearnHub still does not work.,LearnHub,survey
+evt_000713,feedback.created,2026-10-04T11:04:00,web_feedback_form,rv_stream_000713,I have tried several times and the customer_support on ShopNow still does not work.,RideGo,social_media
+evt_000714,feedback.created,2026-10-04T11:11:00,web_feedback_form,rv_stream_000714,I had a great experience using ShopNow. Everything around product_quality was straightforward.,LearnHub,support_chat
+evt_000715,feedback.created,2026-10-04T11:18:00,web_feedback_form,rv_stream_000715,I really like the QuickCash Wallet. The refund experience was smooth and easy.,LearnHub,web
+evt_000716,feedback.created,2026-10-04T11:25:00,web_feedback_form,rv_stream_000716,I have tried several times and the usability on CloudDesk still does not work.,SwiftBank Mobile,web
+evt_000717,feedback.created,2026-10-04T11:32:00,web_feedback_form,rv_stream_000717,The StreamBox worked perfectly for me. Very happy with the delivery.,PayWave Mobile App,social_media
+evt_000718,feedback.created,2026-10-04T11:39:00,web_feedback_form,rv_stream_000718,Very disappointed with RideGo. The security needs serious improvement.,RideGo,survey
+evt_000719,feedback.created,2026-10-04T11:46:00,web_feedback_form,rv_stream_000719,The QuickCash Wallet worked perfectly for me. Very happy with the availability.,QuickCash Wallet,call_center
+evt_000720,feedback.created,2026-10-04T11:53:00,web_feedback_form,rv_stream_000720,The FreshMart is frustrating. The pricing has been a terrible experience.,RideGo,mobile_app
+evt_000721,feedback.created,2026-10-04T12:00:00,web_feedback_form,rv_stream_000721,I really like the FreshMart. The security experience was smooth and easy.,RideGo,social_media
+evt_000722,feedback.created,2026-10-04T12:07:00,web_feedback_form,rv_stream_000722,I have tried several times and the delivery on StreamBox still does not work.,ShopNow,web
+evt_000723,feedback.created,2026-10-04T12:14:00,web_feedback_form,rv_stream_000723,I had a great experience using CloudDesk. Everything around refund was straightforward.,FreshMart,social_media
+evt_000724,feedback.created,2026-10-04T12:21:00,web_feedback_form,rv_stream_000724,The PayWave Mobile App is frustrating. The pricing has been a terrible experience.,SwiftBank Mobile,survey
+evt_000725,feedback.created,2026-10-04T12:28:00,web_feedback_form,rv_stream_000725,I had a great experience using FreshMart. Everything around customer_support was straightforward.,QuickCash Wallet,support_chat
+evt_000726,feedback.created,2026-10-04T12:35:00,web_feedback_form,rv_stream_000726,I had a great experience using StreamBox. Everything around customer_support was straightforward.,PayWave Mobile App,email
+evt_000727,feedback.created,2026-10-04T12:42:00,web_feedback_form,rv_stream_000727,I really like the ShopNow. The security experience was smooth and easy.,FreshMart,call_center
+evt_000728,feedback.created,2026-10-04T12:49:00,web_feedback_form,rv_stream_000728,The PayWave Mobile App is frustrating. The product_quality has been a terrible experience.,QuickCash Wallet,call_center
+evt_000729,feedback.created,2026-10-04T12:56:00,web_feedback_form,rv_stream_000729,I really like the CloudDesk. The usability experience was smooth and easy.,PayWave Mobile App,web
+evt_000730,feedback.created,2026-10-04T13:03:00,web_feedback_form,rv_stream_000730,I had a great experience using CloudDesk. Everything around usability was straightforward.,RideGo,email
+evt_000731,feedback.created,2026-10-04T13:10:00,web_feedback_form,rv_stream_000731,The LearnHub is frustrating. The product_quality has been a terrible experience.,PayWave Mobile App,support_chat
+evt_000732,feedback.created,2026-10-04T13:17:00,web_feedback_form,rv_stream_000732,I have tried several times and the product_quality on HealthPlus still does not work.,ShopNow,call_center
+evt_000733,feedback.created,2026-10-04T13:24:00,web_feedback_form,rv_stream_000733,I really like the PayWave Mobile App. The usability experience was smooth and easy.,ShopNow,call_center
+evt_000734,feedback.created,2026-10-04T13:31:00,web_feedback_form,rv_stream_000734,The PayWave Mobile App worked perfectly for me. Very happy with the pricing.,StreamBox,email
+evt_000735,feedback.created,2026-10-04T13:38:00,web_feedback_form,rv_stream_000735,I really like the ShopNow. The delivery experience was smooth and easy.,LearnHub,mobile_app
+evt_000736,feedback.created,2026-10-04T13:45:00,web_feedback_form,rv_stream_000736,The RideGo worked perfectly for me. Very happy with the performance.,LearnHub,survey
+evt_000737,feedback.created,2026-10-04T13:52:00,web_feedback_form,rv_stream_000737,Very disappointed with SwiftBank Mobile. The delivery needs serious improvement.,SwiftBank Mobile,support_chat
+evt_000738,feedback.created,2026-10-04T13:59:00,web_feedback_form,rv_stream_000738,Very disappointed with StreamBox. The usability needs serious improvement.,PayWave Mobile App,email
+evt_000739,feedback.created,2026-10-04T14:06:00,web_feedback_form,rv_stream_000739,I have tried several times and the payment on RideGo still does not work.,LearnHub,social_media
+evt_000740,feedback.created,2026-10-04T14:13:00,web_feedback_form,rv_stream_000740,Very disappointed with ShopNow. The performance needs serious improvement.,LearnHub,social_media
+evt_000741,feedback.created,2026-10-04T14:20:00,web_feedback_form,rv_stream_000741,I have tried several times and the performance on StreamBox still does not work.,HealthPlus,mobile_app
+evt_000742,feedback.created,2026-10-04T14:27:00,web_feedback_form,rv_stream_000742,Very disappointed with PayWave Mobile App. The pricing needs serious improvement.,LearnHub,survey
+evt_000743,feedback.created,2026-10-04T14:34:00,web_feedback_form,rv_stream_000743,Very disappointed with RideGo. The product_quality needs serious improvement.,PayWave Mobile App,mobile_app
+evt_000744,feedback.created,2026-10-04T14:41:00,web_feedback_form,rv_stream_000744,The PayWave Mobile App is frustrating. The security has been a terrible experience.,ShopNow,social_media
+evt_000745,feedback.created,2026-10-04T14:48:00,web_feedback_form,rv_stream_000745,Very disappointed with RideGo. The delivery needs serious improvement.,FreshMart,social_media
+evt_000746,feedback.created,2026-10-04T14:55:00,web_feedback_form,rv_stream_000746,The StreamBox worked perfectly for me. Very happy with the security.,FreshMart,mobile_app
+evt_000747,feedback.created,2026-10-04T15:02:00,web_feedback_form,rv_stream_000747,I have tried several times and the product_quality on SwiftBank Mobile still does not work.,ShopNow,web
+evt_000748,feedback.created,2026-10-04T15:09:00,web_feedback_form,rv_stream_000748,I really like the StreamBox. The pricing experience was smooth and easy.,LearnHub,support_chat
+evt_000749,feedback.created,2026-10-04T15:16:00,web_feedback_form,rv_stream_000749,The LearnHub is frustrating. The pricing has been a terrible experience.,RideGo,web
+evt_000750,feedback.created,2026-10-04T15:23:00,web_feedback_form,rv_stream_000750,The SwiftBank Mobile worked perfectly for me. Very happy with the payment.,SwiftBank Mobile,email
+evt_000751,feedback.created,2026-10-04T15:30:00,web_feedback_form,rv_stream_000751,The LearnHub worked perfectly for me. Very happy with the refund.,FreshMart,email
+evt_000752,feedback.created,2026-10-04T15:37:00,web_feedback_form,rv_stream_000752,The StreamBox worked perfectly for me. Very happy with the usability.,StreamBox,survey
+evt_000753,feedback.created,2026-10-04T15:44:00,web_feedback_form,rv_stream_000753,Very disappointed with QuickCash Wallet. The performance needs serious improvement.,SwiftBank Mobile,mobile_app
+evt_000754,feedback.created,2026-10-04T15:51:00,web_feedback_form,rv_stream_000754,I had a great experience using ShopNow. Everything around availability was straightforward.,PayWave Mobile App,mobile_app
+evt_000755,feedback.created,2026-10-04T15:58:00,web_feedback_form,rv_stream_000755,The FreshMart is frustrating. The delivery has been a terrible experience.,HealthPlus,mobile_app
+evt_000756,feedback.created,2026-10-04T16:05:00,web_feedback_form,rv_stream_000756,Very disappointed with RideGo. The refund needs serious improvement.,FreshMart,support_chat
+evt_000757,feedback.created,2026-10-04T16:12:00,web_feedback_form,rv_stream_000757,I have tried several times and the product_quality on HealthPlus still does not work.,FreshMart,web
+evt_000758,feedback.created,2026-10-04T16:19:00,web_feedback_form,rv_stream_000758,Very disappointed with FreshMart. The performance needs serious improvement.,StreamBox,email
+evt_000759,feedback.created,2026-10-04T16:26:00,web_feedback_form,rv_stream_000759,I have tried several times and the security on RideGo still does not work.,FreshMart,survey
+evt_000760,feedback.created,2026-10-04T16:33:00,web_feedback_form,rv_stream_000760,I have tried several times and the availability on QuickCash Wallet still does not work.,SwiftBank Mobile,call_center
+evt_000761,feedback.created,2026-10-04T16:40:00,web_feedback_form,rv_stream_000761,The RideGo is frustrating. The usability has been a terrible experience.,FreshMart,web
+evt_000762,feedback.created,2026-10-04T16:47:00,web_feedback_form,rv_stream_000762,The FreshMart is frustrating. The security has been a terrible experience.,SwiftBank Mobile,support_chat
+evt_000763,feedback.created,2026-10-04T16:54:00,web_feedback_form,rv_stream_000763,I had a great experience using QuickCash Wallet. Everything around payment was straightforward.,PayWave Mobile App,email
+evt_000764,feedback.created,2026-10-04T17:01:00,web_feedback_form,rv_stream_000764,I really like the RideGo. The pricing experience was smooth and easy.,PayWave Mobile App,call_center
+evt_000765,feedback.created,2026-10-04T17:08:00,web_feedback_form,rv_stream_000765,The HealthPlus is frustrating. The security has been a terrible experience.,QuickCash Wallet,mobile_app
+evt_000766,feedback.created,2026-10-04T17:15:00,web_feedback_form,rv_stream_000766,The CloudDesk is frustrating. The refund has been a terrible experience.,RideGo,web
+evt_000767,feedback.created,2026-10-04T17:22:00,web_feedback_form,rv_stream_000767,Very disappointed with QuickCash Wallet. The performance needs serious improvement.,StreamBox,support_chat
+evt_000768,feedback.created,2026-10-04T17:29:00,web_feedback_form,rv_stream_000768,Very disappointed with LearnHub. The payment needs serious improvement.,PayWave Mobile App,email
+evt_000769,feedback.created,2026-10-04T17:36:00,web_feedback_form,rv_stream_000769,I have tried several times and the availability on QuickCash Wallet still does not work.,HealthPlus,social_media
+evt_000770,feedback.created,2026-10-04T17:43:00,web_feedback_form,rv_stream_000770,I have tried several times and the delivery on PayWave Mobile App still does not work.,SwiftBank Mobile,mobile_app
+evt_000771,feedback.created,2026-10-04T17:50:00,web_feedback_form,rv_stream_000771,I have tried several times and the refund on ShopNow still does not work.,ShopNow,support_chat
+evt_000772,feedback.created,2026-10-04T17:57:00,web_feedback_form,rv_stream_000772,The SwiftBank Mobile is frustrating. The refund has been a terrible experience.,CloudDesk,support_chat
+evt_000773,feedback.created,2026-10-04T18:04:00,web_feedback_form,rv_stream_000773,I really like the SwiftBank Mobile. The delivery experience was smooth and easy.,HealthPlus,web
+evt_000774,feedback.created,2026-10-04T18:11:00,web_feedback_form,rv_stream_000774,I really like the RideGo. The product_quality experience was smooth and easy.,StreamBox,web
+evt_000775,feedback.created,2026-10-04T18:18:00,web_feedback_form,rv_stream_000775,The RideGo worked perfectly for me. Very happy with the payment.,ShopNow,support_chat
+evt_000776,feedback.created,2026-10-04T18:25:00,web_feedback_form,rv_stream_000776,Very disappointed with StreamBox. The pricing needs serious improvement.,HealthPlus,web
+evt_000777,feedback.created,2026-10-04T18:32:00,web_feedback_form,rv_stream_000777,Very disappointed with ShopNow. The pricing needs serious improvement.,SwiftBank Mobile,social_media
+evt_000778,feedback.created,2026-10-04T18:39:00,web_feedback_form,rv_stream_000778,The RideGo is frustrating. The performance has been a terrible experience.,StreamBox,web
+evt_000779,feedback.created,2026-10-04T18:46:00,web_feedback_form,rv_stream_000779,I really like the LearnHub. The usability experience was smooth and easy.,SwiftBank Mobile,social_media
+evt_000780,feedback.created,2026-10-04T18:53:00,web_feedback_form,rv_stream_000780,Very disappointed with PayWave Mobile App. The security needs serious improvement.,ShopNow,survey
+evt_000781,feedback.created,2026-10-04T19:00:00,web_feedback_form,rv_stream_000781,The HealthPlus is frustrating. The performance has been a terrible experience.,LearnHub,email
+evt_000782,feedback.created,2026-10-04T19:07:00,web_feedback_form,rv_stream_000782,The HealthPlus worked perfectly for me. Very happy with the delivery.,LearnHub,web
+evt_000783,feedback.created,2026-10-04T19:14:00,web_feedback_form,rv_stream_000783,The QuickCash Wallet is frustrating. The security has been a terrible experience.,LearnHub,survey
+evt_000784,feedback.created,2026-10-04T19:21:00,web_feedback_form,rv_stream_000784,I really like the FreshMart. The delivery experience was smooth and easy.,SwiftBank Mobile,mobile_app
+evt_000785,feedback.created,2026-10-04T19:28:00,web_feedback_form,rv_stream_000785,The CloudDesk worked perfectly for me. Very happy with the security.,SwiftBank Mobile,survey
+evt_000786,feedback.created,2026-10-04T19:35:00,web_feedback_form,rv_stream_000786,The ShopNow worked perfectly for me. Very happy with the security.,FreshMart,mobile_app
+evt_000787,feedback.created,2026-10-04T19:42:00,web_feedback_form,rv_stream_000787,The ShopNow is frustrating. The pricing has been a terrible experience.,PayWave Mobile App,email
+evt_000788,feedback.created,2026-10-04T19:49:00,web_feedback_form,rv_stream_000788,Very disappointed with StreamBox. The availability needs serious improvement.,LearnHub,web
+evt_000789,feedback.created,2026-10-04T19:56:00,web_feedback_form,rv_stream_000789,I had a great experience using SwiftBank Mobile. Everything around customer_support was straightforward.,QuickCash Wallet,support_chat
+evt_000790,feedback.created,2026-10-04T20:03:00,web_feedback_form,rv_stream_000790,The LearnHub is frustrating. The delivery has been a terrible experience.,FreshMart,web
+evt_000791,feedback.created,2026-10-04T20:10:00,web_feedback_form,rv_stream_000791,I had a great experience using HealthPlus. Everything around security was straightforward.,PayWave Mobile App,email
+evt_000792,feedback.created,2026-10-04T20:17:00,web_feedback_form,rv_stream_000792,I have tried several times and the usability on SwiftBank Mobile still does not work.,ShopNow,support_chat
+evt_000793,feedback.created,2026-10-04T20:24:00,web_feedback_form,rv_stream_000793,The LearnHub worked perfectly for me. Very happy with the delivery.,CloudDesk,survey
+evt_000794,feedback.created,2026-10-04T20:31:00,web_feedback_form,rv_stream_000794,The ShopNow worked perfectly for me. Very happy with the security.,CloudDesk,mobile_app
+evt_000795,feedback.created,2026-10-04T20:38:00,web_feedback_form,rv_stream_000795,Very disappointed with CloudDesk. The customer_support needs serious improvement.,HealthPlus,survey
+evt_000796,feedback.created,2026-10-04T20:45:00,web_feedback_form,rv_stream_000796,The LearnHub worked perfectly for me. Very happy with the product_quality.,ShopNow,survey
+evt_000797,feedback.created,2026-10-04T20:52:00,web_feedback_form,rv_stream_000797,I had a great experience using QuickCash Wallet. Everything around pricing was straightforward.,ShopNow,social_media
+evt_000798,feedback.created,2026-10-04T20:59:00,web_feedback_form,rv_stream_000798,Very disappointed with SwiftBank Mobile. The security needs serious improvement.,LearnHub,call_center
+evt_000799,feedback.created,2026-10-04T21:06:00,web_feedback_form,rv_stream_000799,I have tried several times and the refund on CloudDesk still does not work.,HealthPlus,web
+evt_000800,feedback.created,2026-10-04T21:13:00,web_feedback_form,rv_stream_000800,I have tried several times and the product_quality on HealthPlus still does not work.,HealthPlus,survey
+evt_000801,feedback.created,2026-10-04T21:20:00,web_feedback_form,rv_stream_000801,I have tried several times and the refund on RideGo still does not work.,CloudDesk,social_media
+evt_000802,feedback.created,2026-10-04T21:27:00,web_feedback_form,rv_stream_000802,Very disappointed with HealthPlus. The product_quality needs serious improvement.,ShopNow,social_media
+evt_000803,feedback.created,2026-10-04T21:34:00,web_feedback_form,rv_stream_000803,I had a great experience using HealthPlus. Everything around delivery was straightforward.,LearnHub,call_center
+evt_000804,feedback.created,2026-10-04T21:41:00,web_feedback_form,rv_stream_000804,Very disappointed with RideGo. The performance needs serious improvement.,StreamBox,social_media
+evt_000805,feedback.created,2026-10-04T21:48:00,web_feedback_form,rv_stream_000805,I really like the FreshMart. The availability experience was smooth and easy.,LearnHub,email
+evt_000806,feedback.created,2026-10-04T21:55:00,web_feedback_form,rv_stream_000806,I really like the StreamBox. The availability experience was smooth and easy.,FreshMart,web
+evt_000807,feedback.created,2026-10-04T22:02:00,web_feedback_form,rv_stream_000807,The QuickCash Wallet worked perfectly for me. Very happy with the security.,ShopNow,social_media
+evt_000808,feedback.created,2026-10-04T22:09:00,web_feedback_form,rv_stream_000808,I had a great experience using FreshMart. Everything around usability was straightforward.,CloudDesk,web
+evt_000809,feedback.created,2026-10-04T22:16:00,web_feedback_form,rv_stream_000809,I have tried several times and the payment on PayWave Mobile App still does not work.,StreamBox,call_center
+evt_000810,feedback.created,2026-10-04T22:23:00,web_feedback_form,rv_stream_000810,I really like the PayWave Mobile App. The usability experience was smooth and easy.,StreamBox,survey
+evt_000811,feedback.created,2026-10-04T22:30:00,web_feedback_form,rv_stream_000811,The PayWave Mobile App worked perfectly for me. Very happy with the refund.,RideGo,support_chat
+evt_000812,feedback.created,2026-10-04T22:37:00,web_feedback_form,rv_stream_000812,The QuickCash Wallet is frustrating. The availability has been a terrible experience.,SwiftBank Mobile,survey
+evt_000813,feedback.created,2026-10-04T22:44:00,web_feedback_form,rv_stream_000813,I really like the StreamBox. The pricing experience was smooth and easy.,StreamBox,social_media
+evt_000814,feedback.created,2026-10-04T22:51:00,web_feedback_form,rv_stream_000814,The CloudDesk worked perfectly for me. Very happy with the product_quality.,HealthPlus,social_media
+evt_000815,feedback.created,2026-10-04T22:58:00,web_feedback_form,rv_stream_000815,The ShopNow worked perfectly for me. Very happy with the usability.,RideGo,call_center
+evt_000816,feedback.created,2026-10-04T23:05:00,web_feedback_form,rv_stream_000816,Very disappointed with QuickCash Wallet. The delivery needs serious improvement.,PayWave Mobile App,social_media
+evt_000817,feedback.created,2026-10-04T23:12:00,web_feedback_form,rv_stream_000817,The FreshMart worked perfectly for me. Very happy with the security.,LearnHub,mobile_app
+evt_000818,feedback.created,2026-10-04T23:19:00,web_feedback_form,rv_stream_000818,I really like the SwiftBank Mobile. The performance experience was smooth and easy.,HealthPlus,web
+evt_000819,feedback.created,2026-10-04T23:26:00,web_feedback_form,rv_stream_000819,Very disappointed with SwiftBank Mobile. The availability needs serious improvement.,HealthPlus,social_media
+evt_000820,feedback.created,2026-10-04T23:33:00,web_feedback_form,rv_stream_000820,I have tried several times and the availability on SwiftBank Mobile still does not work.,ShopNow,social_media
+evt_000821,feedback.created,2026-10-04T23:40:00,web_feedback_form,rv_stream_000821,The HealthPlus is frustrating. The refund has been a terrible experience.,StreamBox,social_media
+evt_000822,feedback.created,2026-10-04T23:47:00,web_feedback_form,rv_stream_000822,Very disappointed with PayWave Mobile App. The product_quality needs serious improvement.,ShopNow,email
+evt_000823,feedback.created,2026-10-04T23:54:00,web_feedback_form,rv_stream_000823,The CloudDesk is frustrating. The delivery has been a terrible experience.,LearnHub,survey
+evt_000824,feedback.created,2026-10-05T00:01:00,web_feedback_form,rv_stream_000824,Very disappointed with RideGo. The payment needs serious improvement.,SwiftBank Mobile,email
+evt_000825,feedback.created,2026-10-05T00:08:00,web_feedback_form,rv_stream_000825,I had a great experience using CloudDesk. Everything around availability was straightforward.,RideGo,mobile_app
+evt_000826,feedback.created,2026-10-05T00:15:00,web_feedback_form,rv_stream_000826,I had a great experience using QuickCash Wallet. Everything around pricing was straightforward.,ShopNow,mobile_app
+evt_000827,feedback.created,2026-10-05T00:22:00,web_feedback_form,rv_stream_000827,Very disappointed with HealthPlus. The delivery needs serious improvement.,HealthPlus,support_chat
+evt_000828,feedback.created,2026-10-05T00:29:00,web_feedback_form,rv_stream_000828,The PayWave Mobile App worked perfectly for me. Very happy with the customer_support.,CloudDesk,web
+evt_000829,feedback.created,2026-10-05T00:36:00,web_feedback_form,rv_stream_000829,Very disappointed with SwiftBank Mobile. The availability needs serious improvement.,LearnHub,support_chat
+evt_000830,feedback.created,2026-10-05T00:43:00,web_feedback_form,rv_stream_000830,I have tried several times and the usability on ShopNow still does not work.,RideGo,mobile_app
+evt_000831,feedback.created,2026-10-05T00:50:00,web_feedback_form,rv_stream_000831,I had a great experience using QuickCash Wallet. Everything around availability was straightforward.,RideGo,social_media
+evt_000832,feedback.created,2026-10-05T00:57:00,web_feedback_form,rv_stream_000832,The HealthPlus is frustrating. The usability has been a terrible experience.,ShopNow,mobile_app
+evt_000833,feedback.created,2026-10-05T01:04:00,web_feedback_form,rv_stream_000833,I really like the LearnHub. The product_quality experience was smooth and easy.,FreshMart,survey
+evt_000834,feedback.created,2026-10-05T01:11:00,web_feedback_form,rv_stream_000834,I really like the ShopNow. The performance experience was smooth and easy.,QuickCash Wallet,email
+evt_000835,feedback.created,2026-10-05T01:18:00,web_feedback_form,rv_stream_000835,The PayWave Mobile App worked perfectly for me. Very happy with the payment.,ShopNow,survey
+evt_000836,feedback.created,2026-10-05T01:25:00,web_feedback_form,rv_stream_000836,I have tried several times and the product_quality on LearnHub still does not work.,RideGo,call_center
+evt_000837,feedback.created,2026-10-05T01:32:00,web_feedback_form,rv_stream_000837,Very disappointed with CloudDesk. The pricing needs serious improvement.,ShopNow,email
+evt_000838,feedback.created,2026-10-05T01:39:00,web_feedback_form,rv_stream_000838,The LearnHub worked perfectly for me. Very happy with the availability.,CloudDesk,survey
+evt_000839,feedback.created,2026-10-05T01:46:00,web_feedback_form,rv_stream_000839,The ShopNow is frustrating. The performance has been a terrible experience.,SwiftBank Mobile,survey
+evt_000840,feedback.created,2026-10-05T01:53:00,web_feedback_form,rv_stream_000840,I have tried several times and the performance on PayWave Mobile App still does not work.,QuickCash Wallet,support_chat
+evt_000841,feedback.created,2026-10-05T02:00:00,web_feedback_form,rv_stream_000841,I had a great experience using QuickCash Wallet. Everything around security was straightforward.,PayWave Mobile App,mobile_app
+evt_000842,feedback.created,2026-10-05T02:07:00,web_feedback_form,rv_stream_000842,I had a great experience using CloudDesk. Everything around product_quality was straightforward.,RideGo,call_center
+evt_000843,feedback.created,2026-10-05T02:14:00,web_feedback_form,rv_stream_000843,I really like the ShopNow. The performance experience was smooth and easy.,RideGo,survey
+evt_000844,feedback.created,2026-10-05T02:21:00,web_feedback_form,rv_stream_000844,I really like the SwiftBank Mobile. The usability experience was smooth and easy.,ShopNow,support_chat
+evt_000845,feedback.created,2026-10-05T02:28:00,web_feedback_form,rv_stream_000845,The RideGo is frustrating. The payment has been a terrible experience.,HealthPlus,survey
+evt_000846,feedback.created,2026-10-05T02:35:00,web_feedback_form,rv_stream_000846,I have tried several times and the usability on StreamBox still does not work.,StreamBox,social_media
+evt_000847,feedback.created,2026-10-05T02:42:00,web_feedback_form,rv_stream_000847,I had a great experience using FreshMart. Everything around usability was straightforward.,HealthPlus,survey
+evt_000848,feedback.created,2026-10-05T02:49:00,web_feedback_form,rv_stream_000848,The SwiftBank Mobile worked perfectly for me. Very happy with the security.,StreamBox,web
+evt_000849,feedback.created,2026-10-05T02:56:00,web_feedback_form,rv_stream_000849,The StreamBox is frustrating. The availability has been a terrible experience.,SwiftBank Mobile,support_chat
+evt_000850,feedback.created,2026-10-05T03:03:00,web_feedback_form,rv_stream_000850,I really like the FreshMart. The customer_support experience was smooth and easy.,ShopNow,email
+evt_000851,feedback.created,2026-10-05T03:10:00,web_feedback_form,rv_stream_000851,I had a great experience using FreshMart. Everything around performance was straightforward.,HealthPlus,social_media
+evt_000852,feedback.created,2026-10-05T03:17:00,web_feedback_form,rv_stream_000852,I had a great experience using StreamBox. Everything around payment was straightforward.,RideGo,social_media
+evt_000853,feedback.created,2026-10-05T03:24:00,web_feedback_form,rv_stream_000853,I had a great experience using RideGo. Everything around pricing was straightforward.,FreshMart,email
+evt_000854,feedback.created,2026-10-05T03:31:00,web_feedback_form,rv_stream_000854,I had a great experience using HealthPlus. Everything around pricing was straightforward.,CloudDesk,mobile_app
+evt_000855,feedback.created,2026-10-05T03:38:00,web_feedback_form,rv_stream_000855,The ShopNow worked perfectly for me. Very happy with the pricing.,StreamBox,web
+evt_000856,feedback.created,2026-10-05T03:45:00,web_feedback_form,rv_stream_000856,I had a great experience using ShopNow. Everything around refund was straightforward.,LearnHub,call_center
+evt_000857,feedback.created,2026-10-05T03:52:00,web_feedback_form,rv_stream_000857,The ShopNow worked perfectly for me. Very happy with the performance.,HealthPlus,email
+evt_000858,feedback.created,2026-10-05T03:59:00,web_feedback_form,rv_stream_000858,Very disappointed with CloudDesk. The product_quality needs serious improvement.,RideGo,survey
+evt_000859,feedback.created,2026-10-05T04:06:00,web_feedback_form,rv_stream_000859,Very disappointed with HealthPlus. The performance needs serious improvement.,LearnHub,mobile_app
+evt_000860,feedback.created,2026-10-05T04:13:00,web_feedback_form,rv_stream_000860,I have tried several times and the customer_support on CloudDesk still does not work.,CloudDesk,social_media
+evt_000861,feedback.created,2026-10-05T04:20:00,web_feedback_form,rv_stream_000861,I have tried several times and the delivery on SwiftBank Mobile still does not work.,FreshMart,survey
+evt_000862,feedback.created,2026-10-05T04:27:00,web_feedback_form,rv_stream_000862,I have tried several times and the payment on HealthPlus still does not work.,StreamBox,survey
+evt_000863,feedback.created,2026-10-05T04:34:00,web_feedback_form,rv_stream_000863,Very disappointed with StreamBox. The security needs serious improvement.,QuickCash Wallet,support_chat
+evt_000864,feedback.created,2026-10-05T04:41:00,web_feedback_form,rv_stream_000864,The CloudDesk is frustrating. The refund has been a terrible experience.,HealthPlus,support_chat
+evt_000865,feedback.created,2026-10-05T04:48:00,web_feedback_form,rv_stream_000865,Very disappointed with SwiftBank Mobile. The pricing needs serious improvement.,SwiftBank Mobile,web
+evt_000866,feedback.created,2026-10-05T04:55:00,web_feedback_form,rv_stream_000866,I really like the LearnHub. The security experience was smooth and easy.,RideGo,call_center
+evt_000867,feedback.created,2026-10-05T05:02:00,web_feedback_form,rv_stream_000867,I really like the SwiftBank Mobile. The delivery experience was smooth and easy.,PayWave Mobile App,support_chat
+evt_000868,feedback.created,2026-10-05T05:09:00,web_feedback_form,rv_stream_000868,Very disappointed with LearnHub. The availability needs serious improvement.,LearnHub,social_media
+evt_000869,feedback.created,2026-10-05T05:16:00,web_feedback_form,rv_stream_000869,The CloudDesk worked perfectly for me. Very happy with the usability.,PayWave Mobile App,call_center
+evt_000870,feedback.created,2026-10-05T05:23:00,web_feedback_form,rv_stream_000870,The FreshMart is frustrating. The performance has been a terrible experience.,SwiftBank Mobile,support_chat
+evt_000871,feedback.created,2026-10-05T05:30:00,web_feedback_form,rv_stream_000871,I have tried several times and the payment on ShopNow still does not work.,QuickCash Wallet,call_center
+evt_000872,feedback.created,2026-10-05T05:37:00,web_feedback_form,rv_stream_000872,I really like the PayWave Mobile App. The availability experience was smooth and easy.,ShopNow,support_chat
+evt_000873,feedback.created,2026-10-05T05:44:00,web_feedback_form,rv_stream_000873,I have tried several times and the payment on CloudDesk still does not work.,PayWave Mobile App,web
+evt_000874,feedback.created,2026-10-05T05:51:00,web_feedback_form,rv_stream_000874,I really like the QuickCash Wallet. The product_quality experience was smooth and easy.,CloudDesk,support_chat
+evt_000875,feedback.created,2026-10-05T05:58:00,web_feedback_form,rv_stream_000875,The LearnHub is frustrating. The customer_support has been a terrible experience.,RideGo,support_chat
+evt_000876,feedback.created,2026-10-05T06:05:00,web_feedback_form,rv_stream_000876,I have tried several times and the security on LearnHub still does not work.,ShopNow,web
+evt_000877,feedback.created,2026-10-05T06:12:00,web_feedback_form,rv_stream_000877,I have tried several times and the performance on HealthPlus still does not work.,HealthPlus,email
+evt_000878,feedback.created,2026-10-05T06:19:00,web_feedback_form,rv_stream_000878,I have tried several times and the product_quality on PayWave Mobile App still does not work.,FreshMart,survey
+evt_000879,feedback.created,2026-10-05T06:26:00,web_feedback_form,rv_stream_000879,I really like the PayWave Mobile App. The refund experience was smooth and easy.,RideGo,support_chat
+evt_000880,feedback.created,2026-10-05T06:33:00,web_feedback_form,rv_stream_000880,I have tried several times and the usability on SwiftBank Mobile still does not work.,QuickCash Wallet,support_chat
+evt_000881,feedback.created,2026-10-05T06:40:00,web_feedback_form,rv_stream_000881,I had a great experience using LearnHub. Everything around availability was straightforward.,PayWave Mobile App,social_media
+evt_000882,feedback.created,2026-10-05T06:47:00,web_feedback_form,rv_stream_000882,Very disappointed with StreamBox. The pricing needs serious improvement.,SwiftBank Mobile,web
+evt_000883,feedback.created,2026-10-05T06:54:00,web_feedback_form,rv_stream_000883,The HealthPlus worked perfectly for me. Very happy with the delivery.,RideGo,web
+evt_000884,feedback.created,2026-10-05T07:01:00,web_feedback_form,rv_stream_000884,Very disappointed with CloudDesk. The payment needs serious improvement.,SwiftBank Mobile,mobile_app
+evt_000885,feedback.created,2026-10-05T07:08:00,web_feedback_form,rv_stream_000885,The HealthPlus worked perfectly for me. Very happy with the performance.,QuickCash Wallet,email
+evt_000886,feedback.created,2026-10-05T07:15:00,web_feedback_form,rv_stream_000886,The SwiftBank Mobile is frustrating. The customer_support has been a terrible experience.,LearnHub,support_chat
+evt_000887,feedback.created,2026-10-05T07:22:00,web_feedback_form,rv_stream_000887,I have tried several times and the pricing on QuickCash Wallet still does not work.,ShopNow,email
+evt_000888,feedback.created,2026-10-05T07:29:00,web_feedback_form,rv_stream_000888,The PayWave Mobile App is frustrating. The usability has been a terrible experience.,RideGo,web
+evt_000889,feedback.created,2026-10-05T07:36:00,web_feedback_form,rv_stream_000889,I really like the PayWave Mobile App. The customer_support experience was smooth and easy.,RideGo,email
+evt_000890,feedback.created,2026-10-05T07:43:00,web_feedback_form,rv_stream_000890,Very disappointed with PayWave Mobile App. The delivery needs serious improvement.,LearnHub,call_center
+evt_000891,feedback.created,2026-10-05T07:50:00,web_feedback_form,rv_stream_000891,I have tried several times and the performance on PayWave Mobile App still does not work.,ShopNow,web
+evt_000892,feedback.created,2026-10-05T07:57:00,web_feedback_form,rv_stream_000892,I have tried several times and the customer_support on QuickCash Wallet still does not work.,QuickCash Wallet,email
+evt_000893,feedback.created,2026-10-05T08:04:00,web_feedback_form,rv_stream_000893,The SwiftBank Mobile worked perfectly for me. Very happy with the security.,QuickCash Wallet,web
+evt_000894,feedback.created,2026-10-05T08:11:00,web_feedback_form,rv_stream_000894,I really like the FreshMart. The payment experience was smooth and easy.,StreamBox,social_media
+evt_000895,feedback.created,2026-10-05T08:18:00,web_feedback_form,rv_stream_000895,I really like the CloudDesk. The payment experience was smooth and easy.,CloudDesk,web
+evt_000896,feedback.created,2026-10-05T08:25:00,web_feedback_form,rv_stream_000896,I have tried several times and the product_quality on ShopNow still does not work.,LearnHub,web
+evt_000897,feedback.created,2026-10-05T08:32:00,web_feedback_form,rv_stream_000897,The ShopNow worked perfectly for me. Very happy with the pricing.,SwiftBank Mobile,email
+evt_000898,feedback.created,2026-10-05T08:39:00,web_feedback_form,rv_stream_000898,I have tried several times and the availability on StreamBox still does not work.,RideGo,survey
+evt_000899,feedback.created,2026-10-05T08:46:00,web_feedback_form,rv_stream_000899,I have tried several times and the delivery on RideGo still does not work.,QuickCash Wallet,web
+evt_000900,feedback.created,2026-10-05T08:53:00,web_feedback_form,rv_stream_000900,I really like the SwiftBank Mobile. The availability experience was smooth and easy.,StreamBox,email
+evt_000901,feedback.created,2026-10-05T09:00:00,web_feedback_form,rv_stream_000901,The LearnHub is frustrating. The availability has been a terrible experience.,FreshMart,email
+evt_000902,feedback.created,2026-10-05T09:07:00,web_feedback_form,rv_stream_000902,I have tried several times and the usability on LearnHub still does not work.,SwiftBank Mobile,survey
+evt_000903,feedback.created,2026-10-05T09:14:00,web_feedback_form,rv_stream_000903,I have tried several times and the customer_support on RideGo still does not work.,FreshMart,mobile_app
+evt_000904,feedback.created,2026-10-05T09:21:00,web_feedback_form,rv_stream_000904,The QuickCash Wallet worked perfectly for me. Very happy with the pricing.,QuickCash Wallet,web
+evt_000905,feedback.created,2026-10-05T09:28:00,web_feedback_form,rv_stream_000905,Very disappointed with PayWave Mobile App. The pricing needs serious improvement.,ShopNow,support_chat
+evt_000906,feedback.created,2026-10-05T09:35:00,web_feedback_form,rv_stream_000906,I really like the HealthPlus. The performance experience was smooth and easy.,ShopNow,web
+evt_000907,feedback.created,2026-10-05T09:42:00,web_feedback_form,rv_stream_000907,I had a great experience using FreshMart. Everything around pricing was straightforward.,HealthPlus,web
+evt_000908,feedback.created,2026-10-05T09:49:00,web_feedback_form,rv_stream_000908,The HealthPlus is frustrating. The delivery has been a terrible experience.,ShopNow,social_media
+evt_000909,feedback.created,2026-10-05T09:56:00,web_feedback_form,rv_stream_000909,I have tried several times and the security on StreamBox still does not work.,HealthPlus,email
+evt_000910,feedback.created,2026-10-05T10:03:00,web_feedback_form,rv_stream_000910,Very disappointed with LearnHub. The delivery needs serious improvement.,StreamBox,survey
+evt_000911,feedback.created,2026-10-05T10:10:00,web_feedback_form,rv_stream_000911,I had a great experience using ShopNow. Everything around availability was straightforward.,FreshMart,web
+evt_000912,feedback.created,2026-10-05T10:17:00,web_feedback_form,rv_stream_000912,The QuickCash Wallet is frustrating. The security has been a terrible experience.,RideGo,survey
+evt_000913,feedback.created,2026-10-05T10:24:00,web_feedback_form,rv_stream_000913,The LearnHub worked perfectly for me. Very happy with the security.,QuickCash Wallet,survey
+evt_000914,feedback.created,2026-10-05T10:31:00,web_feedback_form,rv_stream_000914,The QuickCash Wallet is frustrating. The usability has been a terrible experience.,StreamBox,call_center
+evt_000915,feedback.created,2026-10-05T10:38:00,web_feedback_form,rv_stream_000915,I have tried several times and the pricing on HealthPlus still does not work.,LearnHub,email
+evt_000916,feedback.created,2026-10-05T10:45:00,web_feedback_form,rv_stream_000916,I have tried several times and the usability on LearnHub still does not work.,FreshMart,mobile_app
+evt_000917,feedback.created,2026-10-05T10:52:00,web_feedback_form,rv_stream_000917,The CloudDesk is frustrating. The pricing has been a terrible experience.,QuickCash Wallet,mobile_app
+evt_000918,feedback.created,2026-10-05T10:59:00,web_feedback_form,rv_stream_000918,The ShopNow is frustrating. The security has been a terrible experience.,ShopNow,web
+evt_000919,feedback.created,2026-10-05T11:06:00,web_feedback_form,rv_stream_000919,The PayWave Mobile App worked perfectly for me. Very happy with the availability.,RideGo,call_center
+evt_000920,feedback.created,2026-10-05T11:13:00,web_feedback_form,rv_stream_000920,Very disappointed with ShopNow. The performance needs serious improvement.,ShopNow,survey
+evt_000921,feedback.created,2026-10-05T11:20:00,web_feedback_form,rv_stream_000921,The HealthPlus is frustrating. The usability has been a terrible experience.,FreshMart,social_media
+evt_000922,feedback.created,2026-10-05T11:27:00,web_feedback_form,rv_stream_000922,The PayWave Mobile App worked perfectly for me. Very happy with the product_quality.,SwiftBank Mobile,web
+evt_000923,feedback.created,2026-10-05T11:34:00,web_feedback_form,rv_stream_000923,I had a great experience using SwiftBank Mobile. Everything around availability was straightforward.,StreamBox,social_media
+evt_000924,feedback.created,2026-10-05T11:41:00,web_feedback_form,rv_stream_000924,Very disappointed with LearnHub. The pricing needs serious improvement.,CloudDesk,survey
+evt_000925,feedback.created,2026-10-05T11:48:00,web_feedback_form,rv_stream_000925,Very disappointed with LearnHub. The pricing needs serious improvement.,RideGo,web
+evt_000926,feedback.created,2026-10-05T11:55:00,web_feedback_form,rv_stream_000926,I had a great experience using SwiftBank Mobile. Everything around refund was straightforward.,PayWave Mobile App,social_media
+evt_000927,feedback.created,2026-10-05T12:02:00,web_feedback_form,rv_stream_000927,I really like the HealthPlus. The product_quality experience was smooth and easy.,CloudDesk,call_center
+evt_000928,feedback.created,2026-10-05T12:09:00,web_feedback_form,rv_stream_000928,I had a great experience using HealthPlus. Everything around payment was straightforward.,SwiftBank Mobile,support_chat
+evt_000929,feedback.created,2026-10-05T12:16:00,web_feedback_form,rv_stream_000929,The LearnHub worked perfectly for me. Very happy with the security.,ShopNow,call_center
+evt_000930,feedback.created,2026-10-05T12:23:00,web_feedback_form,rv_stream_000930,The QuickCash Wallet is frustrating. The refund has been a terrible experience.,ShopNow,support_chat
+evt_000931,feedback.created,2026-10-05T12:30:00,web_feedback_form,rv_stream_000931,I have tried several times and the refund on RideGo still does not work.,HealthPlus,mobile_app
+evt_000932,feedback.created,2026-10-05T12:37:00,web_feedback_form,rv_stream_000932,I really like the RideGo. The availability experience was smooth and easy.,ShopNow,survey
+evt_000933,feedback.created,2026-10-05T12:44:00,web_feedback_form,rv_stream_000933,The FreshMart worked perfectly for me. Very happy with the pricing.,SwiftBank Mobile,support_chat
+evt_000934,feedback.created,2026-10-05T12:51:00,web_feedback_form,rv_stream_000934,I really like the StreamBox. The security experience was smooth and easy.,CloudDesk,email
+evt_000935,feedback.created,2026-10-05T12:58:00,web_feedback_form,rv_stream_000935,Very disappointed with PayWave Mobile App. The customer_support needs serious improvement.,RideGo,mobile_app
+evt_000936,feedback.created,2026-10-05T13:05:00,web_feedback_form,rv_stream_000936,I really like the SwiftBank Mobile. The security experience was smooth and easy.,SwiftBank Mobile,support_chat
+evt_000937,feedback.created,2026-10-05T13:12:00,web_feedback_form,rv_stream_000937,I have tried several times and the payment on PayWave Mobile App still does not work.,HealthPlus,call_center
+evt_000938,feedback.created,2026-10-05T13:19:00,web_feedback_form,rv_stream_000938,Very disappointed with FreshMart. The pricing needs serious improvement.,HealthPlus,web
+evt_000939,feedback.created,2026-10-05T13:26:00,web_feedback_form,rv_stream_000939,I have tried several times and the performance on CloudDesk still does not work.,CloudDesk,call_center
+evt_000940,feedback.created,2026-10-05T13:33:00,web_feedback_form,rv_stream_000940,I really like the ShopNow. The pricing experience was smooth and easy.,CloudDesk,email
+evt_000941,feedback.created,2026-10-05T13:40:00,web_feedback_form,rv_stream_000941,I really like the QuickCash Wallet. The usability experience was smooth and easy.,LearnHub,support_chat
+evt_000942,feedback.created,2026-10-05T13:47:00,web_feedback_form,rv_stream_000942,I have tried several times and the customer_support on ShopNow still does not work.,PayWave Mobile App,survey
+evt_000943,feedback.created,2026-10-05T13:54:00,web_feedback_form,rv_stream_000943,I really like the RideGo. The pricing experience was smooth and easy.,QuickCash Wallet,mobile_app
+evt_000944,feedback.created,2026-10-05T14:01:00,web_feedback_form,rv_stream_000944,The PayWave Mobile App is frustrating. The delivery has been a terrible experience.,LearnHub,web
+evt_000945,feedback.created,2026-10-05T14:08:00,web_feedback_form,rv_stream_000945,I had a great experience using StreamBox. Everything around security was straightforward.,LearnHub,call_center
+evt_000946,feedback.created,2026-10-05T14:15:00,web_feedback_form,rv_stream_000946,I have tried several times and the performance on CloudDesk still does not work.,SwiftBank Mobile,mobile_app
+evt_000947,feedback.created,2026-10-05T14:22:00,web_feedback_form,rv_stream_000947,I really like the HealthPlus. The delivery experience was smooth and easy.,ShopNow,call_center
+evt_000948,feedback.created,2026-10-05T14:29:00,web_feedback_form,rv_stream_000948,I have tried several times and the performance on PayWave Mobile App still does not work.,StreamBox,web
+evt_000949,feedback.created,2026-10-05T14:36:00,web_feedback_form,rv_stream_000949,I had a great experience using SwiftBank Mobile. Everything around security was straightforward.,StreamBox,survey
+evt_000950,feedback.created,2026-10-05T14:43:00,web_feedback_form,rv_stream_000950,I had a great experience using FreshMart. Everything around customer_support was straightforward.,FreshMart,web
+evt_000951,feedback.created,2026-10-05T14:50:00,web_feedback_form,rv_stream_000951,I have tried several times and the product_quality on StreamBox still does not work.,FreshMart,survey
+evt_000952,feedback.created,2026-10-05T14:57:00,web_feedback_form,rv_stream_000952,I really like the RideGo. The performance experience was smooth and easy.,HealthPlus,survey
+evt_000953,feedback.created,2026-10-05T15:04:00,web_feedback_form,rv_stream_000953,I have tried several times and the refund on QuickCash Wallet still does not work.,PayWave Mobile App,support_chat
+evt_000954,feedback.created,2026-10-05T15:11:00,web_feedback_form,rv_stream_000954,The FreshMart is frustrating. The customer_support has been a terrible experience.,PayWave Mobile App,call_center
+evt_000955,feedback.created,2026-10-05T15:18:00,web_feedback_form,rv_stream_000955,I had a great experience using PayWave Mobile App. Everything around security was straightforward.,CloudDesk,social_media
+evt_000956,feedback.created,2026-10-05T15:25:00,web_feedback_form,rv_stream_000956,I had a great experience using QuickCash Wallet. Everything around usability was straightforward.,PayWave Mobile App,email
+evt_000957,feedback.created,2026-10-05T15:32:00,web_feedback_form,rv_stream_000957,The QuickCash Wallet worked perfectly for me. Very happy with the security.,CloudDesk,email
+evt_000958,feedback.created,2026-10-05T15:39:00,web_feedback_form,rv_stream_000958,I had a great experience using SwiftBank Mobile. Everything around security was straightforward.,ShopNow,call_center
+evt_000959,feedback.created,2026-10-05T15:46:00,web_feedback_form,rv_stream_000959,I really like the LearnHub. The usability experience was smooth and easy.,PayWave Mobile App,survey
+evt_000960,feedback.created,2026-10-05T15:53:00,web_feedback_form,rv_stream_000960,I really like the RideGo. The usability experience was smooth and easy.,ShopNow,call_center
+evt_000961,feedback.created,2026-10-05T16:00:00,web_feedback_form,rv_stream_000961,Very disappointed with SwiftBank Mobile. The security needs serious improvement.,ShopNow,social_media
+evt_000962,feedback.created,2026-10-05T16:07:00,web_feedback_form,rv_stream_000962,I have tried several times and the availability on QuickCash Wallet still does not work.,HealthPlus,social_media
+evt_000963,feedback.created,2026-10-05T16:14:00,web_feedback_form,rv_stream_000963,I have tried several times and the payment on StreamBox still does not work.,PayWave Mobile App,survey
+evt_000964,feedback.created,2026-10-05T16:21:00,web_feedback_form,rv_stream_000964,I had a great experience using StreamBox. Everything around usability was straightforward.,ShopNow,survey
+evt_000965,feedback.created,2026-10-05T16:28:00,web_feedback_form,rv_stream_000965,I have tried several times and the pricing on QuickCash Wallet still does not work.,QuickCash Wallet,social_media
+evt_000966,feedback.created,2026-10-05T16:35:00,web_feedback_form,rv_stream_000966,The LearnHub worked perfectly for me. Very happy with the refund.,QuickCash Wallet,mobile_app
+evt_000967,feedback.created,2026-10-05T16:42:00,web_feedback_form,rv_stream_000967,I have tried several times and the customer_support on HealthPlus still does not work.,HealthPlus,call_center
+evt_000968,feedback.created,2026-10-05T16:49:00,web_feedback_form,rv_stream_000968,Very disappointed with CloudDesk. The pricing needs serious improvement.,QuickCash Wallet,survey
+evt_000969,feedback.created,2026-10-05T16:56:00,web_feedback_form,rv_stream_000969,The PayWave Mobile App is frustrating. The product_quality has been a terrible experience.,QuickCash Wallet,web
+evt_000970,feedback.created,2026-10-05T17:03:00,web_feedback_form,rv_stream_000970,The PayWave Mobile App is frustrating. The refund has been a terrible experience.,CloudDesk,web
+evt_000971,feedback.created,2026-10-05T17:10:00,web_feedback_form,rv_stream_000971,The CloudDesk is frustrating. The delivery has been a terrible experience.,RideGo,social_media
+evt_000972,feedback.created,2026-10-05T17:17:00,web_feedback_form,rv_stream_000972,I have tried several times and the product_quality on LearnHub still does not work.,LearnHub,social_media
+evt_000973,feedback.created,2026-10-05T17:24:00,web_feedback_form,rv_stream_000973,I have tried several times and the product_quality on PayWave Mobile App still does not work.,PayWave Mobile App,email
+evt_000974,feedback.created,2026-10-05T17:31:00,web_feedback_form,rv_stream_000974,I have tried several times and the pricing on ShopNow still does not work.,StreamBox,mobile_app
+evt_000975,feedback.created,2026-10-05T17:38:00,web_feedback_form,rv_stream_000975,Very disappointed with LearnHub. The delivery needs serious improvement.,StreamBox,survey
+evt_000976,feedback.created,2026-10-05T17:45:00,web_feedback_form,rv_stream_000976,I have tried several times and the product_quality on RideGo still does not work.,QuickCash Wallet,mobile_app
+evt_000977,feedback.created,2026-10-05T17:52:00,web_feedback_form,rv_stream_000977,The HealthPlus worked perfectly for me. Very happy with the availability.,CloudDesk,mobile_app
+evt_000978,feedback.created,2026-10-05T17:59:00,web_feedback_form,rv_stream_000978,I really like the CloudDesk. The refund experience was smooth and easy.,PayWave Mobile App,call_center
+evt_000979,feedback.created,2026-10-05T18:06:00,web_feedback_form,rv_stream_000979,I have tried several times and the delivery on LearnHub still does not work.,RideGo,support_chat
+evt_000980,feedback.created,2026-10-05T18:13:00,web_feedback_form,rv_stream_000980,The SwiftBank Mobile is frustrating. The security has been a terrible experience.,StreamBox,support_chat
+evt_000981,feedback.created,2026-10-05T18:20:00,web_feedback_form,rv_stream_000981,The RideGo is frustrating. The pricing has been a terrible experience.,CloudDesk,support_chat
+evt_000982,feedback.created,2026-10-05T18:27:00,web_feedback_form,rv_stream_000982,I had a great experience using RideGo. Everything around customer_support was straightforward.,StreamBox,support_chat
+evt_000983,feedback.created,2026-10-05T18:34:00,web_feedback_form,rv_stream_000983,I had a great experience using ShopNow. Everything around refund was straightforward.,LearnHub,social_media
+evt_000984,feedback.created,2026-10-05T18:41:00,web_feedback_form,rv_stream_000984,Very disappointed with FreshMart. The performance needs serious improvement.,StreamBox,survey
+evt_000985,feedback.created,2026-10-05T18:48:00,web_feedback_form,rv_stream_000985,I had a great experience using LearnHub. Everything around security was straightforward.,SwiftBank Mobile,call_center
+evt_000986,feedback.created,2026-10-05T18:55:00,web_feedback_form,rv_stream_000986,Very disappointed with ShopNow. The customer_support needs serious improvement.,HealthPlus,email
+evt_000987,feedback.created,2026-10-05T19:02:00,web_feedback_form,rv_stream_000987,Very disappointed with ShopNow. The delivery needs serious improvement.,CloudDesk,mobile_app
+evt_000988,feedback.created,2026-10-05T19:09:00,web_feedback_form,rv_stream_000988,The HealthPlus worked perfectly for me. Very happy with the refund.,QuickCash Wallet,email
+evt_000989,feedback.created,2026-10-05T19:16:00,web_feedback_form,rv_stream_000989,The RideGo is frustrating. The pricing has been a terrible experience.,SwiftBank Mobile,support_chat
+evt_000990,feedback.created,2026-10-05T19:23:00,web_feedback_form,rv_stream_000990,I have tried several times and the customer_support on RideGo still does not work.,FreshMart,web
+evt_000991,feedback.created,2026-10-05T19:30:00,web_feedback_form,rv_stream_000991,The HealthPlus is frustrating. The delivery has been a terrible experience.,CloudDesk,web
+evt_000992,feedback.created,2026-10-05T19:37:00,web_feedback_form,rv_stream_000992,The LearnHub is frustrating. The performance has been a terrible experience.,FreshMart,email
+evt_000993,feedback.created,2026-10-05T19:44:00,web_feedback_form,rv_stream_000993,Very disappointed with FreshMart. The refund needs serious improvement.,StreamBox,mobile_app
+evt_000994,feedback.created,2026-10-05T19:51:00,web_feedback_form,rv_stream_000994,I had a great experience using FreshMart. Everything around availability was straightforward.,FreshMart,social_media
+evt_000995,feedback.created,2026-10-05T19:58:00,web_feedback_form,rv_stream_000995,Very disappointed with HealthPlus. The availability needs serious improvement.,SwiftBank Mobile,call_center
+evt_000996,feedback.created,2026-10-05T20:05:00,web_feedback_form,rv_stream_000996,I had a great experience using FreshMart. Everything around usability was straightforward.,QuickCash Wallet,support_chat
+evt_000997,feedback.created,2026-10-05T20:12:00,web_feedback_form,rv_stream_000997,The RideGo is frustrating. The availability has been a terrible experience.,StreamBox,survey
+evt_000998,feedback.created,2026-10-05T20:19:00,web_feedback_form,rv_stream_000998,I had a great experience using ShopNow. Everything around security was straightforward.,StreamBox,mobile_app
+evt_000999,feedback.created,2026-10-05T20:26:00,web_feedback_form,rv_stream_000999,Very disappointed with QuickCash Wallet. The security needs serious improvement.,RideGo,survey
+evt_001000,feedback.created,2026-10-05T20:33:00,web_feedback_form,rv_stream_001000,I had a great experience using ShopNow. Everything around delivery was straightforward.,ShopNow,email

@@ -1,0 +1,61 @@
+text,sentiment,emotion,intent,aspects,category
+"The app looks great, but payment fails every time and support is slow.",negative,anger,payment_issue,usability:positive;payment:negative;customer_support:negative,mixed
+"Delivery was not bad at all, honestly quicker than I expected.",positive,surprise,praise,delivery:positive,negation
+"I wouldn't say the prices are fair anymore.",negative,sadness,complaint,pricing:negative,negation
+"Never had a single problem with checkout.",positive,joy,praise,payment:positive,negation
+"The agent was not unhelpful, just slow.",neutral,neutral,complaint,customer_support:neutral,negation
+"Not impressed with the build quality of the speaker.",negative,sadness,complaint,product_quality:negative,negation
+"Oh brilliant, the app crashed right as I was paying. Just what I needed.",negative,anger,technical_problem,performance:negative;payment:negative,sarcasm
+"Thanks for nothing, customer care.",negative,anger,complaint,customer_support:negative,sarcasm
+"Wow, only three weeks for a parcel to cross town. Impressive.",negative,anger,delivery_issue,delivery:negative,sarcasm
+"Love paying extra fees for a service that never works.",negative,anger,complaint,pricing:negative,sarcasm
+"Sure, take my money twice, why not.",negative,anger,payment_issue,payment:negative,sarcasm
+"meh",neutral,neutral,complaint,,short
+"Brilliant!",positive,joy,praise,,short
+"Scam.",negative,disgust,fraud_report,security:negative,short
+"refund pls",negative,anger,refund_request,refund:negative,short
+"works fine",positive,joy,praise,,short
+"Still waiting.",negative,anger,complaint,,short
+"the paymnet keeps failling and nobody replys",negative,anger,payment_issue,payment:negative;customer_support:negative,typo
+"deliverry was super fast, thank u",positive,joy,praise,delivery:positive,typo
+"app keeps crashng on my phone smh",negative,anger,technical_problem,performance:negative,typo
+"Good quallity, fair prise",positive,joy,praise,product_quality:positive;pricing:positive,typo
+"Abeg, una dispatch rider no show again. I don tire.",negative,anger,delivery_issue,delivery:negative,domain
+"POS debit went through but transfer reversal never came.",negative,anger,payment_issue,payment:negative,domain
+"Card was charged but the order still shows pending. Chargeback incoming.",negative,anger,payment_issue,payment:negative;refund:negative,domain
+"No wahala at all, everything went smoothly from order to doorstep.",positive,joy,praise,delivery:positive,domain
+"OTP never arrives so I can't approve anything.",negative,anger,account_issue,security:negative,domain
+"Someone emptied my wallet with transactions I never made. Please help!",negative,fear,fraud_report,security:negative;payment:negative,implicit
+"It took forever to show up at my door.",negative,sadness,delivery_issue,delivery:negative,implicit
+"The shoes fell apart after one wash.",negative,disgust,complaint,product_quality:negative,implicit
+"I keep tapping around and can't figure out where my orders are.",negative,sadness,technical_problem,usability:negative,implicit
+"Twice the price of the shop down the road.",negative,sadness,complaint,pricing:negative,implicit
+"They never have my size.",negative,sadness,complaint,availability:negative,implicit
+"The courier was lovely but the food was cold and soggy.",neutral,neutral,complaint,delivery:positive;product_quality:negative,mixed
+"Cheap and cheerful, though the app is painfully slow.",neutral,neutral,complaint,pricing:positive;performance:negative,mixed
+"Great discounts but refunds take ages.",neutral,neutral,complaint,pricing:positive;refund:negative,mixed
+"Support sorted everything out quickly even though the delivery was late.",positive,joy,praise,customer_support:positive;delivery:negative,mixed
+"Fantastic selection, always in stock, delivery on time. Five stars.",positive,joy,praise,availability:positive;delivery:positive,clear
+"My refund was in my account within 24 hours. Impressive service!",positive,surprise,praise,refund:positive,clear
+"I was charged twice and the support team keeps ignoring my emails. I want my money back.",negative,anger,refund_request,payment:negative;customer_support:negative;refund:negative,clear
+"The new update is fast and the layout is so clean.",positive,joy,praise,performance:positive;usability:positive,clear
+"Someone logged into my account from another country. I'm terrified.",negative,fear,fraud_report,security:negative,clear
+"I am deleting this app and moving to a competitor.",negative,anger,cancellation,,clear
+"Does the premium plan include free delivery?",neutral,neutral,product_question,delivery:neutral,question
+"How do I add a second card to my wallet?",neutral,neutral,product_question,payment:neutral,question
+"When will the blue version be back in stock?",neutral,neutral,product_question,availability:neutral,question
+"The expired yoghurt I received was disgusting.",negative,disgust,complaint,product_quality:negative,clear
+"I can't believe they shipped me a used phone as new!",negative,surprise,complaint,product_quality:negative;delivery:neutral,clear
+"Customer care went above and beyond. Thank you, Ada!",positive,joy,praise,customer_support:positive,clear
+"The price went up again and I honestly can't afford it now. So sad.",negative,sadness,complaint,pricing:negative,clear
+"My account got locked after I changed my phone and nobody can unlock it.",negative,anger,account_issue,security:negative;customer_support:negative,clear
+"It's okay. Nothing special, nothing terrible.",neutral,neutral,complaint,,neutral
+"I ordered on Monday and it arrived on Wednesday.",neutral,neutral,praise,delivery:neutral,neutral
+"Paid by transfer, collected at the pickup point.",neutral,neutral,praise,payment:neutral,neutral
+"Checkout is smooth but I really wish there was a dark mode.",positive,joy,praise,payment:positive;usability:neutral,mixed
+"I'm shocked at how fast the rider got here!",positive,surprise,praise,delivery:positive,clear
+"Horrible. Fake product, and they refuse to refund me.",negative,disgust,refund_request,product_quality:negative;refund:negative,clear
+"The site was down all weekend during the sale.",negative,anger,technical_problem,performance:negative,clear
+"Cancel my subscription right now.",negative,anger,cancellation,,clear
+"Got a text pretending to be your bank asking for my PIN. Is this you?",negative,fear,fraud_report,security:negative,clear
+"Prices are fair and the quality is solid. Happy customer.",positive,joy,praise,pricing:positive;product_quality:positive,clear

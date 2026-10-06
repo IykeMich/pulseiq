@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PulseIQ model output (processed zone, joined to the review contract)",
+  "type": "object",
+  "required": ["sentiment_label", "sentiment_score", "emotion", "intent", "topics", "aspects", "model_version", "processed_at"],
+  "properties": {
+    "sentiment_label": {"enum": ["negative", "neutral", "positive"]},
+    "sentiment_score": {"type": "number", "description": "Probability of the predicted label"},
+    "sentiment_polarity": {"type": "number", "minimum": -1, "maximum": 1, "description": "P(positive) - P(negative)"},
+    "sentiment_probabilities": {"type": "object"},
+    "emotion": {"enum": ["anger", "disgust", "fear", "sadness", "surprise", "neutral", "joy"]},
+    "emotion_score": {"type": "number"},
+    "intent": {"enum": ["complaint", "praise", "refund_request", "technical_problem", "fraud_report", "cancellation", "product_question", "delivery_issue", "payment_issue", "account_issue"]},
+    "intent_score": {"type": "number"},
+    "topics": {"type": "array", "items": {"type": "string"}, "description": "Taxonomy aspects mentioned"},
+    "aspects": {
+      "type": "array",
+      "description": "The guide's aspects[] and aspect_sentiments[] merged, so an aspect and its sentiment can't drift apart",
+      "items": {
+        "type": "object",
+        "required": ["aspect", "sentiment", "score", "evidence"],
+        "properties": {
+          "aspect": {"enum": ["payment", "delivery", "pricing", "customer_support", "product_quality", "performance", "security", "usability", "refund", "availability"]},
+          "name": {"type": "string"},
+          "sentiment": {"enum": ["negative", "neutral", "positive"]},
+          "score": {"type": "number"},
+          "polarity": {"type": "number"},
+          "evidence": {"type": "string", "description": "The clause the opinion came from"}
+        }
+      }
+    },
+    "entities": {"type": "array", "items": {"type": "object", "properties": {"type": {"enum": ["product", "location"]}, "value": {"type": "string"}}}},
+    "model_version": {"type": "string"},
+    "processed_at": {"type": "string"},
+    "source": {"enum": ["batch", "stream", "live"]}
+  }
+}

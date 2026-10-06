@@ -1,0 +1,18 @@
+{
+  "as_of": "2026-10-02",
+  "current_window": [
+    "2026-09-26",
+    "2026-10-02"
+  ],
+  "baseline_window": [
+    "2026-08-29",
+    "2026-09-25"
+  ],
+  "rules": {
+    "min_mentions": 15,
+    "min_point_change": 0.08,
+    "min_relative_change": 0.2,
+    "min_z": 2.0
+  },
+  "alerts": []
+}
