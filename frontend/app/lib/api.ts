@@ -368,9 +368,14 @@ export class ApiError extends Error {
 async function requestJson<ResponseBody>(path: string, requestOptions?: RequestInit): Promise<ResponseBody> {
   let response: Response;
   try {
+    // Content-Type only when there is a body: on a GET it would make the browser send a CORS
+    // preflight (an extra OPTIONS request) before every call.
     response = await fetch(`${API_BASE_URL}${path}`, {
       ...requestOptions,
-      headers: { "Content-Type": "application/json", ...requestOptions?.headers },
+      headers: {
+        ...(requestOptions?.body ? { "Content-Type": "application/json" } : {}),
+        ...requestOptions?.headers,
+      },
     });
   } catch {
     // fetch only rejects on network errors (server down, CORS), never on HTTP status codes.

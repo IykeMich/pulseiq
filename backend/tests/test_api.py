@@ -80,3 +80,14 @@ def test_stream_replay_and_reset(client):
     assert client.get("/api/v1/stream/status").json()["processed"] == 20
     reset = client.post("/api/v1/stream/reset").json()
     assert reset["processed"] == 0 and reset["replay"]["position"] == 0
+
+
+def test_any_website_can_call_the_api_by_default(client):
+    """No CORS_ORIGINS set: a frontend on any domain (custom domain, LAN address) is allowed."""
+    for origin in ["https://pulseiq.vercel.app", "https://pulseiq.example.com", "http://192.168.1.20:3006"]:
+        preflight = client.options("/api/v1/metrics/sentiment", headers={
+            "Origin": origin, "Access-Control-Request-Method": "POST", "Access-Control-Request-Headers": "content-type",
+        })
+        assert preflight.status_code == 200
+        response = client.get("/health", headers={"Origin": origin})
+        assert response.headers["access-control-allow-origin"] in {"*", origin}

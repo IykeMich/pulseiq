@@ -79,15 +79,19 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title="PulseIQ Customer Pulse API", version="1.0.0", lifespan=lifespan)
 
-# Let the Next.js frontend call this API from the browser. Always allowed: any localhost / 127.0.0.1
-# port (local testing) and any https://*.vercel.app URL (Vercel production and preview deployments).
-# Other deployed frontends (e.g. a custom domain) go in CORS_ORIGINS, comma-separated.
+# Let the Next.js frontend call this API from the browser, wherever it is hosted. By default any
+# website may call it: the API uses no cookies or logins, so CORS protects nothing here, and a
+# frontend on a custom domain or a network address works without extra setup.
+# To restrict it, set CORS_ORIGINS (comma-separated); localhost and *.vercel.app stay allowed.
+CORS_ORIGINS = [
+    origin.strip().rstrip("/") for origin in os.environ.get("CORS_ORIGINS", "").split(",") if origin.strip()
+]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        origin.strip().rstrip("/") for origin in os.environ.get("CORS_ORIGINS", "").split(",") if origin.strip()
-    ],
-    allow_origin_regex=r"http://(localhost|127\.0\.0\.1)(:\d+)?|https://[a-z0-9-]+\.vercel\.app",
+    allow_origins=CORS_ORIGINS or ["*"],
+    allow_origin_regex=(
+        r"http://(localhost|127\.0\.0\.1)(:\d+)?|https://[a-z0-9-]+\.vercel\.app" if CORS_ORIGINS else None
+    ),
     allow_methods=["*"],
     allow_headers=["*"],
 )

@@ -217,8 +217,9 @@ inference endpoints are rate-limited per client (120 requests a minute). Per-rou
   uvicorn trust Render's proxy headers, so the rate limit applies per visitor rather than to everyone
   at once. Health check: `/health`. Python 3.11. The API runs the pipeline on start-up when
   `data/processed/` is missing. In a clean-copy test that took 6.6 s, with memory peaking at
-  about 325 MB (Render's free tier allows 512 MB). CORS always allows localhost and `*.vercel.app`;
-  set `CORS_ORIGINS` for a custom domain.
+  about 325 MB (Render's free tier allows 512 MB). Any website may call the API by default
+  (it uses no cookies or logins). To restrict it, set `CORS_ORIGINS` (comma-separated); localhost and
+  `*.vercel.app` then stay allowed.
 * **Free tier sleeps** after about 15 idle minutes, so the first visit waits for a cold start and
   the dashboard shows "API offline" briefly. Live and replayed events reset on every restart.
 * **Don't host the backend on Vercel:** the stream consumer thread and file writes need a long-running process.
